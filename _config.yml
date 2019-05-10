@@ -30,8 +30,7 @@ sass:
 
 google_analytics_id: UA-115742833-3
 
-url:
-"http://5280sprinklers.com"
+url: 'http://5280sprinklers.com'
 plugins:
   - jekyll-environment-variables
   - jekyll-seo-tag
