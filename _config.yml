@@ -32,4 +32,4 @@ google_analytics_id: UA-115742833-3
 
 plugins:
   - jekyll-environment-variables
-
+  - jekyll-seo-tag
