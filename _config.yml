@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: '5280 Sprinklers'
+title: '5280 Sprinklers - Sprinkler System Repair Denver'
 
 collections:
   services:
@@ -30,6 +30,9 @@ sass:
 
 google_analytics_id: UA-115742833-3
 
+url:
+"http://5280sprinklers.com"
 plugins:
   - jekyll-environment-variables
   - jekyll-seo-tag
+  - jekyll-sitemap
