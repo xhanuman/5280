@@ -22,6 +22,9 @@ bodyClass: page-home
         <a href="mailto:{{ site.data.contact.email }}">
           {{ site.data.contact.email }}
         </a>
+        <div>*Schedule using this link if using Apple products or via mobile
+        <a href="https://www.markate.com/public/widget/booking/products/33d9338d8dc3b73fdf14b06ac0d93df0:9504:b1c5390a">Book Sprinkler Startup / Repairs</a>
+</div>
       </div>
     </div>
     <div class="call-box-bottom">
