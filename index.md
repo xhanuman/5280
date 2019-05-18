@@ -9,7 +9,7 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102"/><br>
-    Schedule here (Apple products/mobile)
+    Schedule here (Apple products/mobile)<br>
     <a href="https://www.markate.com/public/widget/booking/products/33d9338d8dc3b73fdf14b06ac0d93df0:9504:b1c5390a">Book Sprinkler Startup / Repairs</a>
   </div>
 </div>
