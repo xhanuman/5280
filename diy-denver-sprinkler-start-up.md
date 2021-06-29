@@ -34,7 +34,7 @@ In general it is safest to have your sprinkler start up scheduled anytime after 
 
 ## Denver Sprinkler start-up
 
-is $70 for the first 6 zones ($2 each zone beyond the 6th)- water turn on via basement/in ground valve &#8211; payment accepted upon completion of job. (Crawlspace access is $35 extra)
+is $80 for the first 6 zones ($2 each zone beyond the 6th)- water turn on via basement/in ground valve &#8211; payment accepted upon completion of job. (Crawlspace access is $35 extra)
 
 If you&#8217;d like to schedule your sprinkler start-up appointment, please use our scheduling app <a name="gen"></a>below:  
 
@@ -42,9 +42,7 @@ If you&#8217;d like to schedule your sprinkler start-up appointment, please use 
 or if you are wanting to do it yourself:  
 
 
-If you would like us to come out and start up your sprinkler system please feel free to contact me directly:  
-**Conrad @ 720.985.1157**  
-<a name="tools"></a>(text messages preferred)  
+
 <!--
 Sprinkler tools that I recommend:
 
