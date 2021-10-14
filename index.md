@@ -6,9 +6,9 @@ bodyClass: page-home
 ---
 <div class="intro pb-4">
   <div class="container">
-    <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs</h3>
+    <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
-    <img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102"/><br>
+    <br>
     Schedule here<br>
     <a href="https://aurorablowout.genbook.com">Book Sprinkler Startup / Repairs</a>
   </div>
