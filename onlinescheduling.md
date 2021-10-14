@@ -1,6 +1,6 @@
 ---
 id: 2
-title: 'Denver Sprinkler blowout &#8211; 70 CFM professional and prompt service in Denver Colorado'
+title: 'Denver Sprinkler blowout &#8211; 90 CFM professional and prompt service in Denver Colorado'
 date: 2009-10-20T11:45:50+00:00
 author: Admin
 layout: default
@@ -28,7 +28,7 @@ Denver Sprinkler Blowout
 (<u>Crawlspace</u> access please add $35) - all payments needed at time of service!
 -->
 
-  
+
 <!--
 Mid-Nov Pricing is as follows:
 <strong><u>$90 via check/credit card</u></strong> for the first <b>6 zones</b> & <u>$5 each for additional zone</u>
@@ -46,7 +46,7 @@ Additional zones are $5 each after the first 8 zones.
 If you have two pressure vacuum breakers in your system, please add $10 to the total.
 -->
 
-  
+
 Use this map to determine if we service your area: (click on thumbnail on right to view larger)
 
 [<img class="aligncenter size-large wp-image-480" src="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg" alt="denver_sprinkler_blowout_service_map" width="600" height="381" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg 1024w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-300x191.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-768x488.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" />](#gen)  
@@ -54,7 +54,7 @@ Use this map to determine if we service your area: (click on thumbnail on right 
 <a href="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" rel="wp-prettyPhoto[2]"><img class="alignright size-full wp-image-373" src="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" alt="cj_cmbotanics" width="150" /></a><a href="#gen"><strong>Schedule </strong>your sprinkler winterization below by booking through our <u>online scheduling system (see below)</u></a> - <strong>Denver sprinkler blowout</strong> service - Serving most of metro Denver and Highlands, Lowry, Stapleton, Northfield and Beeler Park.
 -->
 
-  
+
 We provide sprinkler blowout and winterization for Stapleton and Lowry on Sunday, Wednesday and Friday&#8217;s so please use this site to schedule below.
 
 If you&#8217;d like to schedule your sprinkler winterization appointment, please use our scheduling app <a name="gen"></a>below:  
@@ -62,12 +62,11 @@ If you&#8217;d like to schedule your sprinkler winterization appointment, please
 
 Not finding an available time slot? If it&#8217;s not going to get below say 27 or so for more than an hour or two, you can always cover the exposed (above ground pipes with a blanket and trash bag which will help delay the formation of ice withing the pipes.
 
-  
+
 
 
 What can you do if a freeze warning is issued and you find that I&#8217;m all booked up for the next few days? You can send me a text message and I will try to accommodate you as best I can. Voice-mail is inefficient at best &#8211; if I can answer, I will. If I do not, it probably means I&#8217;m beyond capacity &#8211; thank you for your understanding!
 
-If you have questions/concerns, feel free to send a message:[Contact Conrad](http://www.5280handyman.com/contact/)
 
 I may drain the supply side pipes (if there is a drain plug available &#8211; if this is missing, I&#8217;ll let you know and recommend what should be changed or added so that your pipes will stay intact). I&#8217;m able to hook into most non-standard setups as well as I have a variety of fittings to get the water out of your sprinkler system.
 
@@ -104,5 +103,5 @@ To drain the backflow prevention assembly for protection against freezing, use t
 
 <!--Additional Services: Swamp Cooler Shutdown and reservoir pan draining - $70 (up to 1.5 - 2 story houses - 20' ladder max reach) If the supply line runs through the attic/crawlspace, there will be an additional charge. (I cannot service any high density buildings) -->
 
-  
+
 CFM: Cubic Feet per Minute &#8211; this is important with regard to the sprinkler winterization & blowout process. Insufficient CFM can result in poorly winterized systems and will take much longer = more heat on internal parts. Don&#8217;t allow someone to increase the PSI (Pressure per Square Inch) as you could sustain damage to numerous parts if they exceed the safe levels. So, in order to help you understand the difference between CFM and PSI, CFM refers to volume of air where PSI is the pressure. We need to apply sufficient volume of air to displace the volume of water that rests inside the sprinkler manifold, pipes and sprinkler heads.

@@ -9,12 +9,12 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102"/><br>
-    Schedule here (Apple products/mobile)<br>
+    Schedule here<br>
     <a href="https://aurorablowout.genbook.com">Book Sprinkler Startup / Repairs</a>
   </div>
 </div>
 
-<div class="container pt-2">
+<!--<div class="container pt-2">
   <div class="call">
     <div class="call-box-top">
       <div class="call-phone"><strong>Chat:</strong> (chat link -> bottom-right)</div>
@@ -30,6 +30,7 @@ bodyClass: page-home
     </div>
   </div>
 </div>
+-->
 
 <div class="container pt-8 pt-md-10">
   <div class="row justify-content-start">
