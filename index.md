@@ -10,7 +10,8 @@ bodyClass: page-home
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
     Schedule here<br>
-    <a href="https://aurorablowout.genbook.com">Book Sprinkler Startup / Repairs</a>
+    <!--<a href="https://aurorablowout.genbook.com">Book Sprinkler Startup / Repairs</a>-->
+    <script type="text/javascript" src="https://booksy.com/widget/code.js?id=713037&country=us&lang=en"></script>
   </div>
 </div>
 
