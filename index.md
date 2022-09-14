@@ -12,15 +12,23 @@ bodyClass: page-home
     <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2022</h3>
                     <p>
                         Please click on the service area map to schedule on the correct day(s) for your area (West Denver scheduling not yet available):<br>
-                        <img src="../assets/images/DenverMap.png" usemap="#image_map">
+                         <img src="../assets/images/DenverMap.png" usemap="#image_map">
 <map name="image_map">
   <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=36807369" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
   <area alt="Denver CENTRAL" title="Denver CENTRAL" href="https://sprinkler.as.me/?appointmentType=36807385" coords="688,294 886,290 886,862 543,862 459,743 451,616 " shape="polygon">
-  <area alt="Denver SOUTH" title="Denver SOUTH" href="https://sprinkler.as.me/?appointmentType=36809706" coords="546,878 584,977 575,1108 517,1351 912,1359 905,1419 1071,1421 1062,1390 1318,1385 1375,1349 1383,890 1271,920 1211,878 " shape="polygon">
+  <area alt="Denver SOUTH" title="Denver SOUTH" href="https://sprinkler.as.me/?appointmentType=36809706" coords="550,879 587,978 579,1110 546,1245 968,1245 1103,1245 1211,1243 1296,1243 1349,1245 1385,1241 1387,891 1274,922 1214,879 " shape="polygon">
   <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=36824968" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
 </map>
-  </div>
-</div>
+
+<br>
+Aurora, Centennial and South Denver                      
+<img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
+<map name="image_mapL">
+<area title="North Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955445">
+<area title="Buckley area" alt="East Aurora and Southlands" coords="731,246 729,543 644,596 662,602 1037,610 1199,670 1195,247 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955481">
+<area title="South Denver Tech Center" alt="South Denver Tech Center" coords="291,359 237,391 236,475 283,476 300,485 296,617 235,617 236,917 497,922 471,857 597,859 597,739 494,699 494,663 607,592 578,589 432,434 353,386 325,380 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955162">
+<area title="Centennial" alt="Centennial" coords="657,611 657,732 721,796 700,800 702,816 611,815 611,855 752,860 834,1029 858,974 942,937 1017,947 1105,984 1210,982 1206,836 1164,849 1171,822 1145,820 1100,736 1089,681 1033,678 1029,616 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955521">
+</map>
 
 <!--<div class="container pt-2">
   <div class="call">
