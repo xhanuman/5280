@@ -11,7 +11,7 @@ bodyClass: page-home
     <br>
     <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2022</h3>
                     <p>
-                        Please click on the service area map to schedule on the correct day(s) for your area (West Denver scheduling not yet available):<br>
+                        <h4>Please click on the service area map to schedule on the correct day(s) for your area (West Denver scheduling not yet available)</h4>:<br>
                          <img src="../assets/images/DenverMap.png" usemap="#image_map">
 <map name="image_map">
   <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=36807369" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
@@ -21,7 +21,7 @@ bodyClass: page-home
 </map>
 
 <br>
-Aurora, Centennial and South Denver                      
+<h4>Aurora, Centennial and South Denver</h4>                   
 <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
 <map name="image_mapL">
 <area title="North Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955445">
