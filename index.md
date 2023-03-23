@@ -9,7 +9,7 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2023</h3>
+      <h3>Schedule now to get your sprinkler system up and running for 2023</h3>
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>
            <img src="../assets/images/DenverMap.png" usemap="#image_map">
@@ -17,7 +17,7 @@ bodyClass: page-home
              <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
              <area alt="Denver CENTRAL" title="Denver CENTRAL" href="https://sprinkler.as.me/?appointmentType=43693178" coords="688,294 886,290 886,862 543,862 459,743 451,616 " shape="polygon">
              <area alt="Denver SOUTH" title="Denver SOUTH" href="https://sprinkler.as.me/?appointmentType=43693178" coords="550,879 587,978 579,1110 546,1245 968,1245 1103,1245 1211,1243 1296,1243 1349,1245 1385,1241 1387,891 1274,922 1214,879 " shape="polygon">
-             <area alt="Denver WEST" title="Denver WEST" href="#" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
+             <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=43701931" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
            </map>
 
            <br>
