@@ -11,7 +11,7 @@ bodyClass: page-home
     <br>
       <h3>Schedule now to get your sprinkler system up and running for 2023</h3>
       <p>
-          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>
+          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier)<br>
            <img src="../assets/images/DenverMap.png" usemap="#image_map">
            <map name="image_map">
              <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
@@ -21,6 +21,14 @@ bodyClass: page-home
            </map>
 
            <br>
+           <h4>Aurora, Centennial and South Denver</h4>                   
+           <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
+           <map name="image_mapL">
+           <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">
+           <area title="Central Aurora and East Aurora" alt="Central Aurora and East Aurora" coords="731,246 729,543 644,596 662,602 1037,610 1199,670 1195,247 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315181">
+           <area title="South Denver to DTC" alt="South Denver to DTC" coords="291,359 237,391 236,475 283,476 300,485 296,617 235,617 236,917 497,922 471,857 597,859 597,739 494,699 494,663 607,592 578,589 432,434 353,386 325,380 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315268">
+           <area title="South Aurora and Centennial" alt="South  Aurora and Centennial " coords="657,611 657,732 721,796 700,800 702,816 611,815 611,855 752,860 834,1029 858,974 942,937 1017,947 1105,984 1210,982 1206,836 1164,849 1171,822 1145,820 1100,736 1089,681 1033,678 1029,616 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315125">
+           </map>
 <!--
     <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2023</h3>
                     <p>
