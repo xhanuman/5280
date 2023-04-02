@@ -1,10 +1,10 @@
 .page-home {
   background-image: url('../images/skipper.jpg');
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 60%;
   background-position: 49px -40px;
   @include media-breakpoint-up(sm) {
-    background-size: 90%;
+    background-size: 60%;
     background-position: 159px -40px;
   }
   @include media-breakpoint-up(md) {
