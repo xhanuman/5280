@@ -22,7 +22,7 @@ wptargetdofollow_this_post:
 ---
 <div id="attachment_21" style="width: 310px" class="wp-caption alignright">
   <a href="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP.jpg" rel="wp-prettyPhoto[29]"><img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP.jpg 576w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-  
+
   <p class="wp-caption-text">
     Denver Sprinkler Start up service
   </p>
@@ -34,7 +34,7 @@ In general it is safest to have your sprinkler start up scheduled anytime after 
 
 ## Denver Sprinkler start-up
 
-is $80 for the first 6 zones ($2 each zone beyond the 6th)- water turn on via basement/in ground valve &#8211; payment accepted upon completion of job. (Crawlspace access is $35 extra)
+is $90 for the first 6 zones ($2 each zone beyond the 6th)- water turn on via basement/in ground valve &#8211; payment accepted upon completion of job. (Crawlspace access is $35 extra)
 
 If you&#8217;d like to schedule your sprinkler start-up appointment, please use our scheduling app <a name="gen"></a>below:  
 
@@ -48,12 +48,12 @@ Sprinkler tools that I recommend:
 
 
 If you are ready to upgrade your sprinkler controller, I can recommend these two choices:
- 
+
 Febco 765 Repair parts:
 
 -->
 
-  
+
 If you had someone else winterize your system, they should have left the ball valves at 45 degrees as well as both test cocks at 45 degrees. If there is a drain cap below the PVB, it also should have been left ajar or removed and stored in a safe place for the Winter. If the ball valves/test cocks were left all the way open or all the way closed, there may be damage from the water left in those valves&#8230; it&#8217;s easy to spot the ruptures or use your finger to feel for them if they are out of sight.
 
 A few DIY tips:  

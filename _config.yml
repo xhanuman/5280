@@ -1,7 +1,7 @@
 baseurl: ''
 exclude: ['README.md']
 permalink: pretty
-title: '5280 Sprinklers - Sprinkler System Repair Denver'
+title: '5280 Sprinklers - Sprinkler System Start Up and Repair Denver'
 
 collections:
   services:
