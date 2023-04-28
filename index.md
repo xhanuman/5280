@@ -21,10 +21,10 @@ bodyClass: page-home
              <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=43701931" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
            </map>
            <p>(links for mobile scheduling of Conrad and Shane)
-<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver EAST</a>
-<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver CENTRAL</a>
-<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver SOUTH</a>
-<a href="https://sprinkler.as.me/?appointmentType=43701931">Denver WEST</a>
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver EAST</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver CENTRAL</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver SOUTH</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=43701931">Denver WEST</a></p>
            <br>
            <h4>Aurora, Centennial and South Denver</h4>
            Scheduling LEIF via mobile device - please select the link that most closely reflects your location<br>
