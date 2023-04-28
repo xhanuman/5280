@@ -11,7 +11,8 @@ bodyClass: page-home
     <br>
       <h3>Schedule now to get your sprinkler system up and running for 2023</h3>
       <p>
-          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier)<br>
+          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
+          <strong>To schedule LEIF please scroll down to second map</strong>
            <img src="../assets/images/DenverMap.png" usemap="#image_map">
            <map name="image_map">
              <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
@@ -19,9 +20,18 @@ bodyClass: page-home
              <area alt="Denver SOUTH" title="Denver SOUTH" href="https://sprinkler.as.me/?appointmentType=43693178" coords="550,879 587,978 579,1110 546,1245 968,1245 1103,1245 1211,1243 1296,1243 1349,1245 1385,1241 1387,891 1274,922 1214,879 " shape="polygon">
              <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=43701931" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
            </map>
-
+           <p>(links for mobile scheduling of Conrad and Shane)
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver EAST</a>
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver CENTRAL</a>
+<a href="https://sprinkler.as.me/?appointmentType=43693178">Denver SOUTH</a>
+<a href="https://sprinkler.as.me/?appointmentType=43701931">Denver WEST</a>
            <br>
-           <h4>Aurora, Centennial and South Denver</h4>                   
+           <h4>Aurora, Centennial and South Denver</h4>
+           Scheduling LEIF via mobile device - please select the link that most closely reflects your location<br>
+<a href="https://sprinkler.as.me/?appointmentType=44315221">East Denver and West Aurora</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=44315181">Central Aurora and East Aurora</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=44315268">South Denver to DTC</a><br>
+<a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>                   
            <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
            <map name="image_mapL">
            <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">

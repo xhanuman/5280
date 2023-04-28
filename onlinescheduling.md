@@ -46,10 +46,11 @@ Additional zones are $5 each after the first 8 zones.
 If you have two pressure vacuum breakers in your system, please add $10 to the total.
 -->
 
-
+<!--
 Use this map to determine if we service your area: (click on thumbnail on right to view larger)
 
 [<img class="aligncenter size-large wp-image-480" src="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg" alt="denver_sprinkler_blowout_service_map" width="600" height="381" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg 1024w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-300x191.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-768x488.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" />](#gen)  
+-->
 <!--
 <a href="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" rel="wp-prettyPhoto[2]"><img class="alignright size-full wp-image-373" src="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" alt="cj_cmbotanics" width="150" /></a><a href="#gen"><strong>Schedule </strong>your sprinkler winterization below by booking through our <u>online scheduling system (see below)</u></a> - <strong>Denver sprinkler blowout</strong> service - Serving most of metro Denver and Highlands, Lowry, Stapleton, Northfield and Beeler Park.
 -->
