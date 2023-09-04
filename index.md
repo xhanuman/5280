@@ -13,7 +13,7 @@ bodyClass: page-home
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
           <strong>To schedule LEIF please scroll down to second map</strong>
-          <div class="svg-container">
+<div class="svg-container">
     <!-- Embedding the SVG image using an object tag -->
     <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
     	<!--class="responsive-svg" pulled this from the obj tag above -->
@@ -47,7 +47,7 @@ bodyClass: page-home
    <text x="1455.6772" y="831.05896" style="fill:#ffffff;font-family:sans-serif;font-size:20px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="1455.6772" y="831.05896">Aurora/Centennial</tspan><tspan x="1455.6772" y="856.05896">(schedule below)</tspan></text>
   </a>
  </g>
-</svg>
+
 
   </div>
           <!-- <img src="../assets/images/DenverMap.png" usemap="#image_map">
@@ -69,7 +69,9 @@ bodyClass: page-home
 <a href="https://sprinkler.as.me/?appointmentType=44315221">East Denver and West Aurora</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=44315181">Central Aurora and East Aurora</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=44315268">South Denver to DTC</a><br>
-<a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>                   
+<a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>     
+
+<a name="#aurora">              
            <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
            <map name="image_mapL">
            <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">
