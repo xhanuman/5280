@@ -15,7 +15,7 @@ bodyClass: page-home
           <strong>To schedule LEIF please scroll down to second map</strong>
           <div class="svg-container">
     <!-- Embedding the SVG image using an object tag -->
-    <object type="image/svg+xml" data="DenverMap_1195.svg">
+    <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
     	<!--class="responsive-svg" pulled this from the obj tag above -->
 
       <!-- Fallback content or error message goes here -->
