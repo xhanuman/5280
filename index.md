@@ -13,7 +13,43 @@ bodyClass: page-home
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
           <strong>To schedule LEIF please scroll down to second map</strong>
-          <img src="../assets/images/DenverMap_1195.svg">
+          <div class="svg-container">
+    <!-- Embedding the SVG image using an object tag -->
+    <object type="image/svg+xml" data="DenverMap_1195.svg">
+    	<!--class="responsive-svg" pulled this from the obj tag above -->
+
+      <!-- Fallback content or error message goes here -->
+    </object>    
+
+ <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36807369">
+  <path d="m918.07 297.52h40.378l72.255 13.814 113.7 1.0626 129.63-299.65h106.26l6.3754 443.1 35.065 26.564h32.94l30.815 9.5632 18.064 15.939 3.1877 46.754-122.2 62.692v240.14l-115.82 38.253-49.941-34.003-298.58-8.5006z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter18606);opacity:.35;paint-order:normal;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+ </a>
+ <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36809706">
+  <path d="m547.23 884.07 658.8 2.1252 58.442 35.065 117.95-29.752-6.3755 345.34-829.87-4.2503 29.752-123.26 5.3129-139.2z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter942);opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+ </a>
+ <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36807385">
+  <path d="m897.52 285.12 3.7773 585.88c-7.9303.68294-370.16 0-370.16 0l-79.258-119.34-9.3006-140.05s243.76-319.03 248.58-320.26c9.946-2.5339-63.037-1.8022 206.35-6.2285z" style="fill-opacity:.34921;fill:#fff;filter:url(#filter18362);opacity:.35;paint-order:normal;stroke-opacity:.92734;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+ </a>
+ <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36824968">
+  <path d="m71 249 100-55 287-91 10 164 48 9-2 114-119 128-17 66 15 40 14 131 90 121 46 120-33 225-448 4z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter16585);mix-blend-mode:normal;opacity:.35;paint-order:normal;stroke-linejoin:round;stroke-opacity:.92549;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+ </a>
+ <g transform="translate(0 17.117)">
+  <rect x="385.65" y="374.54" width="206.02" height="52.728" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.476;stroke:#000"/>
+  <text x="382.78897" y="410.64859" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="382.78897" y="410.64859" style="stroke-width:0">Central Denver</tspan></text>
+  <rect x="788.37" y="329.11" width="193.06" height="53.137" style="image-rendering:auto;paint-order:normal;stroke-linejoin:round;stroke-width:4.2201;stroke:#000" onclick="" onload="" onmouseout="" onmouseover=""/>
+  <text x="796.13312" y="365.73068" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;image-rendering:auto;paint-order:normal;stroke-linejoin:round;stroke-width:4.2201" onload="" onmouseout="" onmouseover="" xml:space="preserve"><tspan x="796.13312" y="365.73068" style="stroke-width:4.2201">EAST Denver</tspan></text>
+  <rect x="71.25" y="272.56" width="206.02" height="52.728" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.476;stroke:#000"/>
+  <text x="82.857841" y="308.9693" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="82.857841" y="308.9693" style="stroke-width:0">WEST Denver</tspan></text>
+  <rect x="613.6" y="807.27" width="206.02" height="52.728" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.476;stroke:#000"/>
+  <text x="613.44629" y="843.69714" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan>SOUTH Denver</tspan></text>
+  <rect x="1001" y="557.16" width="175.62" height="53.715" style="paint-order:normal;stroke-linejoin:round;stroke-width:13.489;stroke:#000"/>
+  <a transform="matrix(.70335 0 0 .70335 0 -5.0776)" target="_self" xlink:href="#aurora">
+   <text x="1455.6772" y="831.05896" style="fill:#ffffff;font-family:sans-serif;font-size:20px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="1455.6772" y="831.05896">Aurora/Centennial</tspan><tspan x="1455.6772" y="856.05896">(schedule below)</tspan></text>
+  </a>
+ </g>
+</svg>
+
+  </div>
           <!-- <img src="../assets/images/DenverMap.png" usemap="#image_map">
            <map name="image_map">
              <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
