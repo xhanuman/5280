@@ -71,7 +71,7 @@ bodyClass: page-home
 <a href="https://sprinkler.as.me/?appointmentType=44315268">South Denver to DTC</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>     
 
-<a name="#aurora">              
+<a id="aurora">              
            <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
            <map name="image_mapL">
            <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">
