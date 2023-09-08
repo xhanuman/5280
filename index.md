@@ -12,7 +12,7 @@ bodyClass: page-home
       <h3>Schedule now to get your sprinkler system up and running for 2023</h3>
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
-          <strong>To schedule LEIF please scroll down to second map</strong>
+          <strong>To schedule for Aurora/Centennial please scroll down to second map</strong>
 <div class="svg-container">
     <!-- Embedding the SVG image using an object tag -->
     <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
@@ -58,6 +58,7 @@ bodyClass: page-home
              <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=43701931" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
            </map>
            -->
+<!--
            <p>(links for mobile scheduling of Conrad and Shane)
 <a href="https://sprinkler.as.me/?appointmentType=43693178">Denver EAST</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=43693178">Denver CENTRAL</a><br>
@@ -70,8 +71,39 @@ bodyClass: page-home
 <a href="https://sprinkler.as.me/?appointmentType=44315181">Central Aurora and East Aurora</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=44315268">South Denver to DTC</a><br>
 <a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>     
+-->
+<!-- Start Aurora/Cent -->
 
-<a id="aurora">              
+<div class="svg-container">
+    <!-- Embedding the SVG image using an object tag -->
+    <object type="image/svg+xml" data="../assets/images/AuroraCentMap_1195.svg">
+    	<!--class="responsive-svg" pulled this from the obj tag above -->
+
+      <!-- Fallback content or error message goes here -->
+    </object>
+    <a transform="matrix(.97313 0 0 .97313 11.634 16.296)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36955481">
+      <path d="m740.22 253.6h452.93l3.7432 412.69h-153.47l-.9358-59.891-382.74-7.4864 77.671-49.597z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter2828);opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+     </a>
+     <a transform="matrix(.97313 0 0 .97313 16.5 14.35)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36955521">
+      <path d="m660 621 360 4 4 58 61 4 12 51 45 84 24 4-5 31 40-9 2 127-93 5-91-37-24-6-51-6-85 41-24 44-81-161-140-4v-32l91 1v-16l21-8-66-69z" style="fill-opacity:.34524;fill:#fff;opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+     </a>
+     <a transform="matrix(.97313 0 0 .97313 16.5 14.35)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36955162">
+      <path d="m294 369 25 15 37 11 74 44 104 105 38 49 11 5-93 60-4 43 104 43 2 106-117 2-9 9 21 54-247-3 2-288 50-3 13-6-3-130-13-12-47-4-1-70z" style="fill-opacity:.34524;fill:#fff;opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+     </a>
+     <a transform="matrix(.97313 0 0 .97313 16.5 14.35)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36955445">
+      <path d="m307 82 147 10 288 31 157 70 33 32-1 3-214 6-2 303-76 51-27-7-34-7-80-92-54-59-78-47-37-13-28-21z" style="fill-opacity:.34524;fill:#fff;opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
+     </a>
+     <rect x="780.72" y="325.64" width="216.54" height="50.827" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.571;stroke:#000"/>
+     <rect x="396.98" y="158.99" width="200.48" height="51.311" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.086;stroke:#000"/>
+     <text x="781.01813" y="358.83713" style="fill:#ffffff;font-family:sans-serif;font-size:20.76px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="781.01813" y="358.83713" style="stroke-width:0">Central / East Aurora</tspan></text>
+     <rect x="268.63" y="677.67" width="200.48" height="51.311" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.086;stroke:#000"/>
+     <rect x="716.2" y="692.3" width="272.43" height="49.302" style="paint-order:normal;stroke-linejoin:round;stroke-width:16.096;stroke:#000"/>
+     <text x="268.189" y="711.10913" style="fill:#ffffff;font-family:sans-serif;font-size:20.76px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="268.189" y="711.10913" style="stroke-width:0">Denver South / DTC</tspan></text>
+     <text x="717.71936" y="724.73285" style="fill:#ffffff;font-family:sans-serif;font-size:20.76px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="717.71936" y="724.73285" style="stroke-width:0">South Aurora / Centennial</tspan></text>
+     <text x="396.5661" y="181.23392" style="fill:#ffffff;font-family:sans-serif;font-size:15.57px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><rect x="391.65" y="150.66" width="206.02" height="52.728" style="fill:#000;paint-order:normal;stroke-linejoin:round;stroke-width:14.086;stroke:#000"/><tspan x="396.5661" y="181.23392" style="stroke-width:0">East Denver / West Aurora</tspan><tspan x="396.5661" y="200.69646" style="stroke-width:0">   (East of Colorado Blvd)</tspan></text>
+    </svg>
+</div>
+<!--              
            <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
            <map name="image_mapL">
            <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">
@@ -79,6 +111,7 @@ bodyClass: page-home
            <area title="South Denver to DTC" alt="South Denver to DTC" coords="291,359 237,391 236,475 283,476 300,485 296,617 235,617 236,917 497,922 471,857 597,859 597,739 494,699 494,663 607,592 578,589 432,434 353,386 325,380 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315268">
            <area title="South Aurora and Centennial" alt="South  Aurora and Centennial " coords="657,611 657,732 721,796 700,800 702,816 611,815 611,855 752,860 834,1029 858,974 942,937 1017,947 1105,984 1210,982 1206,836 1164,849 1171,822 1145,820 1100,736 1089,681 1033,678 1029,616 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315125">
            </map>
+-->
 <!--
     <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2023</h3>
                     <p>
@@ -100,8 +133,8 @@ bodyClass: page-home
 <area title="South Denver to DTC" alt="South Denver to DTC" coords="291,359 237,391 236,475 283,476 300,485 296,617 235,617 236,917 497,922 471,857 597,859 597,739 494,699 494,663 607,592 578,589 432,434 353,386 325,380 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955162">
 <area title="South  Aurora and Centennial " alt="South  Aurora and Centennial " coords="657,611 657,732 721,796 700,800 702,816 611,815 611,855 752,860 834,1029 858,974 942,937 1017,947 1105,984 1210,982 1206,836 1164,849 1171,822 1145,820 1100,736 1089,681 1033,678 1029,616 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=36955521">
 </map>
-<!--END Sprinkller blowout section-->
--->
+<!--END Sprinkler blowout section-->
+
 
 <!--<div class="container pt-2">
   <div class="call">
