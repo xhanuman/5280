@@ -9,7 +9,7 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>Schedule now to get your Sprinkler Blowout for Fall 2024</h3>
+      <h3>Schedule now to get your Sprinkler Blowout for Fall 2023</h3>
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
           <strong>To schedule for Aurora/Centennial please scroll down to second map</strong>
@@ -101,7 +101,7 @@ bodyClass: page-home
      <text x="268.189" y="711.10913" style="fill:#ffffff;font-family:sans-serif;font-size:20.76px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="268.189" y="711.10913" style="stroke-width:0">Denver South / DTC</tspan></text>
      <text x="717.71936" y="724.73285" style="fill:#ffffff;font-family:sans-serif;font-size:20.76px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="717.71936" y="724.73285" style="stroke-width:0">South Aurora / Centennial</tspan></text>
      <text x="396.5661" y="181.23392" style="fill:#ffffff;font-family:sans-serif;font-size:15.57px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><rect x="391.65" y="150.66" width="206.02" height="52.728" style="fill:#000;paint-order:normal;stroke-linejoin:round;stroke-width:14.086;stroke:#000"/><tspan x="396.5661" y="181.23392" style="stroke-width:0">East Denver / West Aurora</tspan><tspan x="396.5661" y="200.69646" style="stroke-width:0">   (East of Colorado Blvd)</tspan></text>
-  
+
 </div>
 <!--              
            <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
