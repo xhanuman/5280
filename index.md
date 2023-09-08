@@ -47,10 +47,7 @@ bodyClass: page-home
      <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=36824968">
       <path d="m71 249 100-55 287-91 10 164 48 9-2 114-119 128-17 66 15 40 14 131 90 121 46 120-33 225-448 4z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter16585);mix-blend-mode:normal;opacity:.35;paint-order:normal;stroke-linejoin:round;stroke-opacity:.92549;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
      </a>
- </g>
-
-
-  </div>
+   </div>
           <!-- <img src="../assets/images/DenverMap.png" usemap="#image_map">
            <map name="image_map">
              <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
