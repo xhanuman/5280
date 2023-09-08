@@ -11,7 +11,7 @@ bodyClass: page-home
     <br>
       <h3>Schedule now to get your Sprinkler Blowout for Fall 2023</h3>
       <p>
-          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4>:<br>(using a desktop of a larger tablet is easier, if you must use mobile please scroll down beyond the map)<br>
+          <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
           <strong>To schedule for Aurora/Centennial please scroll down to second map</strong>
 <div class="svg-container">
     <!-- Embedding the SVG image using an object tag -->
