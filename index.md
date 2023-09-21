@@ -12,7 +12,7 @@ bodyClass: page-home
       <h3>Schedule now to get your Sprinkler Blowout for Fall 2023</h3>
       <p>
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
-          <strong>To schedule for Aurora/Centennial please scroll down to second map</strong>
+          <strong>To schedule with Leif (Aurora/Centennial) please scroll down to second map</strong>
 <div class="svg-container">
     <!-- Embedding the SVG image using an object tag -->
     <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
