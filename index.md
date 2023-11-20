@@ -9,16 +9,15 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>Schedule now to get your Sprinkler Blowout for Fall 2023</h3>
+      <h3>We are closed for the remainder of 2023, however, please text Leif directly at 785.617.ZER0ZER015 ashe may be able to assist you</h3>
       <p>
+<!--
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
           <strong>To schedule with Leif (Aurora/Centennial) please scroll down to second map</strong>
 <div class="svg-container">
-    <!-- Embedding the SVG image using an object tag -->
-    <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
-    	<!--class="responsive-svg" pulled this from the obj tag above -->
 
-      <!-- Fallback content or error message goes here -->
+    <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg">
+
     </object>    
 
     <g transform="matrix(1.0663 0 0 1.0663 0 -12.837)">
@@ -59,14 +58,7 @@ bodyClass: page-home
  <path d="m817 228 88-206 76-1 5 304-157-3z" style="fill-opacity:.34524;fill:#fff;opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:14.067;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
 </a>
    </div>
-          <!-- <img src="../assets/images/DenverMap.png" usemap="#image_map">
-           <map name="image_map">
-             <area alt="Denver EAST" title="Denver EAST" href="https://sprinkler.as.me/?appointmentType=43693178" coords="910,287 915,859 1218,867 1265,898 1393,866 1383,623 1510,558 1510,505 1472,485 1431,480 1387,451 1383,10 1274,9 1142,304 912,287 " shape="polygon">
-             <area alt="Denver CENTRAL" title="Denver CENTRAL" href="https://sprinkler.as.me/?appointmentType=43693178" coords="688,294 886,290 886,862 543,862 459,743 451,616 " shape="polygon">
-             <area alt="Denver SOUTH" title="Denver SOUTH" href="https://sprinkler.as.me/?appointmentType=43693178" coords="550,879 587,978 579,1110 546,1245 968,1245 1103,1245 1211,1243 1296,1243 1349,1245 1385,1241 1387,891 1274,922 1214,879 " shape="polygon">
-             <area alt="Denver WEST" title="Denver WEST" href="https://sprinkler.as.me/?appointmentType=43701931" coords="511,1219 61,1221 65,248 169,188 459,99 470,265 521,277 519,384 391,517 384,587 393,625 410,756 502,879 541,994 " shape="polygon">
-           </map>
-           -->
+-->
 <!--
            <p>(links for mobile scheduling of Conrad and Shane)
 <a href="https://sprinkler.as.me/?appointmentType=43693178">Denver EAST</a><br>
@@ -82,13 +74,12 @@ bodyClass: page-home
 <a href="https://sprinkler.as.me/?appointmentType=44315125">South Aurora and Centennial</a></p>     
 -->
 <!-- Start Aurora/Cent -->
-
+<!--
 <div class="svg-container">
-    <!-- Embedding the SVG image using an object tag -->
-    <object type="image/svg+xml" data="../assets/images/AuroraCentMap_1195.svg">
-    	<!--class="responsive-svg" pulled this from the obj tag above -->
 
-      <!-- Fallback content or error message goes here -->
+    <object type="image/svg+xml" data="../assets/images/AuroraCentMap_1195.svg">
+
+
     </object>
     <g transform="matrix(1.2975 0 0 1.2975 16.5 14.35)">
     <rect x="780.72" y="325.64" width="216.54" height="50.827" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.571;stroke:#000"/>
@@ -113,14 +104,6 @@ bodyClass: page-home
  </a>
 </g>
 </div>
-<!--              
-           <img src="../assets/images/AuroraCentMap.png" usemap="#image_mapL"></p>
-           <map name="image_mapL">
-           <area title="East denver and West Aurora" alt="East Denver and West Aurora" coords="301,77 302,344 453,431 581,574 636,590 718,542 721,237 952,231 902,194 744,120 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315221">
-           <area title="Central Aurora and East Aurora" alt="Central Aurora and East Aurora" coords="731,246 729,543 644,596 662,602 1037,610 1199,670 1195,247 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315181">
-           <area title="South Denver to DTC" alt="South Denver to DTC" coords="291,359 237,391 236,475 283,476 300,485 296,617 235,617 236,917 497,922 471,857 597,859 597,739 494,699 494,663 607,592 578,589 432,434 353,386 325,380 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315268">
-           <area title="South Aurora and Centennial" alt="South  Aurora and Centennial " coords="657,611 657,732 721,796 700,800 702,816 611,815 611,855 752,860 834,1029 858,974 942,937 1017,947 1105,984 1210,982 1206,836 1164,849 1171,822 1145,820 1100,736 1089,681 1033,678 1029,616 " shape="polygon" href="https://sprinkler.as.me/?appointmentType=44315125">
-           </map>
 -->
 <!--
     <h3>Now scheduling Fall Winterization Sprinkler Blowouts for 2023</h3>
