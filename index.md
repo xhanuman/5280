@@ -9,7 +9,7 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>We are closed for the remainder of 2023, however, please text Leif directly at 785.617.ZER0ZER015 ashe may be able to assist you</h3>
+      <h3>We are closed for the remainder of 2023</h3>
       <p>
 <!--
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
