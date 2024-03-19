@@ -9,8 +9,8 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>Scheduling now for mid-April 2024</h3>
-      <p>
+      <h3>ALMOST readay for Scheduling now for mid-April 2024</h3>
+      <p>pleaes make sure the site is showing 'Startup' if you click the link - if not please wait a bit more
 
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
           <strong>To schedule with Leif (Aurora/Centennial) please scroll down to second map</strong>
