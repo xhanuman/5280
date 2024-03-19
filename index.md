@@ -24,7 +24,6 @@ bodyClass: page-home
     <g transform="matrix(1.0663 0 0 1.0663 0 -12.837)">
   <path d="m807 229 14 91 151 5v-305l-77 1z" style="fill-opacity:.40898;fill:#f0f;opacity:.94079;stroke-linejoin:round;stroke-width:14.067;stroke:#000"/>
     </g>
-<!--</g>-->
 <g transform="translate(0 17.117)">
  <rect x="385.65" y="374.54" width="206.02" height="52.728" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.476;stroke:#000"/>
  <text x="382.78897" y="410.64859" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="382.78897" y="410.64859" style="stroke-width:0">Central Denver</tspan></text>
@@ -51,7 +50,7 @@ bodyClass: page-home
 <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=43693178">
  <path d="m547.23 884.07 658.8 2.1252 58.442 35.065 117.95-29.752-6.3755 345.34-829.87-4.2503 29.752-123.26 5.3129-139.2z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter942);opacity:.35;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
 </a>
-<--CENTRAL-->
+<!--CENTRAL-->
 <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=43693178">
  <path d="m897.52 285.12 3.7773 585.88c-7.9303.68294-370.16 0-370.16 0l-79.258-119.34-9.3006-140.05s243.76-319.03 248.58-320.26c9.946-2.5339-63.037-1.8022 206.35-6.2285z" style="fill-opacity:.34921;fill:#fff;filter:url(#filter18362);opacity:.35;paint-order:normal;stroke-opacity:.92734;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
 </a>
