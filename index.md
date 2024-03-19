@@ -9,15 +9,15 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
-      <h3>ALMOST ready for Scheduling now for April 2024</h3>
-      <p>pleaes make sure the site is showing 'Startup' if you click the link - if not please wait a bit more
+      <h3>Scheduling now for 2024 Startups!</h3>
+      <p>please make sure the site is showing 'Startup' if you click the link - if not please wait a bit more
 
           <h4>Please click on the service area map to schedule on the correct day(s) for your area</h4><br>
           <strong>To schedule with Leif (Aurora/Centennial) please scroll down to second map</strong>
 
 <!-- First Map -->
 <div class="svg-container">
-    <object type="image/svg+xml" data="../assets/images/DenverMap_1195.svg"></object>    
+    <object type="image/svg+xml" data="../assets/images/DenverMap_1195_START.svg"></object>    
     <svg>
         <g transform="matrix(1.0663 0 0 1.0663 0 -12.837)">
             <path d="m807 229 14 91 151 5v-305l-77 1z" style="fill-opacity:.40898;fill:#f0f;opacity:.94079;stroke-linejoin:round;stroke-width:14.067;stroke:#000"/>
@@ -66,7 +66,7 @@ bodyClass: page-home
 </div>
 <!-- Second Map -->
 <div class="svg-container">
-    <object type="image/svg+xml" data="../assets/images/AuroraCentMap_1195.svg"></object>
+    <object type="image/svg+xml" data="../assets/images/AuroraCentMap_1195_START.svg"></object>
     <g transform="matrix(1.2975 0 0 1.2975 16.5 14.35)">
         <!-- Central / East Aurora -->
         <rect x="780.72" y="325.64" width="216.54" height="50.827" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.571;stroke:#000"/>
