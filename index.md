@@ -23,8 +23,8 @@ bodyClass: page-home
 
     <g transform="matrix(1.0663 0 0 1.0663 0 -12.837)">
   <path d="m807 229 14 91 151 5v-305l-77 1z" style="fill-opacity:.40898;fill:#f0f;opacity:.94079;stroke-linejoin:round;stroke-width:14.067;stroke:#000"/>
- </g>
-</g>
+    </g>
+<!--</g>-->
 <g transform="translate(0 17.117)">
  <rect x="385.65" y="374.54" width="206.02" height="52.728" style="paint-order:normal;stroke-linejoin:round;stroke-width:14.476;stroke:#000"/>
  <text x="382.78897" y="410.64859" style="fill:#ffffff;font-family:sans-serif;font-size:28.134px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="382.78897" y="410.64859" style="stroke-width:0">Central Denver</tspan></text>
@@ -42,7 +42,7 @@ bodyClass: page-home
  <a transform="translate(-252.39 -438.95)" target="" xlink:href="">
   <text x="1023.8578" y="579.45184" style="fill:#ffffff;font-family:sans-serif;font-size:21.333px;font-variant-caps:normal;font-variant-east-asian:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-weight:bold;paint-order:stroke fill markers;stroke-width:0;stroke:#9298c9" xml:space="preserve"><tspan x="1023.8578" y="579.45184">       Northfield / Beeler Park</tspan><tspan x="1023.8578" y="606.11847">North Central Park (N. of MLK)</tspan></text>
  </a>
-<!--</g>-->
+  </g>
 <!--EAST-->
 <a transform="matrix(.70335 0 0 .70335 0 12.039)" target="_blank" xlink:href="https://sprinkler.as.me/?appointmentType=43693178">
  <path d="m918.07 297.52h40.378l72.255 13.814 113.7 1.0626 11.629 135.41h84.932l145.71 8.038 35.065 26.564h32.94l30.815 9.5632 18.064 15.939 3.1877 46.754-122.2 62.692v240.14l-115.82 38.253-49.941-34.003-298.58-8.5006z" style="fill-opacity:.34524;fill:#fff;filter:url(#filter18606);opacity:.35;paint-order:normal;stroke-linejoin:round;stroke-opacity:.92857;stroke-width:20;stroke:#9298c9" onmouseout="this.style.opacity=0" onmouseover="this.style.opacity=1"/>
