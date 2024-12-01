@@ -9,9 +9,11 @@ bodyClass: page-home
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
     <p>Denver Sprinkler Blowout</p>
     <br>
-      <h3>Scheduling now for 2024 Blowout appointments for Denver and surrounding area! (if you've input you address correctly and you aren't presented with a scheduling link your address is likely outside of our service area</h3>
-<iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="500px" frameborder="0"></iframe>
-
+    We are closed for the 2024 season - see you in April 2025 (the scheduler will be available in mid-March)
+      
+      <!--<h3>Scheduling now for 2024 Blowout appointments for Denver and surrounding area! (if you've input you address correctly and you aren't presented with a scheduling link your address is likely outside of our service area</h3>-->
+<!--<iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="500px" frameborder="0"></iframe>
+-->
     <!--
     <p>Denver Sprinkler Repairs and Start-up</p>
     <br>
