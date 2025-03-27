@@ -8,11 +8,11 @@
     background-position: 159px -40px;
   }
   @include media-breakpoint-up(md) {
-    background-size: 70%;
+    background-size: 25%;
     background-position: 100% -50px;
   }
   @include media-breakpoint-up(lg) {
-    background-size: 60%;
+    background-size: 25%;
     background-position: 100% 70px;
   }
   .call {
