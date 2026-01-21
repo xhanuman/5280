@@ -1,0 +1,104 @@
+// Dropdown menu styling for Resources menu with improved UX
+
+.main-menu {
+  ul {
+    li.menu-item-has-children {
+      position: relative;
+      
+      > a::after {
+        content: ' ▾';
+        font-size: 0.8em;
+        margin-left: 4px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      
+      .sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        min-width: 240px;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+        border-radius: 6px;
+        padding: 12px 0;
+        margin-top: 4px;
+        z-index: 1000;
+        border: 1px solid #e9ecef;
+        
+        // Add a small invisible bridge to prevent menu from closing
+        &::before {
+          content: '';
+          position: absolute;
+          top: -8px;
+          left: 0;
+          right: 0;
+          height: 8px;
+          background: transparent;
+        }
+        
+        li {
+          display: block;
+          
+          a {
+            display: block;
+            padding: 12px 24px;
+            color: #333;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            font-size: 0.95em;
+            border-left: 3px solid transparent;
+            
+            &:hover {
+              background: linear-gradient(90deg, #f0f4ff 0%, #ffffff 100%);
+              color: #1c3ed3;
+              border-left-color: #1c3ed3;
+              padding-left: 28px;
+            }
+          }
+        }
+      }
+      
+      // Show dropdown on hover with delay to prevent accidental closing
+      &:hover .sub-menu {
+        display: block;
+        animation: fadeInDown 0.2s ease;
+      }
+      
+      // Keep dropdown open when hovering over submenu items
+      .sub-menu:hover {
+        display: block;
+      }
+    }
+  }
+}
+
+// Smooth fade-in animation for dropdown
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Mobile menu - no dropdown needed, just list items
+.main-menu-mobile {
+  .menu-item-has-children {
+    .sub-menu {
+      display: none;
+    }
+  }
+}
+
+// Ensure dropdown stays visible when moving mouse from parent to child
+.main-menu ul li.menu-item-has-children {
+  &:hover > .sub-menu,
+  .sub-menu:hover {
+    display: block;
+  }
+}

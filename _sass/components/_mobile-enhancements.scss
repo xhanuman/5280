@@ -1,0 +1,356 @@
+// Mobile Responsiveness Enhancements
+
+// Ensure images are responsive
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Responsive tables
+table {
+  width: 100%;
+  overflow-x: auto;
+  display: block;
+  
+  @media (max-width: 768px) {
+    font-size: 0.9em;
+  }
+}
+
+// Mobile-friendly iframe (for scheduling)
+iframe {
+  max-width: 100%;
+  
+  @media (max-width: 768px) {
+    min-height: 600px;
+  }
+}
+
+// Answer boxes mobile optimization
+.answer-box {
+  @media (max-width: 768px) {
+    padding: 16px;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+    
+    strong {
+      font-size: 1em;
+    }
+  }
+}
+
+// Content typography mobile adjustments
+.content {
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.8em;
+      line-height: 1.3;
+    }
+    
+    h2 {
+      font-size: 1.5em;
+      line-height: 1.3;
+      margin-top: 32px;
+    }
+    
+    h3 {
+      font-size: 1.3em;
+      line-height: 1.3;
+      margin-top: 24px;
+    }
+    
+    h4 {
+      font-size: 1.1em;
+      line-height: 1.3;
+    }
+    
+    p {
+      font-size: 1em;
+      line-height: 1.6;
+    }
+  }
+}
+
+// Intro section mobile
+.intro {
+  @media (max-width: 768px) {
+    padding: 30px 0;
+    
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 16px;
+    }
+    
+    h3 {
+      font-size: 1.3em;
+      margin-bottom: 12px;
+    }
+    
+    h5 {
+      font-size: 1em;
+      line-height: 1.4;
+    }
+    
+    .lead {
+      font-size: 1.1em;
+    }
+  }
+}
+
+// Service cards mobile
+.service-summary {
+  @media (max-width: 768px) {
+    margin-bottom: 20px;
+    
+    .service-title {
+      font-size: 1.3em;
+    }
+    
+    .service-content {
+      padding: 20px;
+    }
+  }
+}
+
+// Team member cards mobile
+.team-member {
+  @media (max-width: 768px) {
+    padding: 20px;
+    margin-bottom: 24px;
+    
+    .team-photo {
+      width: 140px;
+      height: 140px;
+      margin: 0 auto 16px;
+    }
+    
+    h3 {
+      font-size: 1.4em;
+    }
+    
+    .role {
+      font-size: 1em;
+    }
+    
+    .experience {
+      font-size: 0.95em;
+    }
+    
+    .team-bio {
+      h4 {
+        font-size: 1.1em;
+        margin-top: 20px;
+      }
+      
+      p {
+        font-size: 0.95em;
+      }
+      
+      ul {
+        font-size: 0.95em;
+        
+        li {
+          margin-bottom: 8px;
+        }
+      }
+    }
+  }
+}
+
+// Button mobile optimization
+.button {
+  @media (max-width: 768px) {
+    padding: 12px 24px;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: 10px 0;
+  }
+}
+
+// Navigation mobile - ensure hamburger works
+.hamburger {
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+.main-menu {
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+// Mobile menu styling
+.main-menu-mobile {
+  ul {
+    li {
+      a {
+        padding: 15px 20px;
+        font-size: 1.1em;
+        display: block;
+        
+        &:hover {
+          background: #f8f9fa;
+        }
+      }
+    }
+  }
+}
+
+// Footer mobile
+.footer {
+  @media (max-width: 768px) {
+    padding: 30px 0;
+    
+    .footer-inner {
+      text-align: center;
+    }
+    
+    .col-md-6 {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+// Sub-footer mobile
+.sub-footer {
+  @media (max-width: 768px) {
+    padding: 20px 0;
+    text-align: center;
+    
+    .copyright,
+    .zerostatic {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  }
+}
+
+// Container padding mobile
+.container {
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+// Spacing utilities mobile
+.pt-6, .pt-8, .pt-10 {
+  @media (max-width: 768px) {
+    padding-top: 30px !important;
+  }
+}
+
+.pb-6, .pb-8, .pb-10 {
+  @media (max-width: 768px) {
+    padding-bottom: 30px !important;
+  }
+}
+
+.pt-md-10 {
+  @media (max-width: 768px) {
+    padding-top: 30px !important;
+  }
+}
+
+// FAQ page mobile
+.page-faq {
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 1.2em;
+      margin-top: 24px;
+    }
+    
+    h4 {
+      font-size: 1.1em;
+      margin-top: 20px;
+    }
+  }
+}
+
+// Service policies page mobile
+.page-policies {
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.3em;
+    }
+    
+    hr {
+      margin: 30px 0;
+    }
+  }
+}
+
+// Lists mobile optimization
+ul, ol {
+  @media (max-width: 768px) {
+    padding-left: 20px;
+    
+    li {
+      margin-bottom: 10px;
+      line-height: 1.5;
+    }
+  }
+}
+
+// Blockquotes mobile
+blockquote {
+  @media (max-width: 768px) {
+    padding-left: 15px;
+    margin: 20px 0;
+    font-size: 0.95em;
+  }
+}
+
+// Trust signals section mobile
+.row.mt-4 {
+  @media (max-width: 768px) {
+    .col-md-4 {
+      margin-bottom: 20px;
+      
+      h3 {
+        font-size: 1.5em;
+      }
+      
+      p {
+        font-size: 0.95em;
+      }
+    }
+  }
+}
+
+// Ensure touch targets are large enough (44x44px minimum)
+a, button, .button {
+  @media (max-width: 768px) {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+// Text selection on mobile
+::selection {
+  background: rgba(28, 62, 211, 0.2);
+  color: inherit;
+}
+
+// Prevent horizontal scroll
+body {
+  overflow-x: hidden;
+}
+
+// Smooth scrolling on mobile
+html {
+  -webkit-overflow-scrolling: touch;
+}
+
+// Fix for iOS Safari viewport height
+@supports (-webkit-touch-callout: none) {
+  .intro {
+    min-height: -webkit-fill-available;
+  }
+}

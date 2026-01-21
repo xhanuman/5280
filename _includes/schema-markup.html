@@ -1,0 +1,232 @@
+{% comment %}
+  Schema Markup Include for 5280 Sprinklers
+  
+  Usage: Include this in your page head or before closing </body>
+  
+  For service pages: {% include schema-markup.html type="service" %}
+  For FAQ pages: {% include schema-markup.html type="faq" %}
+  For all pages: {% include schema-markup.html type="localbusiness" %}
+{% endcomment %}
+
+{% if include.type == "localbusiness" or include.type == nil %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": "https://5280sprinklers.com/#organization",
+  "name": "5280 Sprinklers",
+  "description": "Denver sprinkler repair, irrigation services, leak detection, lawn care, winterization blowouts and spring startups. Serving the Denver metro area since 2010.",
+  "url": "https://5280sprinklers.com",
+  "email": "5280sprinkler@gmail.com",
+  "areaServed": {
+    "@type": "GeoCircle",
+    "geoMidpoint": {
+      "@type": "GeoCoordinates",
+      "latitude": 39.7392,
+      "longitude": -104.9903
+    },
+    "geoRadius": "30 mi"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Denver",
+    "addressRegion": "CO",
+    "postalCode": "80202",
+    "addressCountry": "US"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 39.7392,
+    "longitude": -104.9903
+  },
+  "serviceArea": [
+    {"@type": "AdministrativeArea", "name": "Denver"},
+    {"@type": "AdministrativeArea", "name": "Aurora"},
+    {"@type": "AdministrativeArea", "name": "Lakewood"},
+    {"@type": "AdministrativeArea", "name": "Littleton"},
+    {"@type": "AdministrativeArea", "name": "Englewood"},
+    {"@type": "AdministrativeArea", "name": "Thornton"},
+    {"@type": "AdministrativeArea", "name": "Westminster"},
+    {"@type": "AdministrativeArea", "name": "Arvada"},
+    {"@type": "AdministrativeArea", "name": "Centennial"},
+    {"@type": "AdministrativeArea", "name": "Cherry Creek"},
+    {"@type": "AdministrativeArea", "name": "Highlands Ranch"}
+  ],
+  "priceRange": "$$",
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "08:00",
+    "closes": "18:00"
+  },
+  "sameAs": [
+    "https://www.denversprinklerblowout.com"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Irrigation Services",
+    "itemListElement": [
+      {
+        "@type": "Service",
+        "name": "Sprinkler Startup Service",
+        "description": "Spring irrigation system activation including system pressurization, head inspection, and basic diagnostics.",
+        "url": "https://5280sprinklers.com/services/denver-sprinkler-startup-service/"
+      },
+      {
+        "@type": "Service",
+        "name": "Sprinkler Repair Service",
+        "description": "Diagnosis and repair of irrigation system issues including valves, heads, wiring, and controllers.",
+        "url": "https://5280sprinklers.com/services/denver-sprinkler-repair-service/"
+      },
+      {
+        "@type": "Service",
+        "name": "Leak Detection Service",
+        "description": "Professional irrigation leak detection focusing on valve leaks and system assessment.",
+        "url": "https://5280sprinklers.com/services/leak-detection-service/"
+      },
+      {
+        "@type": "Service",
+        "name": "Sprinkler Winterization Blowout",
+        "description": "Compressed air blowout service to remove water from irrigation systems before winter freeze.",
+        "url": "https://5280sprinklers.com/services/denver-sprinkler-blowout-service/"
+      },
+      {
+        "@type": "Service",
+        "name": "Lawn Care Services",
+        "description": "Seasonal lawn care including fertilization, core aeration, and overseeding services.",
+        "url": "https://5280sprinklers.com/services/lawn-care-services/"
+      }
+    ]
+  }
+}
+</script>
+{% endif %}
+
+{% if include.type == "faq" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I turn on my sprinkler system in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wait until the risk of hard freezes has passed, typically mid-April to early May in the Denver area. Watch the forecast—if temperatures will drop below freezing after startup, you may need to run water through the system briefly to prevent pipe damage, or delay startup."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the best time for sprinkler blowout in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Schedule winterization between late September and mid-November. Don't wait for freezing weather—popular time slots fill up quickly. A hard freeze with water in your pipes can cause serious damage, so err on the side of earlier."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why are my sprinkler heads not popping up?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Common causes include low pressure in that zone from a leak or closed valve, clogged heads from dirt and debris accumulation, buried heads that have sunk below soil level, or worn internal components binding the riser."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is water still coming out of my sprinkler heads after the system turns off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This indicates a valve that isn't closing completely. Causes include debris caught in the valve diaphragm, worn or damaged diaphragm, damaged valve seat, or faulty solenoid. A professional can usually repair this by cleaning or replacing the diaphragm."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I water my lawn in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most established Denver lawns need about 1 inch of water per week during summer, including rainfall. This typically translates to 2-3 watering days per week during peak summer, with less frequent watering in spring and fall."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do I need a backflow preventer for my sprinkler system in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Colorado plumbing code requires backflow prevention on irrigation systems to protect drinking water supplies. Most systems use a Pressure Vacuum Breaker (PVB) or Reduced Pressure Zone (RPZ) device. Many municipalities require annual testing by certified technicians."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if include.type == "service" and page.title contains "Leak Detection" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How do I know if my sprinkler system is leaking underground?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Look for these warning signs: unexplained water bill increases, soggy areas when sprinklers haven't run, water pooling near valve boxes, sprinkler heads that continue dripping after shutoff, low pressure in certain zones, and unusually green patches of grass."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is water still coming out of my sprinkler heads after the system turns off?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "This typically indicates a valve that isn't closing completely. Common causes include debris in the diaphragm, a worn diaphragm, damaged seals, or a faulty solenoid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much water can a leaking sprinkler system waste?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Even a small leak can waste 6,000+ gallons per month. A stuck valve or significant mainline leak can waste tens of thousands of gallons, dramatically increasing your water bill and potentially causing property damage."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}
+
+{% if include.type == "service" and page.title contains "Lawn Care" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When is the best time to fertilize my lawn in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fall fertilization is considered most important, as nutrients are stored for spring green-up. A complete program includes spring, early summer, late summer, and fall applications for optimal results."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often should I aerate my lawn in Denver?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most Denver lawns benefit from annual aeration. Heavily compacted or high-traffic lawns may benefit from both spring and fall aeration. Clay soils, common in the Front Range, compact easily and typically need yearly attention."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is spring or fall better for overseeding in Colorado?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fall is generally preferred because soil temperatures are warm for germination, air temperatures are cooling (reducing stress on young grass), weed competition is minimal, and new grass has time to establish before summer heat."
+      }
+    }
+  ]
+}
+</script>
+{% endif %}

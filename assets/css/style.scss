@@ -54,6 +54,7 @@
 @import 'components/sub-footer';
 @import 'components/logo';
 @import 'components/main-menu';
+@import 'components/main-menu-dropdown';
 @import 'components/main-menu-mobile';
 @import 'components/social';
 @import 'components/hamburger';
@@ -64,6 +65,10 @@
 @import 'components/strip';
 @import 'components/whitebox';
 @import 'components/feature';
+@import 'components/enhancements';
+@import 'components/mobile-enhancements';
+@import 'components/menu-alignment-fix';
+@import 'components/menu-force-alignment';
 
 // Pages
 @import 'pages/home';
