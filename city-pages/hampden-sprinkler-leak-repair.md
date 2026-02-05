@@ -150,8 +150,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a complete syst
         "postalCode": "80222",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-SPRINKLER",
-      "url": "https://www.5280sprinklers.com/hampden",
+            "url": "https://www.5280sprinklers.com/hampden",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Professional sprinkler repair, leak detection, and irrigation maintenance services for the Hampden Avenue corridor, including Hampden South and Southmoor Park neighborhoods in Denver, CO.",

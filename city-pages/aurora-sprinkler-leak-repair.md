@@ -140,8 +140,7 @@ Click the link below to schedule your repair, maintenance, or winterization serv
         "postalCode": "80012",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-528-5280",
-      "url": "https://www.5280sprinklers.com/aurora",
+            "url": "https://www.5280sprinklers.com/aurora",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and winterization services for Aurora, CO, specializing in local soil and water pressure challenges.",

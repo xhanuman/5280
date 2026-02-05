@@ -107,8 +107,7 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
       "name": "5280 Sprinklers - Northfield",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "url": "https://www.5280sprinklers.com/northfield",
-      "telephone": "+1-303-555-5280",
-      "address": {
+            "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Northfield Neighborhood",
         "addressLocality": "Denver",

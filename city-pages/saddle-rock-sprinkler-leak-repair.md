@@ -149,8 +149,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
         "postalCode": "80016",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-SPRINKLER",
-      "url": "https://www.5280sprinklers.com/saddle-rock",
+            "url": "https://www.5280sprinklers.com/saddle-rock",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and leak detection services tailored for Saddle Rock and Saddle Rock Ridge in southeast Aurora, CO. Specialists in expansive clay soil, Aurora Water compliance, and HOA requirements.",

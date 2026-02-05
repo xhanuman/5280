@@ -149,8 +149,7 @@ From the Landmark to Cherry Hills Farm, Greenwood Oaks to the Preserve, we serve
         "postalCode": "80111",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-SPRINKLER",
-      "url": "https://www.5280sprinklers.com/greenwood-village",
+            "url": "https://www.5280sprinklers.com/greenwood-village",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, leak detection, and irrigation maintenance services for Greenwood Village's executive homes, HOA communities, and Denver Tech Center properties.",

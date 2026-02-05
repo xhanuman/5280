@@ -133,8 +133,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
         "postalCode": "80134",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-SPRINKLER",
-      "url": "https://www.5280sprinklers.com/parker",
+            "url": "https://www.5280sprinklers.com/parker",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and installation services tailored for Parker, CO's expansive clay soil, high altitude climate, and HOA requirements.",

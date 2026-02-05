@@ -91,7 +91,6 @@ Use our simple online scheduling tool to book a comprehensive system audit and l
   "provider": {
     "@type": "LocalBusiness",
     "name": "5280 Sprinklers",
-    "telephone": "+1-555-528-5280",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Serving the entire Denver Metro area",

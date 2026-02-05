@@ -102,8 +102,7 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
         "postalCode": "80112",
         "addressCountry": "US"
       },
-      "telephone": "+1-555-SPRINKLER",
-      "url": "https://www.5280sprinklers.com/centennial",
+            "url": "https://www.5280sprinklers.com/centennial",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and installation services tailored for the unique soil and water conditions in Centennial, CO.",

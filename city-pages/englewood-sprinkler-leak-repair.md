@@ -112,8 +112,7 @@ Click the button below to view our service options and **book your appointment o
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "url": "https://www.5280sprinklers.com/englewood",
-      "telephone": "+1-303-555-5280",
-      "address": {
+            "address": {
         "@type": "PostalAddress",
         "streetAddress": "1234 S Broadway",
         "addressLocality": "Englewood",

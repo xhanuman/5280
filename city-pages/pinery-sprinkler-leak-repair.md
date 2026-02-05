@@ -129,7 +129,7 @@ Your Pinery home sits in one of Douglas County's most desirable communities, whe
 
 **Schedule your Pinery irrigation consultation today.**
 
-Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate](/contact/) online.
+**[Schedule your Pinery sprinkler service today!](/)**
 
 *Proudly serving The Pinery, Parker, Lone Tree, and the surrounding Douglas County communities.*
 
@@ -140,8 +140,7 @@ Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate]
   "name": "5280 Sprinklers - The Pinery",
   "description": "Professional sprinkler repair and irrigation services serving The Pinery community in Douglas County, Colorado.",
   "url": "https://5280sprinklers.com/city-pages/pinery-sprinkler-leak-repair/",
-  "telephone": "+1-303-555-5280",
-  "areaServed": {
+    "areaServed": {
     "@type": "Place",
     "name": "The Pinery, Colorado"
   },

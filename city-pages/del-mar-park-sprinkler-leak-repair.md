@@ -157,8 +157,7 @@ Whether you need emergency leak repair, seasonal maintenance, or strategic syste
         "postalCode": "80012",
         "addressCountry": "US"
       },
-      "telephone": "+1-303-815-1605",
-      "url": "https://www.5280sprinklers.com/del-mar-park",
+            "url": "https://www.5280sprinklers.com/del-mar-park",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, leak detection, and system modernization services for Del Mar Park, Aurora. Specialists in 1970s-1980s irrigation systems, mature landscapes, and Aurora Water compliance.",

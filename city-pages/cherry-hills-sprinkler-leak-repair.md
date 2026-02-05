@@ -127,7 +127,7 @@ Your Cherry Hills Village property represents one of the most significant reside
 
 **Schedule your Cherry Hills Village estate irrigation consultation today.**
 
-Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate](/contact/) online.
+**[Schedule your Cherry Hills Village sprinkler service today!](/)**
 
 *Proudly serving Cherry Hills Village, Greenwood Village, and the surrounding South Denver estate communities.*
 
@@ -138,8 +138,7 @@ Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate]
   "name": "5280 Sprinklers - Cherry Hills Village",
   "description": "Professional sprinkler repair and irrigation services serving estate properties in Cherry Hills Village, Colorado.",
   "url": "https://5280sprinklers.com/city-pages/cherry-hills-sprinkler-leak-repair/",
-  "telephone": "+1-303-555-5280",
-  "areaServed": {
+    "areaServed": {
     "@type": "Place",
     "name": "Cherry Hills Village, Colorado"
   },

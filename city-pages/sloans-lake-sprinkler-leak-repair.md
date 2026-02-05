@@ -104,8 +104,7 @@ Your Sloan's Lake property deserves an irrigation system that works as beautiful
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/logo.png",
       "url": "https://www.5280sprinklers.com/sloans-lake",
-      "telephone": "+1-303-555-5280",
-      "address": {
+            "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Sloan's Lake Neighborhood",
         "addressLocality": "Denver",

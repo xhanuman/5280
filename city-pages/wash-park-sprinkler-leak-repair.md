@@ -111,7 +111,7 @@ Your Washington Park home represents a significant investment in one of Denver's
 
 **Schedule your Wash Park sprinkler inspection today.**
 
-Call 5280 Sprinklers at **(303) 555-5280** or [request a free estimate](/contact/) online.
+**[Schedule your Wash Park sprinkler service today!](/)**
 
 *Proudly serving Washington Park, South Wash Park, West Wash Park, and surrounding Denver neighborhoods.*
 
@@ -122,8 +122,7 @@ Call 5280 Sprinklers at **(303) 555-5280** or [request a free estimate](/contact
   "name": "5280 Sprinklers - Washington Park",
   "description": "Professional sprinkler repair and irrigation services serving the Washington Park neighborhood in Denver, Colorado.",
   "url": "https://5280sprinklers.com/city-pages/wash-park-sprinkler-leak-repair/",
-  "telephone": "+1-303-555-5280",
-  "areaServed": {
+    "areaServed": {
     "@type": "Place",
     "name": "Washington Park, Denver, Colorado"
   },

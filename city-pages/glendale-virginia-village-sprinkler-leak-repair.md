@@ -106,8 +106,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a comprehensive
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "url": "https://www.5280sprinklers.com/glendale-virginia-village",
-      "telephone": "+1-303-555-5280",
-      "address": {
+            "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving Glendale & Virginia Village",
         "addressLocality": "Denver",

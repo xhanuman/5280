@@ -97,8 +97,7 @@ Our online booking system is fast, easy, and available 24/7. Click the link belo
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/logo.png",
       "url": "https://www.5280sprinklers.com/lowry",
-      "telephone": "+1-303-555-5280",
-      "address": {
+            "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Lowry Neighborhood",
         "addressLocality": "Denver",

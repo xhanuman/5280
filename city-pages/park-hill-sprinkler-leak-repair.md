@@ -91,7 +91,7 @@ We offer same-day emergency service for active leaks. Park Hill is within our pr
 
 Don't let sprinkler problems damage your lawn or waste water. Contact 5280 Sprinklers today for fast, professional service from technicians who know Park Hill.
 
-**Call us at (303) 555-5280** or [request a free estimate online](#contact).
+**[Schedule your Park Hill sprinkler service today!](/)**
 
 We're proud to serve Park Hill and help maintain the beautiful landscapes that make this neighborhood one of Denver's finest.
 
@@ -102,8 +102,7 @@ We're proud to serve Park Hill and help maintain the beautiful landscapes that m
   "name": "5280 Sprinklers - Park Hill",
   "description": "Professional sprinkler repair and irrigation services serving Park Hill, Denver. Specializing in leak detection, system repairs, and maintenance for historic homes.",
   "url": "https://5280sprinklers.com/city-pages/park-hill-sprinkler-leak-repair/",
-  "telephone": "(303) 555-5280",
-  "areaServed": {
+    "areaServed": {
     "@type": "Place",
     "name": "Park Hill, Denver, Colorado"
   },

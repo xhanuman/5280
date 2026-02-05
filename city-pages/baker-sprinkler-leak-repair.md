@@ -97,7 +97,7 @@ We use trenchless repair techniques and precision excavation to minimize disrupt
 
 Don't let irrigation problems damage your historic Baker property or waste Denver's precious water. Contact 5280 Sprinklers for fast, professional service from technicians who know your neighborhood.
 
-**Call us at (303) 555-5280** or [request a free estimate online](#contact).
+**[Schedule your Baker sprinkler service today!](/)**
 
 We offer flexible scheduling, upfront pricing, and a satisfaction guarantee on all repairs.
 
@@ -110,8 +110,7 @@ We offer flexible scheduling, upfront pricing, and a satisfaction guarantee on a
   "name": "5280 Sprinklers - Baker",
   "description": "Professional sprinkler repair and irrigation services serving the Baker neighborhood in Denver, Colorado.",
   "url": "https://5280sprinklers.com/city-pages/baker-sprinkler-leak-repair/",
-  "telephone": "(303) 555-5280",
-  "address": {
+    "address": {
     "@type": "PostalAddress",
     "addressLocality": "Denver",
     "addressRegion": "CO",

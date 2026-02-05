@@ -27,11 +27,11 @@ Not every sprinkler issue is an emergency, but the following situations require 
 
 ## Our Emergency Response Protocol: What to Expect
 
-When you call 5280 Sprinklers with an emergency, we initiate a clear and efficient response process to ensure the problem is handled swiftly.
+When you contact 5280 Sprinklers with an emergency, we initiate a clear and efficient response process to ensure the problem is handled swiftly.
 
-1.  **Immediate Guidance:** Our first priority is to help you stop the flow of water. When you call, we will immediately walk you through the steps to locate and shut off the main water supply to your irrigation system. This single action can prevent thousands of dollars in damage.
+1.  **Immediate Guidance:** Our first priority is to help you stop the flow of water. When you reach out, we will immediately walk you through the steps to locate and shut off the main water supply to your irrigation system. This single action can prevent thousands of dollars in damage.
 
-2.  **Priority Dispatch:** Emergency calls are moved to the top of our service queue. We will immediately dispatch the nearest available certified technician to your location. Our goal is to be on-site to assess and control the situation as quickly as possible, often within a few hours.
+2.  **Priority Dispatch:** Emergency requests are moved to the top of our service queue. We will immediately dispatch the nearest available certified technician to your location. Our goal is to be on-site to assess and control the situation as quickly as possible, often within a few hours.
 
 3.  **Rapid Diagnosis and Stabilization:** Upon arrival, our technician will quickly diagnose the cause of the emergency. Their first action will be to confirm the water is off and stabilize the situation. They will then explain the problem to you in clear, simple terms.
 
@@ -64,17 +64,17 @@ Knowing how to react in the first few minutes of a sprinkler emergency can save 
 1.  **Locate and Shut Off the Water.** This is the most critical step. Your sprinkler system will have a dedicated shut-off valve. It is often located in the basement, a crawlspace, or in a valve box near your water meter. Turn this valve clockwise to shut off the water.
 2.  **Turn Off the Controller.** Go to your sprinkler controller (timer) and turn it to the “Off” or “Rain” mode. This will prevent any scheduled cycles from attempting to run.
 3.  **Take Photos or Videos.** If it is safe to do so, document the problem. A visual record can help our technicians diagnose the issue even faster upon arrival.
-4.  **Call 5280 Sprinklers.** Contact us immediately and inform us that you have a sprinkler emergency. Provide a clear description of what is happening.
+4.  **Contact 5280 Sprinklers.** Reach out immediately and inform us that you have a sprinkler emergency. Provide a clear description of what is happening.
 
 ## Your Trusted Partner in a Crisis
 
 During a stressful sprinkler emergency, you need a service provider you can count on. 5280 Sprinklers is a local, family-owned business dedicated to serving our Denver Metro community with integrity and expertise. Our technicians are not just repairmen; they are career professionals who take pride in solving complex problems and helping homeowners protect their property. We are fully licensed, insured, and committed to providing the highest level of service, especially when you need it most.
 
-**Call to Action:**
+**Facing a Sprinkler Emergency? Don't Wait!**
 
-**Facing a Sprinkler Emergency? Don’t Wait!**
+If you have a burst pipe, a stuck valve, or any other urgent sprinkler issue, contact us immediately for priority service. We are here to help you take back control and protect your home and landscape.
 
-If you have a burst pipe, a stuck valve, or any other urgent sprinkler issue, call us immediately for priority service. We are here to help you take back control and protect your home and landscape.
+**[Schedule your emergency sprinkler service now!](/)**
 
 ---
 
@@ -87,7 +87,6 @@ If you have a burst pipe, a stuck valve, or any other urgent sprinkler issue, ca
   "provider": {
     "@type": "LocalBusiness",
     "name": "5280 Sprinklers",
-    "telephone": "+1-555-528-5280",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Serving the entire Denver Metro area",

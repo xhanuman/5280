@@ -104,8 +104,7 @@ Whether you need a quick repair, a full system tune-up, or a smart controller up
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "url": "https://www.5280sprinklers.com/central-park-sprinkler-repair",
-      "telephone": "+1-303-555-5280",
-      "priceRange": "$$",
+            "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Central Park Neighborhood",

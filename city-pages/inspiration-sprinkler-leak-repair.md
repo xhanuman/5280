@@ -131,8 +131,7 @@ Your Inspiration home deserves an irrigation system that performs as well as the
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "url": "https://www.5280sprinklers.com/inspiration-sprinkler-repair",
-      "telephone": "+1-303-555-5280",
-      "priceRange": "$$",
+            "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Inspiration Community",

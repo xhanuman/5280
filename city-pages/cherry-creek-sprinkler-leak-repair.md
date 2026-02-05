@@ -118,7 +118,7 @@ Your Cherry Creek property represents a substantial investment in one of Denver'
 
 **Schedule your Cherry Creek irrigation consultation today.**
 
-Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate](/contact/) online.
+**[Schedule your Cherry Creek sprinkler service today!](/)**
 
 *Proudly serving Cherry Creek North, Cherry Creek South, Cherry Creek East, and the greater Cherry Creek neighborhood.*
 
@@ -129,8 +129,7 @@ Call 5280 Sprinklers at **(303) 555-5280** or [request a complimentary estimate]
   "name": "5280 Sprinklers - Cherry Creek",
   "description": "Professional sprinkler repair and irrigation services serving the Cherry Creek neighborhood in Denver, Colorado.",
   "url": "https://5280sprinklers.com/city-pages/cherry-creek-sprinkler-leak-repair/",
-  "telephone": "+1-303-555-5280",
-  "areaServed": {
+    "areaServed": {
     "@type": "Place",
     "name": "Cherry Creek, Denver, Colorado"
   },
