@@ -1,6 +1,9 @@
 ---
-layout: default
-title: High Water Bill from Sprinkler Leak
+layout: page
+title: "High Water Bill from Sprinkler Leak"
+description: "Is your water bill unusually high? Learn how sprinkler system leaks cause high water bills and how 5280 Sprinklers can help detect and fix them."
+permalink: /high-water-bill-sprinkler-leak/
+bodyClass: page-water-bill
 ---
 # That High Water Bill? It’s Probably Your Sprinkler System.
 

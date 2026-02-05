@@ -1,6 +1,9 @@
 ---
-layout: default
-title: Emergency Sprinkler Leak Repair Denver
+layout: page
+title: "Emergency Sprinkler Leak Repair Denver"
+description: "Fast, reliable emergency sprinkler repair service in Denver. Burst pipes, stuck valves, and major leaks handled with priority dispatch."
+permalink: /emergency-sprinkler-leak-repair/
+bodyClass: page-emergency
 ---
 # Emergency Sprinkler Repair: Fast, Reliable Service When You Need It Most
 
