@@ -134,9 +134,7 @@ From the Landmark to Cherry Hills Farm, Greenwood Oaks to the Preserve, we serve
 
 ---
 
-## JSON-LD Schema Markup
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -276,7 +274,7 @@ From the Landmark to Cherry Hills Farm, Greenwood Oaks to the Preserve, we serve
     }
   ]
 }
-```
+</script>
 
 ---
 

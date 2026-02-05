@@ -87,9 +87,7 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
 
 ---
 
-## JSON-LD Schema Markup
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -177,7 +175,7 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
     }
   ]
 }
-```
+</script>
 
 ---
 

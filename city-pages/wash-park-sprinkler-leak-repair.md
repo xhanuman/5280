@@ -50,7 +50,6 @@ We have serviced hundreds of Wash Park properties and understand the neighborhoo
 ### Respect for Your Property
 
 - **Clean Work Practices**: We protect your pristine lawns and gardens during every repair
-- **Discreet Service**: Unmarked vehicles available for homeowners who prefer privacy
 - **Flexible Scheduling**: Early morning and evening appointments to minimize disruption
 
 ## Comprehensive Sprinkler Services for Wash Park

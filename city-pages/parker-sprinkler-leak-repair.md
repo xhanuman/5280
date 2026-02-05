@@ -118,9 +118,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
 
 ---
 
-## JSON-LD Schema Markup
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -248,7 +246,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
     }
   ]
 }
-```
+</script>
 
 ---
 

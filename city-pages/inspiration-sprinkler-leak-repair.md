@@ -118,9 +118,7 @@ Upgrade your basic timer to a **Wi-Fi-enabled smart controller** that uses local
 
 Your Inspiration home deserves an irrigation system that performs as well as the community looks. From upgrading builder-grade components to ensuring HOA compliance, **5280 Sprinklers** is your local expert for all things irrigation.
 
-**Schedule Your Service Today**
-
-Click below to book your repair, maintenance, or system upgrade online. Experience the difference that local expertise and quality service make for your Inspiration landscape.
+**Ready to get started? Contact us today for fast, reliable service your Inspiration home deserves.**
 
 ---
 

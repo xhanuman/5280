@@ -96,11 +96,9 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
 
 **A:** Due to the dense clay soil, the best practice is to water **deeply and infrequently**. Clay soil absorbs water slowly, so short, frequent watering leads to runoff and shallow root growth. We recommend a "cycle and soak" method: run your sprinklers for a short period (e.g., 5-7 minutes), wait an hour for the water to soak in, and then repeat the cycle 2-3 times. This ensures the water penetrates deep into the root zone without causing runoff. We can program your controller to execute this precise cycle and soak schedule for optimal results.
 
-***
+---
 
-## JSON-LD Schema Markup
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -151,4 +149,4 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
     }
   ]
 }
-```
+</script>

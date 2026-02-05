@@ -101,11 +101,9 @@ Click the button below to view our service options and **book your appointment o
 [1] [Official Series Description - ENGLEWOOD Series](https://soilseries.sc.egov.usda.gov/OSD_Docs/E/ENGLEWOOD.html)
 [2] [Englewood Sprinkler Repair | Free Consultation](https://westsidegrounds.com/englewood-sprinkler-repair/)
 
-***
+---
 
-## JSON-LD Schema Markup
-
-```json
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
@@ -166,4 +164,4 @@ Click the button below to view our service options and **book your appointment o
     }
   ]
 }
-```
+</script>

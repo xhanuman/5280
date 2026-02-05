@@ -93,11 +93,7 @@ Don't let a broken sprinkler system waste water, damage your landscape, or viola
 
 Whether you need a quick repair, a full system tune-up, or a smart controller upgrade, 5280 Sprinklers is here to help.
 
-**Click below to schedule your service appointment online now!**
-
-***
-
-## JSON-LD Schema Markup
+---
 
 <script type="application/ld+json">
 {

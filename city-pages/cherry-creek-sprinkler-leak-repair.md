@@ -56,7 +56,6 @@ We have extensive experience with Cherry Creek's most demanding properties:
 ### Service Matching Your Standards
 
 - **White-Glove Approach**: Our technicians arrive in clean uniforms, use floor mats, and treat your property with the utmost care
-- **Discreet Service**: Unmarked vehicles and low-profile work practices for homeowners who value privacy
 - **Flexible Scheduling**: Early morning, evening, and weekend appointments available to accommodate busy lifestyles
 - **Detailed Documentation**: Comprehensive service reports with photos for property records and insurance purposes
 
