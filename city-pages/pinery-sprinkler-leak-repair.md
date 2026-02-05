@@ -127,8 +127,6 @@ Yes. We serve all of The Pinery community, including properties near The Pinery 
 
 Your Pinery home sits in one of Douglas County's most desirable communities, where the natural pine forest setting, larger lots, and proximity to Parker create an exceptional living environment. Proper irrigation protects both your landscape investment and ensures your property thrives in harmony with its natural surroundings.
 
-**Schedule your Pinery irrigation consultation today.**
-
 **[Schedule your Pinery sprinkler service today!](/)**
 
 *Proudly serving The Pinery, Parker, Lone Tree, and the surrounding Douglas County communities.*

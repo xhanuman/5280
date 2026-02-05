@@ -116,8 +116,6 @@ Annual maintenance for a typical Cherry Creek estate ranges from $500-$1,500 dep
 
 Your Cherry Creek property represents a substantial investment in one of Denver's most exclusive neighborhoods. A professionally maintained irrigation system preserves your landscape investment, supports property values, and ensures your outdoor spaces remain the envy of the neighborhood.
 
-**Schedule your Cherry Creek irrigation consultation today.**
-
 **[Schedule your Cherry Creek sprinkler service today!](/)**
 
 *Proudly serving Cherry Creek North, Cherry Creek South, Cherry Creek East, and the greater Cherry Creek neighborhood.*

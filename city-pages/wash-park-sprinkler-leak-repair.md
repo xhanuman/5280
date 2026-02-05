@@ -109,8 +109,6 @@ Yes. We understand that a broken main line or stuck valve can quickly damage a W
 
 Your Washington Park home represents a significant investment in one of Denver's most desirable neighborhoods. A properly functioning irrigation system protects your landscaping investment, maintains curb appeal, and preserves property values.
 
-**Schedule your Wash Park sprinkler inspection today.**
-
 **[Schedule your Wash Park sprinkler service today!](/)**
 
 *Proudly serving Washington Park, South Wash Park, West Wash Park, and surrounding Denver neighborhoods.*

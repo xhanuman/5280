@@ -129,8 +129,6 @@ Yes. A mainline break on a large Hilltop system can waste thousands of gallons q
 
 Your Hilltop property represents a significant investment in one of Denver's most desirable neighborhoods. A properly functioning irrigation system protects your landscaping, preserves curb appeal, and maintains the property values that make Hilltop exceptional.
 
-**Schedule your Hilltop sprinkler inspection today.**
-
 **[Schedule your Hilltop sprinkler service today!](/)**
 
 *Proudly serving Hilltop, Crestmoor, Belcaro, and surrounding Denver neighborhoods.*

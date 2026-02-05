@@ -125,8 +125,6 @@ Yes. We can install flow sensors and connect your system to monitoring platforms
 
 Your Cherry Hills Village property represents one of the most significant residential investments in Colorado. The landscape surrounding your estate contributes substantially to both its value and its distinction. Professional irrigation maintenance ensures this investment remains protected while minimizing water waste and preserving plant health.
 
-**Schedule your Cherry Hills Village estate irrigation consultation today.**
-
 **[Schedule your Cherry Hills Village sprinkler service today!](/)**
 
 *Proudly serving Cherry Hills Village, Greenwood Village, and the surrounding South Denver estate communities.*
