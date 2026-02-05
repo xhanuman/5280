@@ -6,11 +6,11 @@ bodyClass: page-home
 ---
 <div class="intro pb-4">
   <div class="container">
-    <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Repairs and Winterization (Blowout)</h3>
-    <p>Denver Sprinkler Blowout</p>
+    <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Startup and Repairs</h3>
+    <p>Denver Sprinkler Services</p>
     <br>
-  
-      <h3>Scheduling for 2025 Denver and surrounding areas for Winterization and Blowout appointments</h3>
+
+      <h3>Scheduling opens in mid-late March for 2026 Denver and surrounding areas for sprinkler startup and repair</h3>
       <h5> (if you've input your address correctly and you aren't presented with a scheduling link your address is likely outside of our service area</h5>
             <br>
 <iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="500px" frameborder="0"></iframe>
