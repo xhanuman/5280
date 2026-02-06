@@ -1,7 +1,7 @@
 ---
 title: 'Conrad Olivier'
 image: '/images/team/conrad-olivier-unsplash.jpg'
-jobtitle: 'Lead Irrigation Specialist & Owner'
+jobtitle: 'Owner-Operator'
 email: '5280sprinkler@gmail.com'
 ---
 
