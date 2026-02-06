@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Cente
 permalink: /city-pages/centennial-sprinkler-leak-repair/
 bodyClass: page-city-centennial
 ---
-# Expert Sprinkler Repair and Maintenance in Centennial, CO: 5280 Sprinklers
+## Expert Sprinkler Repair and Maintenance in Centennial, CO: 5280 Sprinklers
 
 ## Introduction: Your Local Centennial Sprinkler Experts
 

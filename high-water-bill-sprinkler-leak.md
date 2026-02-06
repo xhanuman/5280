@@ -5,7 +5,7 @@ description: "Is your water bill unusually high? Learn how sprinkler system leak
 permalink: /high-water-bill-sprinkler-leak/
 bodyClass: page-water-bill
 ---
-# That High Water Bill? It’s Probably Your Sprinkler System.
+## That High Water Bill? It’s Probably Your Sprinkler System.
 
 ## The Shock of an Unusually High Water Bill
 

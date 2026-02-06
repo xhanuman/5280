@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in North
 permalink: /city-pages/northfield-sprinkler-leak-repair/
 bodyClass: page-city-northfield
 ---
-# Expert Sprinkler Repair and Maintenance in Northfield, Denver
+## Expert Sprinkler Repair and Maintenance in Northfield, Denver
 
 ## 1. Introduction: Your Local Sprinkler Repair Experts in Northfield
 

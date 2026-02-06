@@ -6,7 +6,7 @@ permalink: /city-pages/pinery-sprinkler-leak-repair/
 bodyClass: page-city-pinery
 ---
 
-# The Pinery Sprinkler Repair Services
+## The Pinery Sprinkler Repair Services
 
 ## Trusted Irrigation Experts for Douglas County's Pine-Studded Community
 

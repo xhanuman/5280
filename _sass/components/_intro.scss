@@ -21,7 +21,7 @@
     font-size: 2.4rem;
     line-height: 1.2;
     font-family: $font-family-heading;
-    width: 70%;
+    width: 100%;
     @include media-breakpoint-up(sm) {
       width: 70%;
     }
@@ -35,7 +35,7 @@
     }
   }
   p {
-    width: 80%;
+    width: 100%;
     font-size: 1.1rem;
     font-weight: lighter;
     line-height: 1.4;
@@ -52,6 +52,12 @@
   }
 }
 .intro-small {
-  padding-top: 100px;
+  padding-top: 40px;
   padding-bottom: 30px;
+  @include media-breakpoint-up(sm) {
+    padding-top: 60px;
+  }
+  @include media-breakpoint-up(md) {
+    padding-top: 100px;
+  }
 }

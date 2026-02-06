@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Sloan
 permalink: /city-pages/sloans-lake-sprinkler-leak-repair/
 bodyClass: page-city-sloans-lake
 ---
-# Expert Sprinkler Repair and Maintenance in Sloan's Lake, Denver
+## Expert Sprinkler Repair and Maintenance in Sloan's Lake, Denver
 
 ## Your Trusted Irrigation Partner in One of Denver's Hottest Neighborhoods
 

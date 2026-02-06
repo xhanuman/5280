@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Wheat
 permalink: /city-pages/wheat-ridge-edgewater-sprinkler-leak-repair/
 bodyClass: page-city-wheat-ridge
 ---
-# Expert Sprinkler Repair and Maintenance in Wheat Ridge & Edgewater
+## Expert Sprinkler Repair and Maintenance in Wheat Ridge & Edgewater
 
 ## Your Local Irrigation Specialists Serving West Denver's Established Communities
 

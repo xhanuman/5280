@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Centr
 permalink: /city-pages/central-park-sprinkler-leak-repair/
 bodyClass: page-city-central-park
 ---
-# Central Park Sprinkler Repair & Maintenance: Local Expertise for Denver’s Unique Landscape
+## Central Park Sprinkler Repair & Maintenance: Local Expertise for Denver’s Unique Landscape
 
 ## 1. Introduction: Your Trusted Sprinkler Experts in Central Park
 

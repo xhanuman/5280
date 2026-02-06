@@ -6,7 +6,7 @@ permalink: /city-pages/cherry-hills-sprinkler-leak-repair/
 bodyClass: page-city-cherry-hills
 ---
 
-# Cherry Hills Village Sprinkler Repair Services
+## Cherry Hills Village Sprinkler Repair Services
 
 ## Elite Irrigation Experts for Colorado's Most Distinguished Estates
 

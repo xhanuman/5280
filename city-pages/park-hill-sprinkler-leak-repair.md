@@ -6,7 +6,7 @@ permalink: /city-pages/park-hill-sprinkler-leak-repair/
 bodyClass: page-city-park-hill
 ---
 
-# Park Hill Sprinkler Repair Services
+## Park Hill Sprinkler Repair Services
 
 ## Trusted Irrigation Experts Serving Park Hill Homeowners
 

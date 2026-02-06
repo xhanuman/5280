@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Green
 permalink: /city-pages/greenwood-village-sprinkler-leak-repair/
 bodyClass: page-city-greenwood-village
 ---
-# Expert Sprinkler Repair and Maintenance in Greenwood Village: 5280 Sprinklers
+## Expert Sprinkler Repair and Maintenance in Greenwood Village: 5280 Sprinklers
 
 ## Introduction: Premier Irrigation Services for a Premier Community
 

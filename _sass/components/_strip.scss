@@ -12,4 +12,11 @@
   > div {
     transform: skewY(-2deg);
   }
+  @media (max-width: 768px) {
+    transform: none;
+    margin-bottom: 20px;
+    > div {
+      transform: none;
+    }
+  }
 }

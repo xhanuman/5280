@@ -6,7 +6,7 @@ permalink: /city-pages/hilltop-sprinkler-leak-repair/
 bodyClass: page-city-hilltop
 ---
 
-# Hilltop Sprinkler Repair Services
+## Hilltop Sprinkler Repair Services
 
 ## Premier Irrigation Solutions for Denver's Distinguished Hilltop Neighborhood
 

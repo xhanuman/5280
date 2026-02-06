@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Parke
 permalink: /city-pages/parker-sprinkler-leak-repair/
 bodyClass: page-city-parker
 ---
-# Expert Sprinkler Repair and Maintenance in Parker, CO: 5280 Sprinklers
+## Expert Sprinkler Repair and Maintenance in Parker, CO: 5280 Sprinklers
 
 ## Introduction: Your Local Parker Sprinkler Experts
 

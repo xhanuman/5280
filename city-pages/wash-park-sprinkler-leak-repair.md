@@ -6,7 +6,7 @@ permalink: /city-pages/wash-park-sprinkler-leak-repair/
 bodyClass: page-city-wash-park
 ---
 
-# Washington Park (Wash Park) Sprinkler Repair Services
+## Washington Park (Wash Park) Sprinkler Repair Services
 
 ## Denver's Premier Irrigation Experts Serving Wash Park Homeowners
 

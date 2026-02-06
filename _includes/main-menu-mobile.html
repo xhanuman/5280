@@ -1,7 +1,16 @@
-<div id="main-menu-mobile" class="main-menu-mobile">
+<div id="main-menu-mobile" class="main-menu-mobile" role="navigation" aria-label="Mobile menu">
   <ul>
     <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
-    <li><a href="{{site.baseurl}}/services/" class="{% if page.url contains 'services' %}current{% endif %}">Services</a></li>
+    <li class="has-submenu">
+      <a href="{{site.baseurl}}/services/" class="{% if page.url contains 'services' %}current{% endif %}">Services</a>
+      <ul class="mobile-submenu">
+        <li><a href="{{site.baseurl}}/services/denver-sprinkler-startup-service/">Sprinkler Startup</a></li>
+        <li><a href="{{site.baseurl}}/services/denver-sprinkler-repair-service/">Sprinkler Repair</a></li>
+        <li><a href="{{site.baseurl}}/services/leak-detection-service/">Leak Detection</a></li>
+        <li><a href="{{site.baseurl}}/services/denver-sprinkler-blowout-service/">Winterization Blowout</a></li>
+        <li><a href="{{site.baseurl}}/services/lawn-care-services/">Lawn Care</a></li>
+      </ul>
+    </li>
     <li><a href="{{site.baseurl}}/denver-sprinkler-faq/" class="{% if page.url contains 'faq' %}current{% endif %}">FAQ</a></li>
     <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/" class="{% if page.url contains 'maintenance-guide' %}current{% endif %}">Maintenance Guide</a></li>
     <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/" class="{% if page.url contains 'emergency' %}current{% endif %}">Emergency Repair</a></li>

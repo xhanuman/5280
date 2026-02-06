@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Lowry
 permalink: /city-pages/lowry-sprinkler-leak-repair/
 bodyClass: page-city-lowry
 ---
-# Expert Sprinkler Repair and Maintenance in Lowry, Denver
+## Expert Sprinkler Repair and Maintenance in Lowry, Denver
 
 ## Welcome to 5280 Sprinklers: Your Local Lowry Irrigation Experts
 

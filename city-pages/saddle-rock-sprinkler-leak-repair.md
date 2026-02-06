@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Saddl
 permalink: /city-pages/saddle-rock-sprinkler-leak-repair/
 bodyClass: page-city-saddle-rock
 ---
-# Expert Sprinkler Repair and Maintenance in Saddle Rock, Aurora: 5280 Sprinklers
+## Expert Sprinkler Repair and Maintenance in Saddle Rock, Aurora: 5280 Sprinklers
 
 ## Introduction: Your Local Saddle Rock Sprinkler Experts
 

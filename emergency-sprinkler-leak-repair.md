@@ -5,7 +5,7 @@ description: "Fast, reliable emergency sprinkler repair service in Denver. Burst
 permalink: /emergency-sprinkler-leak-repair/
 bodyClass: page-emergency
 ---
-# Emergency Sprinkler Repair: Fast, Reliable Service When You Need It Most
+## Emergency Sprinkler Repair: Fast, Reliable Service When You Need It Most
 
 ## Water Going Everywhere? Here's What to Do Right Now.
 

@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Engle
 permalink: /city-pages/englewood-sprinkler-leak-repair/
 bodyClass: page-city-englewood
 ---
-# Expert Sprinkler Repair and Maintenance in Englewood, CO
+## Expert Sprinkler Repair and Maintenance in Englewood, CO
 
 ## Introduction: Your Local Irrigation Experts in Englewood
 

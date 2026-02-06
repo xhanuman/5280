@@ -6,7 +6,7 @@ permalink: /city-pages/baker-sprinkler-leak-repair/
 bodyClass: page-city-baker
 ---
 
-# Baker Sprinkler Repair Services
+## Baker Sprinkler Repair Services
 
 ## Trusted Irrigation Experts Serving Baker, Denver
 

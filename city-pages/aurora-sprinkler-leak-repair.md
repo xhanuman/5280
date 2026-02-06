@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Auror
 permalink: /city-pages/aurora-sprinkler-leak-repair/
 bodyClass: page-city-aurora
 ---
-# Aurora Sprinkler Repair & Maintenance: Your Local 5280 Sprinklers Experts
+## Aurora Sprinkler Repair & Maintenance: Your Local 5280 Sprinklers Experts
 
 ## Introduction: Dedicated Sprinkler Repair Services for Aurora, CO
 

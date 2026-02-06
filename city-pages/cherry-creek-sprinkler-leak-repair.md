@@ -6,7 +6,7 @@ permalink: /city-pages/cherry-creek-sprinkler-leak-repair/
 bodyClass: page-city-cherry-creek
 ---
 
-# Cherry Creek Sprinkler Repair Services
+## Cherry Creek Sprinkler Repair Services
 
 ## Denver's Premier Irrigation Experts for Cherry Creek Properties
 

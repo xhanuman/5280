@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in Glend
 permalink: /city-pages/glendale-virginia-village-sprinkler-leak-repair/
 bodyClass: page-city-glendale
 ---
-# Expert Sprinkler Repair and Maintenance in Glendale & Virginia Village
+## Expert Sprinkler Repair and Maintenance in Glendale & Virginia Village
 
 ## Your Local Irrigation Specialists Serving Two Unique Communities
 

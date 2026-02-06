@@ -5,7 +5,7 @@ description: "Professional sprinkler repair and leak detection services in the H
 permalink: /city-pages/hampden-sprinkler-leak-repair/
 bodyClass: page-city-hampden
 ---
-# Professional Sprinkler Repair and Leak Detection in the Hampden Corridor
+## Professional Sprinkler Repair and Leak Detection in the Hampden Corridor
 
 ## Introduction: Trusted Irrigation Experts for Hampden and Hampden South
 
