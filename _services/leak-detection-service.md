@@ -6,7 +6,7 @@ image: '/images/services/noun_591323.png'
 
 <div class="answer-box" style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 20px; margin-bottom: 30px; border-radius: 4px;">
 <strong>Quick Answer: What Does Leak Detection Cost in Denver?</strong><br>
-Our leak detection add-on service focuses primarily on identifying valve leaks in your irrigation system. Pricing is provided during scheduling based on your system's complexity. Early detection can save you hundreds of dollars in water bills and prevent costly property damage. <a href="/">Schedule online for current pricing</a>.
+Our leak detection add-on service focuses primarily on identifying valve leaks in your irrigation system. Pricing is provided during scheduling based on your system's complexity and is the same regardless of neighborhood or zip code. Early detection can save you hundreds of dollars in water bills and prevent costly property damage. <a href="/">Schedule online for current pricing</a>.
 </div>
 
 ## Why Leak Detection Matters for Your Denver Irrigation System
