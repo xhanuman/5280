@@ -133,25 +133,11 @@ Not necessarily, as long as we have access to your backflow preventer, controlle
 
 ### What if it freezes after you start my system?
 
-If a hard freeze is forecast after startup, you have two options: run water through the system briefly to prevent standing water from freezing, or schedule an emergency blowout if the freeze will be severe and prolonged.
+If a hard freeze is forecast after startup, run water through the system briefly to prevent standing water from freezing. You can also shut off the water supply and open test cocks on the backflow preventer to 45 degrees to minimize freeze damage until temperatures recover.
 
 ### Should I add leak detection service?
 
 If you've noticed soggy areas, unexplained water bill increases, or zones with low pressure, adding [leak detection service](/services/leak-detection-service/) to your startup is recommended. This focused inspection can identify valve leaks and other issues before they become expensive problems.
-
----
-
-## Startup + Maintenance Packages
-
-Consider combining startup with other spring services:
-
-**Spring Complete Package:**
-- Professional startup
-- Leak detection add-on
-- Spring fertilization
-- Controller programming optimization
-
-[Contact us](/contact/) for package pricing.
 
 ---
 
