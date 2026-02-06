@@ -11,7 +11,7 @@ Wait until mid-April to early May when the risk of hard freezes has passed. Prof
 
 ## Professional Spring Sprinkler Startup in Denver
 
-Don't just turn your system back on—start your irrigation season right with professional startup service. We safely activate your system, check for winter damage, and ensure everything is working properly before the heat of summer arrives.
+After a long Colorado winter, your irrigation system needs a careful wake-up call -- not just someone flipping a switch. We safely activate your system, check for winter damage, and ensure everything is working properly before the heat of summer arrives.
 
 ---
 
@@ -157,9 +157,9 @@ Consider combining startup with other spring services:
 
 ## Schedule Your Spring Startup
 
-Start your irrigation season right with professional startup service. Early scheduling recommended for preferred dates—April and early May appointments fill quickly.
+Spring is coming -- let's make sure your system is ready. April and early May appointments fill quickly, so early scheduling gets you your preferred date.
 
-**[Schedule your startup appointment online](/)** for convenient booking and transparent pricing.
+**[Book your startup now](/)** and we'll catch any winter damage before it becomes a summer headache.
 
 ---
 

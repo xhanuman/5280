@@ -20,7 +20,7 @@ wpuniquifymode_this_post:
 wptargetdofollow_this_post:
   - 'no'
 ---
-[<img class="alignright size-medium wp-image-540" src="http://www.denversprinklerblowout.com/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70.-300x102.jpg" alt="Denver Sprinkler Blowout and Online Scheduling" width="300" height="102" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70.-300x102.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70..jpg 576w" sizes="(max-width: 300px) 100vw, 300px" />](#gen)  
+[<img class="alignright size-medium wp-image-540" src="{{site.baseurl}}/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70.-300x102.jpg" alt="Denver Sprinkler Blowout and Online Scheduling" width="300" height="102" srcset="{{site.baseurl}}/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70.-300x102.jpg 300w, {{site.baseurl}}/wp-content/uploads/2018/09/easy-Online-Scheduling-Denver-Sprinkler-Blowout70..jpg 576w" sizes="(max-width: 300px) 100vw, 300px" />](#gen)  
 Denver Sprinkler Blowout  
 <!--
 <strong><u>$70 via check/credit card</u></strong> for the first <b>6 zones</b> & <u>$5 each for additional zone</u>
@@ -39,7 +39,7 @@ Mid-Nov Pricing is as follows:
 Unable to schedule a convenient time/day? You're capable and willing to shut off the water supply and drain the supply side water lines <u>before</u> I arrive. You are able to determine if the supply valve is shut off 100% and not leaking internally (which could reload the system). Select the Sprinkler Concierge+DIY category. Keep in mind, the <span style="color: #ff0000;"><strong>time you choose is irrelevant (just a place holder)</strong></span>. Please include a note/memo regarding the number of zones in the system, # of valve boxes and indicate where payment will be located if by personal check (please make it out to 'Denver Sprinkler Blowout') or cash.
 
 
-<p style="text-align: center;"><a href="http://www.denversprinklerblowout.com/wp-content/uploads/2018/10/DIYNotice.png" rel="wp-prettyPhoto[2]"><img class="aligncenter wp-image-576" src="http://www.denversprinklerblowout.com/wp-content/uploads/2018/10/DIYNotice.png" alt="" width="500" height="75" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2018/10/DIYNotice.png 800w, http://www.denversprinklerblowout.com/wp-content/uploads/2018/10/DIYNotice-300x45.png 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2018/10/DIYNotice-768x115.png 768w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
+<p style="text-align: center;"><a href="{{site.baseurl}}/wp-content/uploads/2018/10/DIYNotice.png" rel="wp-prettyPhoto[2]"><img class="aligncenter wp-image-576" src="{{site.baseurl}}/wp-content/uploads/2018/10/DIYNotice.png" alt="" width="500" height="75" srcset="{{site.baseurl}}/wp-content/uploads/2018/10/DIYNotice.png 800w, {{site.baseurl}}/wp-content/uploads/2018/10/DIYNotice-300x45.png 300w, {{site.baseurl}}/wp-content/uploads/2018/10/DIYNotice-768x115.png 768w" sizes="(max-width: 500px) 100vw, 500px" /></a></p>
 
 
 Additional zones are $5 each after the first 8 zones.
@@ -49,10 +49,10 @@ If you have two pressure vacuum breakers in your system, please add $10 to the t
 <!--
 Use this map to determine if we service your area: (click on thumbnail on right to view larger)
 
-[<img class="aligncenter size-large wp-image-480" src="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg" alt="denver_sprinkler_blowout_service_map" width="600" height="381" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg 1024w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-300x191.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-768x488.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" />](#gen)  
+[<img class="aligncenter size-large wp-image-480" src="{{site.baseurl}}/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg" alt="denver_sprinkler_blowout_service_map" width="600" height="381" srcset="{{site.baseurl}}/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-1024x651.jpg 1024w, {{site.baseurl}}/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-300x191.jpg 300w, {{site.baseurl}}/wp-content/uploads/2016/10/denver_sprinkler_blowout_service_map-768x488.jpg 768w" sizes="(max-width: 600px) 100vw, 600px" />](#gen)  
 -->
 <!--
-<a href="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" rel="wp-prettyPhoto[2]"><img class="alignright size-full wp-image-373" src="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/cj_cmbotanics.jpg" alt="cj_cmbotanics" width="150" /></a><a href="#gen"><strong>Schedule </strong>your sprinkler winterization below by booking through our <u>online scheduling system (see below)</u></a> - <strong>Denver sprinkler blowout</strong> service - Serving most of metro Denver and Highlands, Lowry, Stapleton, Northfield and Beeler Park.
+<a href="{{site.baseurl}}/wp-content/uploads/2009/10/cj_cmbotanics.jpg" rel="wp-prettyPhoto[2]"><img class="alignright size-full wp-image-373" src="{{site.baseurl}}/wp-content/uploads/2009/10/cj_cmbotanics.jpg" alt="cj_cmbotanics" width="150" /></a><a href="#gen"><strong>Schedule </strong>your sprinkler winterization below by booking through our <u>online scheduling system (see below)</u></a> - <strong>Denver sprinkler blowout</strong> service - Serving most of metro Denver and Highlands, Lowry, Stapleton, Northfield and Beeler Park.
 -->
 
 
@@ -76,7 +76,7 @@ DIY &#8211; Preventative measures
 1. Shut off the water valve that supplies the sprinkler system (often in the basement or crawlspace).
 
 2. Find the pressure vacuum breaker (see below), open the 2 test cocks to 45 degrees with a flat head screw driver &#8211; (not fully open nor fully closed &#8211; 45 degree angle!).  
-<a href="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/45backflow_pvb.jpg" rel="wp-prettyPhoto[2]"><img class="alignleft size-thumbnail wp-image-450" src="http://www.denversprinklerblowout.com/wp-content/uploads/2009/10/45backflow_pvb-150x150.jpg" alt="Freeze prevention" width="150" height="150" /></a>  
+<a href="{{site.baseurl}}/wp-content/uploads/2009/10/45backflow_pvb.jpg" rel="wp-prettyPhoto[2]"><img class="alignleft size-thumbnail wp-image-450" src="{{site.baseurl}}/wp-content/uploads/2009/10/45backflow_pvb-150x150.jpg" alt="Freeze prevention" width="150" height="150" /></a>  
 3. The larger ball valves (they often have a rubber covering) should be opened and left at a 45 degree angle to prevent freezing and cracking the sides of the ball valve. If there is a small waste drain valve at the elbow of your copper pipes &#8211; open it to allow water to flow out of the PVB.
 
 4. Open any and all drains in the valve manifold box(es) &#8211; they often look like a cross and can be difficult to open &#8211; (remember &#8211; left loosy/righty tighty)

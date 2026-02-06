@@ -11,7 +11,7 @@ Schedule your sprinkler winterization between late September and mid-November, b
 
 ## Professional Sprinkler Winterization in Denver
 
-Protect your irrigation system from costly freeze damage with our professional sprinkler blowout service. We use commercial-grade compressed air equipment to completely remove water from your entire irrigation system.
+We've seen what happens when Denver homeowners skip winterization. Cracked pipes, damaged valves, flooded basements in spring -- it's completely preventable. Our professional blowout service uses commercial-grade compressed air equipment to completely remove water from your entire irrigation system.
 
 **Current Season:** Sprinkler blowout services offered from September 26 until November 18 (or until first hard freeze).
 
@@ -119,9 +119,9 @@ After winter, your system needs professional startup to:
 
 ## Schedule Your Sprinkler Blowout
 
-Don't risk expensive freeze damage to your irrigation system. Our professional winterization service protects your investment and ensures trouble-free operation next spring.
+Don't gamble with a Colorado winter. October fills up fast, so lock in your date early and rest easy knowing your system is protected.
 
-**[Schedule online now](/)** - Early scheduling recommended for preferred dates.
+**[Lock in your blowout date](/)** -- all pricing is right there in the scheduler.
 
 ---
 

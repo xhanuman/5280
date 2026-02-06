@@ -11,7 +11,7 @@ Our leak detection add-on service focuses primarily on identifying valve leaks i
 
 ## Why Leak Detection Matters for Your Denver Irrigation System
 
-Undetected leaks in your sprinkler system can waste thousands of gallons of water, damage your landscape, and lead to expensive repairs. In Denver's semi-arid climate, water conservation isn't just environmentally responsible—it directly impacts your utility bills.
+A hidden leak is maddening -- you know something's wrong, but you can't see it. That's exactly what this service is for. Undetected leaks in your sprinkler system can waste thousands of gallons of water, damage your landscape, and lead to expensive repairs. In Denver's semi-arid climate, water conservation isn't just environmentally responsible—it directly impacts your utility bills.
 
 Denver Water and other Front Range providers have some of the highest water rates in the region. A single stuck valve can add hundreds of dollars to your monthly bill before you even notice the problem.
 
@@ -176,6 +176,6 @@ We recommend a professional inspection at least twice yearly—during spring sta
 
 ## Schedule Your Leak Detection Service
 
-Don't let hidden leaks waste water and money. Our experienced technicians can help identify valve leaks and other irrigation issues before they become costly problems.
+Stop watching your money drain into the ground. Our experienced technicians can pinpoint valve leaks and other irrigation issues before they become costly problems.
 
-**Ready to schedule?** [Use our online scheduling system](/) to book your leak detection service. All pricing is available within the scheduler.
+**[Schedule your leak detection](/)** -- all pricing is right there in the scheduler, and we'll give you a clear diagnosis before any work begins.

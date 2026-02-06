@@ -9,6 +9,7 @@ bodyClass: page-testimonials-list
     <div class="row">
       <div class="col-12">
         <h1>Testimonials</h1>
+        <p class="lead">Don't just take our word for it -- hear from Denver homeowners who trust 5280 Sprinklers with their irrigation systems.</p>
       </div>
     </div>
   </div>
@@ -22,7 +23,17 @@ bodyClass: page-testimonials-list
         <div class="testimonials-meta">
           <h2 class="testimonials-title">{{ testimonial.title }}</h2>
           <p class="testimonials-name">{{ testimonial.name }}</p>
-          <p class="testimonials-jobtitle">{{ testimonial.jobtitle }}</p>
+          {% if testimonial.neighborhood %}
+          <p class="testimonials-neighborhood">{{ testimonial.neighborhood }}</p>
+          {% endif %}
+          {% if testimonial.service %}
+          <p class="testimonials-service">Service: {{ testimonial.service }}</p>
+          {% endif %}
+          {% if testimonial.rating %}
+          <p class="testimonials-rating">
+            {% for i in (1..testimonial.rating) %}&#9733;{% endfor %}
+          </p>
+          {% endif %}
         </div>
         <div class="testimonials-content">{{ testimonial.content }}</div>
       </div>
@@ -30,3 +41,36 @@ bodyClass: page-testimonials-list
     {% endfor %}
   </div>
 </div>
+
+{% if site.testimonials.size > 0 %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "5280 Sprinklers",
+  "url": "https://5280sprinklers.com",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "{{ site.testimonials | size }}",
+    "bestRating": "5"
+  },
+  "review": [
+    {% for testimonial in site.testimonials %}
+    {
+      "@type": "Review",
+      "author": {
+        "@type": "Person",
+        "name": "{{ testimonial.name }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ testimonial.rating | default: 5 }}"
+      },
+      "reviewBody": "{{ testimonial.content | strip_html | strip_newlines | escape }}"
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+{% endif %}

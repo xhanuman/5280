@@ -74,11 +74,9 @@ After the repair is complete, we don’t just pack up and leave. We re-run the s
 
 An unexpectedly high water bill is a clear signal that your property is demanding attention. Don’t let another billing cycle go by while your money drains into the ground. The team at 5280 Sprinklers is here to provide the expertise and rapid service you need to solve the problem and bring your water consumption back to a reasonable level.
 
-**Call to Action:**
+You don't have to keep paying for water that's soaking into the ground. Let us find the leak, fix it right, and put money back in your pocket.
 
-**Tired of Paying for Wasted Water? Book Your Leak Detection Service Now!**
-
-Use our simple online scheduling tool to book a comprehensive system audit and leak detection service. Let our experts find the hidden leak, fix it for good, and give you the peace of mind that comes with an efficient, well-maintained sprinkler system.
+**[Schedule your leak detection service today](/)** -- our pricing is available right in the scheduler, and our technicians will give you a clear diagnosis and upfront cost before any work begins.
 
 ---
 

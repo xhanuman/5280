@@ -21,7 +21,7 @@ wptargetdofollow_this_post:
   - 'no'
 ---
 <div id="attachment_21" style="width: 310px" class="wp-caption alignright">
-  <a href="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP.jpg" rel="wp-prettyPhoto[29]"><img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102" srcset="http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg 300w, http://www.denversprinklerblowout.com/wp-content/uploads/2010/04/sprinklerStartUP.jpg 576w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="{{site.baseurl}}/wp-content/uploads/2010/04/sprinklerStartUP.jpg" rel="wp-prettyPhoto[29]"><img class="size-medium wp-image-21" title="Denver Sprinkler Start up" src="{{site.baseurl}}/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg" alt="" width="300" height="102" srcset="{{site.baseurl}}/wp-content/uploads/2010/04/sprinklerStartUP-300x102.jpg 300w, {{site.baseurl}}/wp-content/uploads/2010/04/sprinklerStartUP.jpg 576w" sizes="(max-width: 300px) 100vw, 300px" /></a>
 
   <p class="wp-caption-text">
     Denver Sprinkler Start up service

@@ -11,7 +11,7 @@ Fall fertilization (September-October) is the most important application for Den
 
 ## Keep Your Denver Lawn Healthy Year-Round
 
-A well-maintained irrigation system is only part of the equation for a beautiful lawn. Our comprehensive lawn care services work hand-in-hand with proper watering to give your grass the nutrients, air circulation, and seed density it needs to thrive in Colorado's challenging climate.
+Great irrigation is only half the battle. If your lawn still looks tired despite proper watering, the soil itself probably needs attention. A well-maintained irrigation system is only part of the equation for a beautiful lawn. Our comprehensive lawn care services work hand-in-hand with proper watering to give your grass the nutrients, air circulation, and seed density it needs to thrive in Colorado's challenging climate.
 
 Denver's unique combination of intense sun, low humidity, clay soils, and dramatic temperature swings requires a specialized approach to lawn care that differs from other regions.
 
@@ -289,6 +289,6 @@ Minimize foot traffic for 2-3 weeks after overseeding to avoid disturbing germin
 
 ## Schedule Your Lawn Care Services
 
-Ready to transform your lawn? Our seasonal lawn care services complement your irrigation system to create a healthier, more beautiful landscape.
+Your lawn will thank you. Our seasonal services complement your irrigation system to create a healthier, more resilient landscape that stands up to Colorado's climate.
 
-**[Schedule online](/)** - All pricing is available within our scheduling system.
+**[Pick your services and schedule](/)** -- all pricing is right there in the scheduler.
