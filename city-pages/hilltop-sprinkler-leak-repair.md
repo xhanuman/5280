@@ -46,7 +46,7 @@ As Denver Water customers, Hilltop residents must navigate watering restrictions
 
 - **Summer Restrictions**: Compliance with assigned watering days while adequately covering large properties
 - **Efficiency Requirements**: Newer regulations encourage water-smart upgrades and penalize visible waste
-- **Rebate Opportunities**: Denver Water offers incentives for smart controller installation and high-efficiency retrofits
+- **Rebate Opportunities**: Denver Water offers incentives for high-efficiency retrofits
 
 ## Why Hilltop Homeowners Choose 5280 Sprinklers
 
@@ -75,15 +75,14 @@ Hilltop's mature landscaping represents decades of investment:
 ## Comprehensive Sprinkler Services for Hilltop
 
 ### Repair Services
-- Leak detection using acoustic and thermal imaging technology
+- Leak detection and repair
 - Broken sprinkler head replacement and repositioning
 - Valve repair and solenoid replacement
 - Controller diagnostics and programming
 - Mainline and lateral pipe repair
-- Backflow preventer testing and certification
+- Backflow preventer repair and replacement
 
 ### System Upgrades
-- Smart controller installation (Rachio, Hunter Hydrawise, Rain Bird ESP-TM2)
 - High-efficiency rotary nozzle retrofits
 - Pressure regulation for optimal performance
 - Drip conversion for garden beds and tree wells
@@ -92,8 +91,7 @@ Hilltop's mature landscaping represents decades of investment:
 ### Seasonal Maintenance
 - Spring activation with full system inspection
 - Winterization blowouts to prevent freeze damage
-- Mid-season audits and adjustments
-- Water usage analysis and optimization
+- Mid-season inspections and adjustments
 
 ## Frequently Asked Questions
 
@@ -108,10 +106,6 @@ Absolutely. Our technicians regularly service 10-15+ zone systems common in Hill
 ### How does clay soil affect my sprinkler system?
 
 Clay soil's expansion and contraction cycles stress pipe joints, causing leaks over time. It also absorbs water slowly, leading to runoff if zones run too long. We address both issues—repairing stress-related leaks and programming cycle-and-soak schedules that work with clay's characteristics.
-
-### What smart controller do you recommend for large Hilltop properties?
-
-For properties with 12+ zones, we typically recommend the Rachio 3 (16-zone model), Hunter Hydrawise HC, or Rain Bird ESP-TM2. These controllers handle complex scheduling, integrate with weather data, and help maintain Denver Water compliance automatically.
 
 ### Will repairs damage my mature landscaping?
 
@@ -223,13 +217,6 @@ Your Hilltop property represents a significant investment in one of Denver's mos
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Smart Controller Installation"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
           "name": "System Winterization"
         }
       },
@@ -237,7 +224,7 @@ Your Hilltop property represents a significant investment in one of Denver's mos
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Backflow Preventer Testing"
+          "name": "Backflow Preventer Repair"
         }
       }
     ]

@@ -57,7 +57,7 @@ We address clay soil challenges through proper controller programming using cycl
 
 ### Leak Detection and Repair
 
-Hidden leaks are particularly common in these older neighborhoods. Our electronic leak detection equipment can pinpoint problems in aging pipes without extensive excavation. We repair leaks in all pipe materials, from original galvanized steel to modern PVC.
+Hidden leaks are particularly common in these older neighborhoods. We pinpoint problems in aging pipes without extensive excavation. We repair leaks in all pipe materials, from original galvanized steel to modern PVC.
 
 ### System Modernization
 

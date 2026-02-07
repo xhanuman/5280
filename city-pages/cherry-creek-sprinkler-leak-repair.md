@@ -62,12 +62,12 @@ We have extensive experience with Cherry Creek's most demanding properties:
 ## Comprehensive Sprinkler Services for Cherry Creek
 
 ### Repair Services
-- Precision leak detection using acoustic and thermal imaging technology
+- Precision leak detection and repair
 - High-end sprinkler head replacement (rotors, bubblers, micro-spray)
 - Valve repair and solenoid replacement
 - Controller diagnostics and reprogramming
 - Mainline and lateral pipe repair
-- Backflow preventer testing, repair, and certification
+- Backflow preventer repair
 
 ### Premium System Upgrades
 - Smart controller installation (Rachio Pro, Hunter Hydrawise, Rain Bird ESP-TM2)
@@ -90,7 +90,7 @@ Absolutely. We specialize in sophisticated multi-zone systems common to Cherry C
 
 ### How do you protect my premium landscaping during repairs?
 
-We use minimally invasive repair techniques including hand-digging near established plantings, bore-under technology for pathways, and precision locating equipment to pinpoint leaks without exploratory digging. We photograph conditions before work begins and restore all areas to their original state.
+We use minimally invasive repair techniques including hand-digging near established plantings and bore-under technology for pathways to pinpoint leaks without exploratory digging. We photograph conditions before work begins and restore all areas to their original state.
 
 ### What smart irrigation technology do you recommend for high-end Cherry Creek homes?
 
@@ -224,7 +224,7 @@ Your Cherry Creek property represents a substantial investment in one of Denver'
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Backflow Preventer Testing"
+          "name": "Backflow Preventer Repair"
         }
       }
     ]

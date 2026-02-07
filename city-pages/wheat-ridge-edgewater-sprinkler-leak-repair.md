@@ -57,13 +57,13 @@ Many Wheat Ridge and Edgewater properties contain a mix of soil types within the
 
 Sixty-plus years of tree growth has created extensive root systems throughout both communities. These roots commonly infiltrate irrigation pipes at joints and fittings, seeking the moisture within. Root intrusion can crack pipes, clog valves, and create unpredictable system behavior that puzzles homeowners.
 
-We use camera inspection equipment to identify root intrusion without extensive excavation. When roots are the culprit, we repair damaged sections and can recommend barrier installation or line rerouting to prevent recurrence.
+When roots are the culprit, we repair damaged sections and can recommend barrier installation or line rerouting to prevent recurrence.
 
 ## Our Comprehensive Service Offerings
 
 ### Leak Detection and Repair
 
-Hidden leaks plague older systems, wasting water and inflating utility bills. Our electronic and acoustic leak detection equipment pinpoints problems in aging pipes without digging up your entire yard. We repair leaks in all pipe materials, from corroded galvanized steel to brittle early PVC.
+Hidden leaks plague older systems, wasting water and inflating utility bills. We pinpoint problems in aging pipes without digging up your entire yard. We repair leaks in all pipe materials, from corroded galvanized steel to brittle early PVC.
 
 ### System Modernization and Retrofits
 
@@ -72,10 +72,6 @@ We help Wheat Ridge and Edgewater homeowners upgrade aging systems with water-ef
 ### Seasonal Maintenance Programs
 
 Our spring start-up and fall winterization services are essential for protecting older systems through Colorado's temperature extremes. We pay special attention to vintage backflow preventers and valves that are more susceptible to freeze damage than modern components.
-
-### Backflow Testing and Certification
-
-Both Denver Water and Consolidated Mutual require annual backflow device testing. We provide certified testing and any necessary repairs to keep your property compliant and your drinking water protected.
 
 ## Frequently Asked Questions
 

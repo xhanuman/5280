@@ -41,9 +41,9 @@ Many original irrigation systems in Saddle Rock are now 15-30 years old, enterin
 
 Saddle Rock is served by **Aurora Water**, which has specific requirements and programs for irrigation systems:
 
-*   **Mandatory Backflow Testing:** Annual certification required by Aurora Water to protect the public water supply
+*   **Backflow Device Maintenance:** Annual maintenance recommended by Aurora Water to protect the public water supply
 *   **Summer Watering Restrictions:** Typically limit watering to three days per week during peak summer months
-*   **Water-Wise Aurora Program:** Rebates available for smart controller installation and high-efficiency nozzle upgrades
+*   **Water-Wise Aurora Program:** Aurora Water offers programs for water conservation and efficiency
 *   **Tiered Pricing:** Water rates increase with usage, making system efficiency directly impact your monthly bill
 
 We stay current on all Aurora Water regulations and help maximize available rebates for system upgrades.
@@ -90,7 +90,7 @@ We repair and replace all types of sprinkler heads, installing **high-efficiency
 
 ### 3. System Tune-Ups and Seasonal Maintenance
 
-*   **Spring Start-Up:** Comprehensive inspection, winter damage assessment, head adjustment, controller programming, and backflow preventer testing for Aurora Water compliance.
+*   **Spring Start-Up:** Comprehensive inspection, winter damage assessment, head adjustment, and controller programming.
 *   **Mid-Season Optimization:** Summer check-up to adjust for peak heat, verify HOA compliance, and ensure water restriction adherence.
 *   **Winterization (Blowout):** Critical for southeast Aurora's freeze-prone climate. We use professional-grade air compressors to safely remove all water from your lines before the first hard freeze.
 

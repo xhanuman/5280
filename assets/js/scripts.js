@@ -44,13 +44,22 @@ menuTrigger.onclick = function() {
     }
 };
 
-// Close menu when a link is clicked
+// Close menu when a navigation link is clicked (not parent #href links)
 for (var i = 0; i < menuLinks.length; i++) {
-    menuLinks[i].addEventListener('click', function() {
-        closeMenu();
+    menuLinks[i].addEventListener('click', function(e) {
+        var href = this.getAttribute('href');
+        // Don't close menu for parent dropdown links (href="#")
+        if (href && href !== '#') {
+            closeMenu();
+        } else {
+            // Reset timer when browsing submenus
+            resetAutoClose();
+            e.preventDefault();
+        }
     });
 }
 
 // Reset auto-close timer on any interaction within the menu
 menuContainer.addEventListener('touchstart', resetAutoClose);
 menuContainer.addEventListener('mousemove', resetAutoClose);
+menuContainer.addEventListener('scroll', resetAutoClose);

@@ -51,9 +51,9 @@ Our team offers complete irrigation system care for every type of property in th
 
 | Service | Description | Sloan's Lake Benefit |
 | :--- | :--- | :--- |
-| **Leak Detection & Repair** | Electronic and acoustic leak detection, pipe repair, valve replacement | Precise location of hidden leaks in variable soil conditions near the lake |
+| **Leak Detection & Repair** | Leak detection, pipe repair, valve replacement | Locating hidden leaks in variable soil conditions near the lake |
 | **System Inspections** | Full audit of heads, valves, pipes, and controllers | Identifies inefficiencies in both historic and new construction systems |
-| **Seasonal Services** | Spring activation with backflow testing, fall winterization blow-outs | Protection against Colorado's freeze cycles and compliance with city requirements |
+| **Seasonal Services** | Spring activation, fall winterization blow-outs | Protection against Colorado's freeze cycles and compliance with city requirements |
 | **Smart Upgrades** | WiFi controllers, high-efficiency nozzles, drip conversion | Modernizes older systems while meeting Denver Water conservation standards |
 | **New Construction Support** | System design review, post-installation audits | Ensures quality on new builds where speed often compromises workmanship |
 

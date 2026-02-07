@@ -30,7 +30,7 @@ Park Hill soil varies significantly across the neighborhood. South Park Hill ten
 
 ### Denver Water Regulations
 
-As Denver Water customers, Park Hill residents must comply with watering restrictions and efficiency requirements. We ensure your system meets all current regulations while maximizing coverage and minimizing waste. Our smart controller installations help you stay compliant automatically while reducing water bills.
+As Denver Water customers, Park Hill residents must comply with watering restrictions and efficiency requirements. We ensure your system meets all current regulations while maximizing coverage and minimizing waste.
 
 ## Why Park Hill Homeowners Choose 5280 Sprinklers
 
@@ -44,7 +44,7 @@ As Denver Water customers, Park Hill residents must comply with watering restric
 ## Our Park Hill Sprinkler Services
 
 ### Leak Detection & Repair
-Using advanced acoustic and thermal detection equipment, we locate underground leaks quickly—minimizing excavation and preserving your lawn. Park Hill's older systems are particularly prone to leaks at joints and fittings.
+We locate underground leaks quickly—minimizing excavation and preserving your lawn. Park Hill's older systems are particularly prone to leaks at joints and fittings.
 
 ### Sprinkler Head Replacement
 We replace broken, clogged, or outdated heads with modern, water-efficient models matched to your system's pressure and your lawn's specific needs.
@@ -58,8 +58,8 @@ Protect your investment from Denver's freeze-thaw cycles with professional blowo
 ### Spring Activation
 We restart your system each spring with a comprehensive inspection, adjustments, and minor repairs to ensure full coverage for the growing season.
 
-### Controller Programming & Upgrades
-Upgrade to WiFi-enabled smart controllers that adjust watering based on weather conditions and comply with Denver Water restrictions automatically.
+### Controller Programming
+We program and optimize your irrigation controller for efficient watering schedules that comply with Denver Water restrictions.
 
 ### Full System Renovations
 For aging Park Hill systems beyond repair, we design and install modern, efficient replacements that work with your mature landscaping.
@@ -67,7 +67,7 @@ For aging Park Hill systems beyond repair, we design and install modern, efficie
 ## Frequently Asked Questions
 
 ### How do I know if tree roots have damaged my sprinkler lines?
-Signs include wet spots that appear suddenly, heads that won't pop up fully, reduced water pressure in certain zones, or visible root masses near sprinkler components. Our camera inspection service can confirm root intrusion without excavation.
+Signs include wet spots that appear suddenly, heads that won't pop up fully, reduced water pressure in certain zones, or visible root masses near sprinkler components.
 
 ### My Park Hill home has the original 1940s sprinkler system. Should I replace it entirely?
 Not necessarily. We evaluate each system individually. Sometimes strategic upgrades—new valves, updated heads, and a modern controller—extend system life significantly. We'll recommend full replacement only when repairs aren't cost-effective.
@@ -154,8 +154,8 @@ We're proud to serve Park Hill and help maintain the beautiful landscapes that m
       },
       {
         "@type": "Service",
-        "name": "Smart Controller Installation",
-        "description": "WiFi-enabled irrigation controllers that automatically comply with Denver Water restrictions."
+        "name": "Controller Programming",
+        "description": "Irrigation controller programming and optimization for compliance with Denver Water restrictions."
       }
     ]
   }

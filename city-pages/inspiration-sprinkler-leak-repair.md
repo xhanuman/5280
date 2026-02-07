@@ -25,7 +25,7 @@ As a newer development, most Inspiration homes were built with **builder-grade i
 | :--- | :--- | :--- |
 | **Thin-walled PVC pipe** | More susceptible to cracking from soil movement and freeze damage | Replace damaged sections with Schedule 40 PVC for lasting durability |
 | **Economy sprinkler heads** | Prone to gear failure, poor arc consistency, and shorter lifespan | Upgrade to commercial-grade rotors and high-efficiency nozzles |
-| **Basic controllers** | Limited programming options, no weather-based adjustments | Install smart Wi-Fi controllers with Aurora Water conservation modes |
+| **Basic controllers** | Limited programming options, no weather-based adjustments | Controller programming and optimization for Aurora Water conservation modes |
 | **Minimal zone design** | Zones may mix sun and shade areas, leading to over or under-watering | Redesign zones for optimal coverage and water efficiency |
 
 Our technicians specialize in evaluating and upgrading builder-grade systems to ensure they meet the long-term demands of Inspiration's environment.
@@ -43,7 +43,7 @@ We use flexible fittings and proven installation techniques specifically designe
 
 ### Aurora Water Service: Understanding Your Utility
 
-Inspiration residents receive water service from **Aurora Water**, one of the region's most progressive water utilities. Aurora Water enforces seasonal watering restrictions and promotes conservation through rebate programs for smart controllers and high-efficiency upgrades. Our team stays current on all Aurora Water guidelines to ensure your system operates in full compliance while maximizing efficiency.
+Inspiration residents receive water service from **Aurora Water**, one of the region's most progressive water utilities. Aurora Water enforces seasonal watering restrictions and promotes conservation through various programs. Our team stays current on Aurora Water guidelines to help keep your system running efficiently.
 
 ## 3. Serving Inspiration's 55+ Active Adult Community
 
@@ -69,7 +69,7 @@ The Inspiration community has well-defined **HOA landscape standards** that home
 
 ### Precision Leak Detection and Repair
 
-Leaks are the most common cause of high water bills and landscape damage in newer developments. Our technicians use advanced diagnostic tools—including acoustic listening devices and pressure testing—to locate hidden leaks in main lines, lateral lines, and valve boxes. We repair all leaks with high-quality materials rated for clay soil conditions.
+Leaks are the most common cause of high water bills and landscape damage in newer developments. Our technicians locate hidden leaks in main lines, lateral lines, and valve boxes. We repair all leaks with high-quality materials rated for clay soil conditions.
 
 ### Sprinkler Head and Nozzle Upgrades
 
@@ -78,10 +78,6 @@ We replace broken, stuck, or inefficient sprinkler heads with commercial-grade c
 ### Valve Repair and Replacement
 
 Faulty valves can cause zones to run constantly or fail to turn on at all. We troubleshoot and repair all valve types, including diaphragm replacement and solenoid testing, restoring proper zone control.
-
-### Smart Controller Installation
-
-Upgrade your basic timer to a **Wi-Fi-enabled smart controller** that uses local weather data from Aurora to automatically adjust watering schedules. These controllers qualify for Aurora Water rebates and help you water smarter, not harder.
 
 ### Spring Start-Up and Fall Winterization
 
@@ -109,10 +105,6 @@ Upgrade your basic timer to a **Wi-Fi-enabled smart controller** that uses local
 ### Q5: Can you help me meet my HOA's landscape requirements?
 
 **A:** Absolutely. We perform coverage audits to identify dry spots or overspray issues, make repairs quickly to prevent landscape damage, and provide documentation of our service if your HOA has questions. A well-maintained irrigation system is the foundation of a compliant, attractive landscape.
-
-### Q6: Do smart controllers really save water?
-
-**A:** Yes. Smart controllers use real-time weather data to skip watering after rain and adjust run times based on temperature and humidity. Studies show they can reduce outdoor water use by 15-30%. Aurora Water offers rebates for qualifying smart controllers, and we handle the installation and programming.
 
 ## 7. Ready to Protect Your Inspiration Investment?
 
@@ -165,7 +157,7 @@ Your Inspiration home deserves an irrigation system that performs as well as the
       "@type": "Service",
       "serviceType": "Sprinkler Repair and Maintenance",
       "name": "Inspiration Community Sprinkler Repair Services",
-      "description": "Professional irrigation system repair, leak detection, winterization, and smart controller installation for homes in Inspiration, Aurora. Expertise in builder-grade system upgrades and expansive clay soil solutions.",
+      "description": "Professional irrigation system repair, leak detection, and winterization for homes in Inspiration, Aurora. Expertise in builder-grade system upgrades and expansive clay soil solutions.",
       "provider": {
         "@type": "LocalBusiness",
         "name": "5280 Sprinklers"

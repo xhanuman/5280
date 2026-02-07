@@ -52,7 +52,7 @@ When you are facing a high water bill caused by your sprinkler system, you need 
 Our first step is a comprehensive evaluation. A certified technician will:
 *   Perform the water meter test to confirm the presence and general magnitude of the leak.
 *   Systematically run each zone to check for visible signs of leaks, pressure loss, and malfunctioning heads.
-*   Use advanced diagnostic tools, such as acoustic listeners and pressure testers, to pinpoint the exact location of hidden, underground leaks.
+*   Use pressure testing to pinpoint the exact location of hidden, underground leaks.
 *   Inspect all valves and the backflow preventer for signs of failure.
 
 **Step 2: Clear Diagnosis and Upfront Pricing**

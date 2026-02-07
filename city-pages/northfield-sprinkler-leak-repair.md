@@ -44,11 +44,11 @@ Choosing a local company like 5280 Sprinklers is the most critical decision you 
 
 5280 Sprinklers offers a full spectrum of services designed to keep your Northfield irrigation system running perfectly year-round:
 
-*   **Precision Leak Detection and Repair:** Using advanced diagnostic tools, we quickly locate and repair leaks in main lines, lateral lines, and valves, preventing water waste and high utility bills.
+*   **Precision Leak Detection and Repair:** We quickly locate and repair leaks in main lines, lateral lines, and valves, preventing water waste and high utility bills.
 *   **Sprinkler Head and Nozzle Replacement:** We replace broken, clogged, or inefficient heads with high-efficiency, water-saving models that are correctly matched to your system's pressure and the specific needs of your landscape.
 *   **System Start-Up and Winterization:** Essential for Colorado's climate, our services include professional spring start-ups to check for winter damage and thorough fall winterizations (blowouts) to protect your system from freezing temperatures.
 *   **Controller and Timer Programming:** We program your irrigation controller for optimal water usage, taking into account Northfield's soil type, current weather conditions, and Denver's watering restrictions.
-*   **Backflow Prevention Testing and Repair:** We ensure your backflow prevention device is functioning correctly to protect your drinking water supply, a mandatory requirement in Denver.
+*   **Backflow Prevention Repair:** We repair and replace backflow prevention devices to help protect your drinking water supply.
 
 ## 6. Call to Action: Book Your Northfield Sprinkler Service Today
 
@@ -82,15 +82,15 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
 
 ### Q3: I have very low water pressure, causing poor coverage. What is the likely cause and how do you fix it?
 
-**A:** Low water pressure in a Northfield sprinkler system is commonly caused by one of three issues: a **main line leak** (often due to soil shifting), a **clogged filter or backflow preventer**, or **too many sprinkler heads operating on a single zone**. We use specialized pressure gauges and diagnostic tools to pinpoint the exact cause. If it's a leak, we repair the line. If it's a zone issue, we can re-zone your system or install higher-efficiency, low-flow nozzles to ensure even coverage across your entire property.
+**A:** Low water pressure in a Northfield sprinkler system is commonly caused by one of three issues: a **main line leak** (often due to soil shifting), a **clogged filter or backflow preventer**, or **too many sprinkler heads operating on a single zone**. We diagnose and pinpoint the exact cause. If it's a leak, we repair the line. If it's a zone issue, we can re-zone your system or install higher-efficiency, low-flow nozzles to ensure even coverage across your entire property.
 
 ### Q4: My sprinkler heads are misting like a fog. Is this a problem, and how is it fixed?
 
 **A:** Yes, misting is a significant problem known as **atomization**, and it indicates that your water pressure is too high. This leads to massive water waste through evaporation and poor distribution uniformity. In Northfield, high pressure is often due to a failing or absent **Pressure Reducing Valve (PRV)**. Our solution is to install or replace a commercial-grade PRV at the system's point of connection to regulate the pressure to the optimal range (typically 30-45 PSI for spray heads). This simple fix can dramatically improve system efficiency and save you money on your water bill.
 
-### Q5: Is backflow prevention testing mandatory in Northfield, and is it included in your services?
+### Q5: Do you work on backflow preventers in Northfield?
 
-**A:** Yes, **backflow prevention testing is mandatory** in Denver, including the Northfield neighborhood, and must be performed annually by a certified professional. This test ensures that contaminated water from your irrigation system cannot flow back into the public drinking water supply. 5280 Sprinklers employs certified backflow testers who can perform the required annual test, file the necessary paperwork with Denver Water, and repair or replace any malfunctioning backflow device to keep your property compliant and your water safe.
+**A:** Yes, we repair and replace backflow prevention devices to help protect your drinking water supply. Backflow preventers are an important component of your irrigation system, and we can address any issues such as leaks, wear, or component failure. If your device needs to be replaced, we install quality units suited to your system.
 
 ### Q6: How often should I run my sprinklers given Northfield's clay soil?
 
@@ -144,7 +144,7 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
         "@type": "State",
         "name": "Colorado"
       },
-      "description": "Comprehensive irrigation services including leak detection, valve repair, backflow testing, system winterization, and water pressure optimization for Northfield residents."
+      "description": "Comprehensive irrigation services including leak detection, valve repair, system winterization, and water pressure optimization for Northfield residents."
     }
   ]
 }

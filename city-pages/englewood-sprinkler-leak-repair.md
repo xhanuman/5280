@@ -63,7 +63,7 @@ Faulty valves can lead to constantly running water or zones that won't turn on. 
 ### Seasonal System Tune-Ups and Audits
 Our comprehensive services include:
 *   **Spring Start-Up:** Safely repressurizing your system, checking for winter damage, and programming the controller for the season.
-*   **Mid-Season Check:** Performing a water audit to ensure optimal coverage and efficiency during the hottest months.
+*   **Mid-Season Check:** Verifying coverage and efficiency during the hottest months.
 *   **Fall Winterization:** Using professional-grade air compressors to thoroughly blow out all water from the lines, protecting your system from Englewood's freezing winter temperatures. **This is a non-negotiable service in Colorado.**
 
 ## Frequently Asked Questions (FAQs)
@@ -72,7 +72,7 @@ Our comprehensive services include:
 **A:** This is almost always due to the high clay content in Englewood's soil, which is slowly permeable [1]. The soil cannot absorb water as quickly as your sprinkler system is applying it. The solution is to implement a **"cycle-and-soak"** watering schedule. Instead of running a zone for a single, long period (e.g., 15 minutes), we recommend breaking it into shorter cycles (e.g., three 5-minute cycles) with a 30-60 minute "soak" period in between. This allows the water to penetrate deep into the root zone without running off, which we can program into your controller during a system tune-up.
 
 ### Q2: What are the signs of a hidden leak in my Englewood yard?
-**A:** The most obvious sign is an unusually high water bill. Other indicators include: **1) A consistently wet or muddy area** in your lawn, even when the sprinklers haven't run; **2) Low water pressure** across all zones; **3) Water bubbling up** around a sprinkler head or valve box; or **4) The water meter spinning** even when all water inside and outside the house is turned off. We use specialized listening devices and pressure testing to quickly locate and repair these hidden leaks.
+**A:** The most obvious sign is an unusually high water bill. Other indicators include: **1) A consistently wet or muddy area** in your lawn, even when the sprinklers haven't run; **2) Low water pressure** across all zones; **3) Water bubbling up** around a sprinkler head or valve box; or **4) The water meter spinning** even when all water inside and outside the house is turned off. We use pressure testing to quickly locate and repair these hidden leaks.
 
 ### Q3: Is winterization truly necessary for my sprinkler system in Englewood, CO?
 **A:** **Absolutely.** Due to Englewood's climate, which experiences hard freezes throughout the winter, any water left in your pipes, valves, or sprinkler heads will freeze, expand, and crack the components. This damage, known as **freeze damage**, is often extensive and costly to repair in the spring. Our professional winterization service uses a powerful air compressor to safely and completely remove all water from the system, protecting your investment from the harsh Colorado winter.

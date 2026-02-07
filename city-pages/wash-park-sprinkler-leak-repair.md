@@ -60,7 +60,7 @@ We have serviced hundreds of Wash Park properties and understand the neighborhoo
 - Valve repair and replacement
 - Controller troubleshooting and programming
 - Pipe repair (galvanized and PVC)
-- Backflow preventer testing and repair
+- Backflow preventer repair
 
 ### System Upgrades
 - Smart controller installation (Rachio, Hunter Hydrawise)
@@ -217,7 +217,7 @@ Your Washington Park home represents a significant investment in one of Denver's
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Backflow Preventer Testing"
+          "name": "Backflow Preventer Repair"
         }
       }
     ]

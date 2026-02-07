@@ -157,7 +157,8 @@ iframe {
     
     .team-photo {
       width: 140px;
-      height: 140px;
+      max-width: 100%;
+      height: auto;
       margin: 0 auto 16px;
     }
     

@@ -72,12 +72,12 @@ Our technicians have extensive experience with large-scale residential systems:
 
 ### Repair Services
 
-- Advanced leak detection using acoustic sensors, thermal imaging, and pressure testing for long mainline runs
+- Advanced leak detection and repair for long mainline runs
 - Commercial-grade valve and solenoid repair
 - Large-rotor head replacement and adjustment (Hunter I-40, Rain Bird 8005, Toro TR70)
 - Controller diagnostics, reprogramming, and multi-controller synchronization
 - Mainline repair and replacement for extensive underground networks
-- Backflow preventer testing, repair, and certification for both municipal and well systems
+- Backflow preventer repair for both municipal and well systems
 
 ### Estate System Upgrades
 
@@ -107,7 +107,7 @@ Yes. Dual water source systems are common in Cherry Hills Village, and we have e
 
 ### How do you locate leaks on a property this large?
 
-We employ professional-grade leak detection equipment including acoustic listening devices, pressure decay testing, and thermal imaging. For properties with extensive mainline networks, we use systematic pressure isolation testing to identify leak zones before any excavation. This approach protects your landscape investment while pinpointing problems efficiently.
+For properties with extensive mainline networks, we use systematic testing to identify leak zones before any excavation. This approach protects your landscape investment while pinpointing problems efficiently.
 
 ### Can you work with our estate manager or groundskeeping staff?
 
@@ -240,7 +240,7 @@ Your Cherry Hills Village property represents one of the most significant reside
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Backflow Preventer Testing and Certification"
+          "name": "Backflow Preventer Repair"
         }
       }
     ]

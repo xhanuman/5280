@@ -56,7 +56,7 @@ When a sprinkler line breaks, every hour counts, especially with water restricti
 
 ### Commitment to Water Conservation
 
-Aurora Water is a leader in promoting water efficiency, and we align our services with these conservation goals. We specialize in installing and calibrating smart irrigation controllers, performing water audits, and ensuring your system delivers the right amount of water at the right time, saving you money and supporting the city's sustainability efforts.
+Aurora Water is a leader in promoting water efficiency, and we align our services with these conservation goals. We ensure your system delivers the right amount of water at the right time, saving you money and supporting the city's sustainability efforts.
 
 ## Our Comprehensive Sprinkler Repair Services
 
@@ -64,7 +64,7 @@ Aurora Water is a leader in promoting water efficiency, and we align our service
 
 ### 1. Precision Leak Detection and Repair
 
-Leaks are the number one cause of water waste and high bills. Our technicians use advanced diagnostic tools to pinpoint hidden leaks, whether they are in the main line, lateral lines, or valve boxes. We repair all types of leaks, from simple pipe breaks to complex manifold issues, using durable, high-quality parts that withstand Aurora's challenging soil conditions.
+Leaks are the number one cause of water waste and high bills. Our technicians pinpoint hidden leaks, whether they are in the main line, lateral lines, or valve boxes. We repair all types of leaks, from simple pipe breaks to complex manifold issues, using durable, high-quality parts that withstand Aurora's challenging soil conditions.
 
 ### 2. Sprinkler Head and Nozzle Replacement
 
@@ -91,7 +91,7 @@ Upgrade your old timer to a Wi-Fi-enabled smart controller. We install and progr
 
 ### Q2: Why is my water bill so high, and how can 5280 Sprinklers help?
 
-**A:** A sudden spike in your water bill is often the first sign of a hidden leak. In Aurora, leaks are common due to the expansive clay soil shifting underground. We can perform a **comprehensive water audit and leak detection service**. This involves checking for visible leaks, using specialized tools to find underground leaks, and evaluating your controller's programming to ensure you are not overwatering. We often find that simple adjustments to run times and the installation of pressure-regulating heads can significantly reduce consumption.
+**A:** A sudden spike in your water bill is often the first sign of a hidden leak. In Aurora, leaks are common due to the expansive clay soil shifting underground. We can perform a **comprehensive leak detection service**. This involves checking for visible leaks, locating underground leaks, and evaluating your controller's programming to ensure you are not overwatering. We often find that simple adjustments to run times and the installation of pressure-regulating heads can significantly reduce consumption.
 
 ### Q3: What is a backflow preventer, and why does it need to be protected during winter?
 

@@ -45,7 +45,7 @@ Our technicians specialize in adapting aging irrigation systems to work harmonio
 
 Del Mar Park is served by **Aurora Water**, one of Colorado's most conservation-focused utilities:
 
-*   **Mandatory Backflow Testing:** Annual certification required to protect the public water supply
+*   **Backflow Preventer Maintenance:** Annual care required to protect the public water supply
 *   **Summer Watering Restrictions:** Three-day-per-week schedules during peak season
 *   **Water-Wise Aurora Rebates:** Incentives available for smart controllers and high-efficiency upgrades
 *   **Tiered Water Pricing:** Older, inefficient systems can result in significantly higher bills
@@ -65,9 +65,9 @@ Del Mar Park's location near Cherry Creek State Park makes outdoor living and la
 When you choose 5280 Sprinklers, you benefit from our deep expertise with established Aurora neighborhoods:
 
 *   **Older System Specialists:** We understand the specific components, materials, and design approaches used in 1970s-1980s irrigation installations
-*   **Non-Invasive Diagnosis:** We use advanced leak detection technology to find problems without unnecessary excavation of your mature landscape
+*   **Non-Invasive Diagnosis:** We find problems without unnecessary excavation of your mature landscape
 *   **Phased Upgrade Approach:** Rather than requiring complete system replacement, we help prioritize repairs and upgrades based on urgency and budget
-*   **Aurora Water Expertise:** We handle backflow testing, conservation compliance, and rebate paperwork
+*   **Aurora Water Expertise:** We help navigate Aurora Water requirements and maximize available rebates
 
 ## Our Comprehensive Del Mar Park Sprinkler Services
 
@@ -75,7 +75,7 @@ When you choose 5280 Sprinklers, you benefit from our deep expertise with establ
 
 ### 1. Leak Detection and Repair for Aging Systems
 
-Older systems are prone to hidden leaks that waste thousands of gallons monthly. We use electronic leak detection equipment to pinpoint problems in:
+Older systems are prone to hidden leaks that waste thousands of gallons monthly. We pinpoint problems in:
 
 *   Main supply lines (often original galvanized or early PVC)
 *   Lateral zone lines running under established lawns
@@ -93,7 +93,7 @@ We help Del Mar Park homeowners strategically modernize aging systems:
 
 ### 3. Seasonal Maintenance Programs
 
-*   **Spring Start-Up:** System pressurization, winter damage assessment, head adjustment, backflow testing, and controller programming
+*   **Spring Start-Up:** System pressurization, winter damage assessment, head adjustment, and controller programming
 *   **Mid-Season Check:** Coverage verification, pressure adjustment, and watering schedule optimization for peak summer heat
 *   **Fall Winterization (Blowout):** Critical protection using professional-grade air compressors to remove all water before freezing temperatures arrive
 
@@ -118,7 +118,7 @@ We adjust systems to work with Del Mar Park's evolved landscapes:
 
 ### Q3: How do I know if my old system has hidden leaks?
 
-**A:** Warning signs include: unexplained increases in your Aurora Water bill, wet spots in your yard between waterings, areas of unusually green grass, reduced water pressure in certain zones, or the sound of running water when the system should be off. Our electronic leak detection service can pinpoint hidden problems without excavating your entire yard.
+**A:** Warning signs include: unexplained increases in your Aurora Water bill, wet spots in your yard between waterings, areas of unusually green grass, reduced water pressure in certain zones, or the sound of running water when the system should be off. Our leak detection service can pinpoint hidden problems without excavating your entire yard.
 
 ### Q4: Should I upgrade to a smart controller in my older Del Mar Park home?
 
@@ -269,7 +269,7 @@ Whether you need emergency leak repair, seasonal maintenance, or strategic syste
           "name": "How do I know if my old system has hidden leaks?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Warning signs include: unexplained increases in your Aurora Water bill, wet spots in your yard between waterings, areas of unusually green grass, reduced water pressure in certain zones, or the sound of running water when the system should be off. Electronic leak detection service can pinpoint hidden problems without excavating your entire yard."
+            "text": "Warning signs include: unexplained increases in your Aurora Water bill, wet spots in your yard between waterings, areas of unusually green grass, reduced water pressure in certain zones, or the sound of running water when the system should be off. Our leak detection service can pinpoint hidden problems without excavating your entire yard."
           }
         },
         {

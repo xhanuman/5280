@@ -24,7 +24,7 @@ Baker is one of Denver's oldest neighborhoods, with many homes dating back to th
 
 ### Mature Tree Root Systems
 
-The towering elms, maples, and ash trees that give Baker its shaded, walkable character also pose significant challenges for underground irrigation lines. Root systems from 80+ year-old trees can infiltrate pipes, crush fittings, and redirect water flow. We use specialized detection equipment to locate root intrusions without unnecessary excavation, protecting both your irrigation system and your mature landscaping.
+The towering elms, maples, and ash trees that give Baker its shaded, walkable character also pose significant challenges for underground irrigation lines. Root systems from 80+ year-old trees can infiltrate pipes, crush fittings, and redirect water flow. We locate root intrusions without unnecessary excavation, protecting both your irrigation system and your mature landscaping.
 
 ### Denver Water Service Considerations
 
@@ -49,7 +49,7 @@ Baker's charming urban density means most properties feature smaller lots with g
 ## Comprehensive Sprinkler Services for Baker Homes
 
 ### Leak Detection and Repair
-Using acoustic and thermal detection technology, we pinpoint underground leaks without tearing up your yard. Our minimally invasive repair techniques preserve your landscaping while solving the problem at its source.
+We pinpoint underground leaks without tearing up your yard. Our minimally invasive repair techniques preserve your landscaping while solving the problem at its source.
 
 ### Sprinkler Head Replacement
 From vintage brass heads to modern rotary nozzles, we stock parts compatible with systems of all ages. We match replacements to your existing setup or recommend upgrades that improve efficiency.

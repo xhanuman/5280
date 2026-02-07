@@ -205,7 +205,9 @@ $primary-blue-light: lighten(#1c3ed3, 40%);
   
   .team-photo {
     width: 180px;
-    height: 180px;
+    max-width: 100%;
+    aspect-ratio: 1;
+    height: auto;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 24px;
@@ -259,10 +261,11 @@ $primary-blue-light: lighten(#1c3ed3, 40%);
   .team-member {
     padding: 24px;
     text-align: center;
-    
+
     .team-photo {
       width: 150px;
-      height: 150px;
+      max-width: 100%;
+      height: auto;
       margin: 0 auto 20px;
     }
   }

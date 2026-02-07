@@ -37,7 +37,7 @@ Choosing a local company like 5280 Sprinklers over a large, impersonal service p
 
 **Rapid Response and Scheduling Flexibility:** When a main line breaks, you can't afford to wait days for a technician. Our local focus allows us to offer rapid response times, often providing same-day or next-day service for emergencies. We prioritize our Lowry customers, ensuring your repair is handled quickly and efficiently to minimize water waste and property damage.
 
-**Commitment to Water Conservation:** As a local business, we are deeply invested in the sustainability of our community. We are experts in installing and maintaining high-efficiency components, including smart controllers, drip systems, and pressure-regulating heads, which are essential for navigating Denver Water’s conservation efforts. We help you save water, which in turn saves you money on your utility bills.
+**Commitment to Water Conservation:** As a local business, we are deeply invested in the sustainability of our community. We are experts in maintaining high-efficiency components, including drip systems and pressure-regulating heads, which are essential for navigating Denver Water's conservation efforts. We help you save water, which in turn saves you money on your utility bills.
 
 ## Our Comprehensive Sprinkler Repair and Maintenance Services
 
@@ -45,10 +45,10 @@ Choosing a local company like 5280 Sprinklers over a large, impersonal service p
 
 | Service Category | Key Features | Lowry-Specific Benefit |
 | :--- | :--- | :--- |
-| **Leak Detection & Repair** | Electronic leak detection, main line and lateral pipe repair, valve replacement. | Rapid response to prevent water damage and high bills caused by leaks in clay soil. |
+| **Leak Detection & Repair** | Leak detection, main line and lateral pipe repair, valve replacement. | Rapid response to prevent water damage and high bills caused by leaks in clay soil. |
 | **System Tune-Ups & Audits** | Full system inspection, head adjustment, nozzle replacement, controller programming. | Optimization for Lowry's clay soil and water pressure, ensuring maximum efficiency. |
-| **Seasonal Maintenance** | Spring Start-Up (system activation, backflow testing) and Fall Winterization (air blow-out). | Essential protection against freeze damage in the unpredictable Colorado climate. |
-| **Upgrades & Installation** | Smart controller installation, drip system conversion, high-efficiency head replacement. | Modernizing older systems for compliance with Denver Water conservation guidelines. |
+| **Seasonal Maintenance** | Spring Start-Up (system activation and inspection) and Fall Winterization (air blow-out). | Essential protection against freeze damage in the unpredictable Colorado climate. |
+| **Upgrades & Installation** | Drip system conversion, high-efficiency head replacement, controller programming. | Modernizing older systems for compliance with Denver Water conservation guidelines. |
 
 Our technicians arrive with fully stocked trucks, ready to handle any issue from a simple clogged nozzle to a complex main line break. We provide transparent pricing and a full explanation of the work needed before any repair begins.
 
@@ -60,7 +60,7 @@ Our technicians arrive with fully stocked trucks, ready to handle any issue from
 
 ### Q2: How often should I water my lawn in Lowry during the summer?
 
-**A:** Denver Water recommends watering only **two to three times per week**, and ideally, you should set your system to run on **Tuesday and Thursday mornings before 3 am**. This schedule helps reduce strain on the municipal system during peak demand. The key is to water deeply and infrequently, rather than lightly and often. Deep watering encourages the grass roots to grow deeper, making the lawn more drought-tolerant. We can program your smart controller to adhere to these guidelines while maximizing the efficiency for your specific landscape.
+**A:** Denver Water recommends watering only **two to three times per week**, and ideally, you should set your system to run on **Tuesday and Thursday mornings before 3 am**. This schedule helps reduce strain on the municipal system during peak demand. The key is to water deeply and infrequently, rather than lightly and often. Deep watering encourages the grass roots to grow deeper, making the lawn more drought-tolerant. We can program your controller to adhere to these guidelines while maximizing the efficiency for your specific landscape.
 
 ### Q3: What is winterization, and is it really necessary in Lowry?
 
@@ -68,11 +68,11 @@ Our technicians arrive with fully stocked trucks, ready to handle any issue from
 
 ### Q4: I have a leak, but I can't see any standing water. How can I find it?
 
-**A:** Not all leaks surface immediately, especially in dense clay soil. A hidden leak is often indicated by an unusually high water bill, a consistently wet area of the lawn, or a noticeable drop in water pressure across one or more zones. Our technicians use specialized electronic leak detection equipment, including listening devices and pressure testing tools, to pinpoint the exact location of the underground leak without unnecessary digging. This precision saves you time, money, and minimizes damage to your landscape.
+**A:** Not all leaks surface immediately, especially in dense clay soil. A hidden leak is often indicated by an unusually high water bill, a consistently wet area of the lawn, or a noticeable drop in water pressure across one or more zones. Our technicians pinpoint the exact location of the underground leak without unnecessary digging, saving you time, money, and minimizing damage to your landscape.
 
 ### Q5: How can I make my older sprinkler system more water-efficient?
 
-**A:** The best way to upgrade an older system is by installing **smart controllers** and **high-efficiency nozzles**. Smart controllers connect to local weather data and automatically adjust watering schedules based on rainfall, temperature, and soil moisture, eliminating guesswork. High-efficiency rotary nozzles apply water in slow, rotating streams, which is far more effective for Lowry's clay soil than traditional spray heads, reducing runoff by up to 30%. We can assess your current system and recommend the most cost-effective upgrades.
+**A:** One of the best ways to upgrade an older system is by installing **high-efficiency nozzles**. High-efficiency rotary nozzles apply water in slow, rotating streams, which is far more effective for Lowry's clay soil than traditional spray heads, reducing runoff by up to 30%. We can assess your current system and recommend the most cost-effective upgrades.
 
 ## Ready to Book? Your Call to Action
 

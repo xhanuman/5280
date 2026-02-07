@@ -67,7 +67,7 @@ Busy professionals need reliable service that respects their time. We offer:
 
 ### 1. Advanced Leak Detection and Repair
 
-Hidden leaks waste thousands of gallons and hundreds of dollars. We use acoustic listening equipment and pressure testing to locate:
+Hidden leaks waste thousands of gallons and hundreds of dollars. We use pressure testing to locate:
 
 * Main line leaks buried beneath driveways and patios
 * Lateral line breaks under turf and landscape beds

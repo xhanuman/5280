@@ -11,10 +11,42 @@
         <li><a href="{{site.baseurl}}/services/lawn-care-services/">Lawn Care</a></li>
       </ul>
     </li>
-    <li><a href="{{site.baseurl}}/denver-sprinkler-faq/" class="{% if page.url contains 'faq' %}current{% endif %}">FAQ</a></li>
-    <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/" class="{% if page.url contains 'maintenance-guide' %}current{% endif %}">Maintenance Guide</a></li>
-    <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/" class="{% if page.url contains 'emergency' %}current{% endif %}">Emergency Repair</a></li>
-    <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/" class="{% if page.url contains 'high-water-bill' %}current{% endif %}">High Water Bill</a></li>
+    <li class="has-submenu">
+      <a href="#" class="{% if page.url contains 'faq' or page.url contains 'maintenance-guide' or page.url contains 'emergency' or page.url contains 'high-water-bill' or page.url contains 'city-pages' %}current{% endif %}">Resources</a>
+      <ul class="mobile-submenu">
+        <li><a href="{{site.baseurl}}/denver-sprinkler-faq/">Denver Sprinkler FAQ</a></li>
+        <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/">Maintenance Guide</a></li>
+        <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/">Emergency Leak Repair</a></li>
+        <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/">High Water Bill Help</a></li>
+      </ul>
+    </li>
+    <li class="has-submenu">
+      <a href="#" class="{% if page.url contains 'city-pages' %}current{% endif %}">Local Conditions</a>
+      <ul class="mobile-submenu">
+        <li><a href="{{site.baseurl}}/city-pages/aurora-sprinkler-leak-repair/">Aurora</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/baker-sprinkler-leak-repair/">Baker</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/centennial-sprinkler-leak-repair/">Centennial</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/central-park-sprinkler-leak-repair/">Central Park</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/cherry-creek-sprinkler-leak-repair/">Cherry Creek</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/cherry-hills-sprinkler-leak-repair/">Cherry Hills</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/del-mar-park-sprinkler-leak-repair/">Del Mar Park</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/englewood-sprinkler-leak-repair/">Englewood</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/glendale-virginia-village-sprinkler-leak-repair/">Glendale</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/greenwood-village-sprinkler-leak-repair/">Greenwood Village</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/hampden-sprinkler-leak-repair/">Hampden</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/hilltop-sprinkler-leak-repair/">Hilltop</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/inspiration-sprinkler-leak-repair/">Inspiration</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/lowry-sprinkler-leak-repair/">Lowry</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/northfield-sprinkler-leak-repair/">Northfield</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/park-hill-sprinkler-leak-repair/">Park Hill</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/parker-sprinkler-leak-repair/">Parker</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/pinery-sprinkler-leak-repair/">The Pinery</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/saddle-rock-sprinkler-leak-repair/">Saddle Rock</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/sloans-lake-sprinkler-leak-repair/">Sloan's Lake</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/wash-park-sprinkler-leak-repair/">Wash Park</a></li>
+        <li><a href="{{site.baseurl}}/city-pages/wheat-ridge-edgewater-sprinkler-leak-repair/">Wheat Ridge</a></li>
+      </ul>
+    </li>
     <li><a href="{{site.baseurl}}/service-policies/" class="{% if page.url contains 'service-policies' %}current{% endif %}">Service Policies</a></li>
     <li><a href="{{site.baseurl}}/team/" class="{% if page.url contains 'team' %}current{% endif %}">Team</a></li>
     <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
