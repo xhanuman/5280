@@ -1,12 +1,8 @@
 .page-home {
   background-image: none;
   background-repeat: no-repeat;
-  @include media-breakpoint-up(sm) {
-    background-image: url('../images/skipper.jpg');
-    background-size: 25%;
-    background-position: 159px -40px;
-  }
   @include media-breakpoint-up(md) {
+    background-image: url('../images/skipper.jpg');
     background-size: 25%;
     background-position: 100% -50px;
   }
