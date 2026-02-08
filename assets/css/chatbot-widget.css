@@ -170,6 +170,25 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+/* Links in messages */
+.message-content a {
+  color: #28a745;
+  text-decoration: underline;
+  word-break: break-all;
+}
+
+.message-content a:hover {
+  color: #218838;
+}
+
+.message-user .message-content a {
+  color: #b8f0c8;
+}
+
+.message-user .message-content a:hover {
+  color: white;
+}
+
 /* Typing Indicator */
 .typing-indicator {
   display: flex;
@@ -344,6 +363,14 @@
 
   .chatbot-input input:focus {
     border-color: #28a745;
+  }
+
+  .message-bot .message-content a {
+    color: #5cdb7a;
+  }
+
+  .message-bot .message-content a:hover {
+    color: #8aeea0;
   }
 }
 

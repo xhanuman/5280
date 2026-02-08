@@ -15,23 +15,21 @@ bodyClass: page-home
             <br>
 <iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="500px" frameborder="0"></iframe>
 
-  </div>
-</div>
+    <div class="row justify-content-center pt-4">
+      <div class="col-12 col-md-4 mb-3 text-center">
+        <h4>Honest Pricing</h4>
+        <p>See exactly what you'll pay before you book. No hidden fees, no surprises on service day.</p>
+      </div>
+      <div class="col-12 col-md-4 mb-3 text-center">
+        <h4>Local Owner-Operator</h4>
+        <p>Conrad has serviced thousands of Denver-area systems since 2010. He knows your neighborhood's irrigation challenges.</p>
+      </div>
+      <div class="col-12 col-md-4 mb-3 text-center">
+        <h4>Fast Online Scheduling</h4>
+        <p>Book your appointment in under two minutes. Pick your service, enter your address, and choose your date.</p>
+      </div>
+    </div>
 
-<div class="container pt-4 pt-md-6">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-4 mb-3 text-center">
-      <h4>Honest Pricing</h4>
-      <p>See exactly what you'll pay before you book. No hidden fees, no surprises on service day.</p>
-    </div>
-    <div class="col-12 col-md-4 mb-3 text-center">
-      <h4>Local Owner-Operator</h4>
-      <p>Conrad has serviced thousands of Denver-area systems since 2010. He knows your neighborhood's irrigation challenges.</p>
-    </div>
-    <div class="col-12 col-md-4 mb-3 text-center">
-      <h4>Fast Online Scheduling</h4>
-      <p>Book your appointment in under two minutes. Pick your service, enter your address, and choose your date.</p>
-    </div>
   </div>
 </div>
 
