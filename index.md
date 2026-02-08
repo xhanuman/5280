@@ -7,7 +7,7 @@ bodyClass: page-home
 <div class="intro pb-4">
   <div class="container">
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Startup and Repairs</h3>
-    <p>Locally owned and operated since 2010. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners for over 15 years.</p>
+    <p>Locally owned and operated. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners.</p>
     <br>
 
       <h3>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</h3>
