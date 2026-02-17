@@ -13,11 +13,9 @@ bodyClass: page-home
       <h5>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</h5>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="900px" frameborder="0"></iframe>
 <script>
-window.addEventListener('load', function() {
-  setTimeout(function() {
-    var frame = document.getElementById('bookingFrame');
-    if (frame) { frame.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-  }, 500);
+document.addEventListener('DOMContentLoaded', function() {
+  var frame = document.getElementById('bookingFrame');
+  if (frame) { frame.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
 });
 </script>
 
