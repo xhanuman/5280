@@ -32,8 +32,10 @@
   <script>
   window.addEventListener('message', function(e) {
     if (e.data === 'scrollToBooking') {
-      var f = document.getElementById('bookingFrame');
-      if (f) f.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      setTimeout(function() {
+        var f = document.getElementById('bookingFrame');
+        if (f) f.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 600);
     }
   });
   </script>
