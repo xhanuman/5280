@@ -271,6 +271,34 @@ $primary-blue-light: lighten(#1c3ed3, 40%);
   }
 }
 
+// Homepage value proposition cards
+.value-prop {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 28px 20px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border-top: 3px solid $primary-blue;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  }
+
+  h4 {
+    color: $primary-blue-dark;
+    margin-bottom: 12px;
+  }
+
+  p {
+    color: #555;
+    font-size: 0.95em;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
 // Smooth scroll behavior
 html {
   scroll-behavior: smooth;
