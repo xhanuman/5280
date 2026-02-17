@@ -8,12 +8,10 @@ bodyClass: page-home
   <div class="container">
     <h1>5280 Sprinklers</h1><h3>Denver Sprinkler Startup and Repairs</h3>
     <p>Locally owned and operated. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners.</p>
-    <br>
 
       <h3>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</h3>
       <h5>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</h5>
-            <br>
-<iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="500px" frameborder="0"></iframe>
+<iframe src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="340px" frameborder="0" scrolling="no"></iframe>
 
     <div class="row justify-content-center pt-4">
       <div class="col-12 col-md-4 mb-3 text-center">
