@@ -78,7 +78,7 @@ bodyClass: page-home
   <div class="row">
     <div class="col-12 col-md-4 mb-4">
       <h3>How Much Does Sprinkler Repair Cost in Denver?</h3>
-      <p>Most sprinkler repairs range from about <strong>$85 for a head replacement to $200-$400 for valve repairs</strong>, diaphragm replacement, or wire locating. Underground leak detection and mainline repair run higher depending on access and pipe depth. All pricing is transparent and shown in our online scheduler before you book — no surprise charges on service day. Most repairs are completed in a single visit.</p>
+      <p>Most sprinkler repairs range from about <strong>$85 for a head replacement to $200-$400 for valve repairs</strong>, diaphragm replacement, or wire locating. Underground leak detection and mainline repair run higher depending on access and pipe depth. All pricing is transparent for common services and shown in our online scheduler before you book. More complex repairs (head replacement needing funny pipe work, a new connector, or other modifications) can still be booked as a "simple/straightforward repair," and any adjustments in price will be addressed before work begins. Most repairs are completed in a single visit.</p>
     </div>
     <div class="col-12 col-md-4 mb-4">
       <h3>When Should I Start My Sprinkler System?</h3>
