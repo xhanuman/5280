@@ -37,11 +37,15 @@
   <script type="text/javascript" src="{{ site.baseurl }}/assets/js/scripts.js"></script>
   <script>
   window.addEventListener('message', function(e) {
+    var f = document.getElementById('bookingFrame');
+    if (!f) return;
     if (e.data === 'scrollToBooking') {
       setTimeout(function() {
-        var f = document.getElementById('bookingFrame');
-        if (f) f.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        f.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 600);
+    }
+    if (e.data && e.data.type === 'resize' && e.data.height) {
+      f.style.height = e.data.height + 'px';
     }
   });
   </script>

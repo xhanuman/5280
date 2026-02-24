@@ -13,7 +13,7 @@ bodyClass: page-home
 
       <p><strong>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</strong></p>
       <p><small>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</small></p>
-<iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="1700px" frameborder="0"></iframe>
+<iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="300px" frameborder="0" style="transition:height 0.3s ease;"></iframe>
 
   </div>
 </div>
