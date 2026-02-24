@@ -72,6 +72,7 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
     </div>
   </div>
 
+  <!-- Amor Village Water Well -->
   <div class="row mt-4">
     <div class="col-12">
       <h3>Amor Village, Tororo, Uganda (2018)</h3>
@@ -80,62 +81,69 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
       </p>
     </div>
   </div>
-
-  <div class="row mt-3 mb-4">
+  <div class="row mt-3 mb-2">
     <div class="col-12 col-md-6 mb-3">
       <img src="{{site.baseurl}}/images/services/storageTower.jpg"
            alt="Water storage tower at Amor Village, Tororo, Uganda"
            style="width: 100%; border-radius: 6px;">
     </div>
     <div class="col-12 col-md-6 mb-3">
-      <div class="row">
-        <div class="col-12 mb-3">
-          <img src="{{site.baseurl}}/images/humanitarian/uganda-water-tower.jpg"
-               alt="Water tower and well system at Amor Village, Tororo, Uganda"
-               style="width: 100%; border-radius: 6px;">
-          <p class="mt-1 mb-0"><small>The water tower at Amor Village</small></p>
-        </div>
-        <div class="col-6">
-          <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
-               alt="Lowering a pump into the water well at Amor Village, Tororo, Uganda"
-               style="width: 100%; border-radius: 6px;">
-          <p class="mt-1 mb-0"><small>Lowering the pump</small></p>
-        </div>
-        <div class="col-6">
-          <img src="{{site.baseurl}}/images/humanitarian/uganda-ladder-rigging.jpg"
-               alt="Scaffolding and ladder rigging for water tower access in Uganda"
-               style="width: 100%; border-radius: 6px;">
-          <p class="mt-1 mb-0"><small>The ladder rigging</small></p>
-        </div>
-      </div>
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-water-tower.jpg"
+           alt="Water tower and well system at Amor Village, Tororo, Uganda"
+           style="width: 100%; border-radius: 6px; margin-bottom: 12px;">
+      <p class="mt-1 mb-2"><small>The water tower at Amor Village</small></p>
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
+           alt="Lowering a pump into the water well at Amor Village, Tororo, Uganda"
+           style="width: 100%; border-radius: 6px; margin-bottom: 12px;">
+      <p class="mt-1 mb-2"><small>Lowering the pump into the well</small></p>
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-ladder-rigging.jpg"
+           alt="Scaffolding and ladder rigging for water tower access in Uganda"
+           style="width: 100%; border-radius: 6px;">
+      <p class="mt-1 mb-0"><small>The "non-OSHA compliant" ladder rigging</small></p>
     </div>
   </div>
-
-  <div class="row">
+  <div class="row mb-4">
     <div class="col-12">
       <p><a href="https://steemit.com/life/@timelapse/ugandan-water-well-testing-amor-village-tororo-uganda">Read the full Uganda water well story</a></p>
     </div>
   </div>
 
+  <!-- Empowering Young Women -->
   <div class="row mt-4">
-    <div class="col-12 col-md-6 mb-4">
+    <div class="col-12">
       <h3>Empowering Young Women in Rural Uganda</h3>
+      <p>
+        Conrad raised funds and personally delivered a public address system to the Pearl Community Empowerment Foundation (PCE) near Kampala, Uganda. Run by a Ugandan woman named Beatrice, PCE focuses on educating and empowering young women and girls in rural communities — providing resources and opportunity rather than handouts.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-3 mb-2">
+    <div class="col-12 col-md-6 mb-3">
       <img src="{{site.baseurl}}/images/humanitarian/uganda-girls-empowerment.jpg"
            alt="Supporting girls' education and empowerment in rural Uganda"
            style="width: 100%; border-radius: 6px;">
-      <p class="mt-2">
-        Conrad raised funds and personally delivered a public address system to the Pearl Community Empowerment Foundation (PCE) near Kampala, Uganda. Run by a Ugandan woman named Beatrice, PCE focuses on educating and empowering young women and girls in rural communities — providing resources and opportunity rather than handouts.
-      </p>
+    </div>
+  </div>
+  <div class="row mb-4">
+    <div class="col-12">
       <p><a href="https://steemit.com/steemit/@timelapse/making-a-difference-for-young-girls-and-women-in-rural-uganda">Read the full story</a></p>
     </div>
-    <div class="col-12 col-md-6 mb-4">
+  </div>
+
+  <!-- Phnom Penh, Cambodia -->
+  <div class="row mt-4">
+    <div class="col-12">
       <h3>Phnom Penh, Cambodia</h3>
+      <p>
+        More than 10 years have passed since doing several relief trips to the landfill (now closed, but people still dig there) in Phnom Penh, Cambodia. On several occasions he brought supplies like rice, flip-flops, donated ointment from Bangkok, toothpaste, and toothbrushes to the women, children, and men who live and work in the landfill.
+      </p>
+    </div>
+  </div>
+  <div class="row mt-3 mb-4">
+    <div class="col-12 col-md-6 mb-3">
       <img src="{{site.baseurl}}/images/services/smokeDress.jpg"
            alt="Relief work at Steung Meanchey landfill, Phnom Penh, Cambodia"
            style="width: 100%; border-radius: 6px;">
-      <p class="mt-2">
-        More than 10 years have passed since doing several relief trips to the landfill (now closed, but people still dig there) in Phnom Penh, Cambodia. On several occasions he brought supplies like rice, flip-flops, donated ointment from Bangkok, toothpaste, and toothbrushes to the women, children, and men who live and work in the landfill.
-      </p>
     </div>
   </div>
 
