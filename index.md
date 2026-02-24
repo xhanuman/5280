@@ -81,9 +81,12 @@ bodyClass: page-home
   <h2 class="text-center mb-4">What Denver Homeowners Say</h2>
   <div class="row justify-content-center">
     <div class="col-12 col-md-10">
-      <!-- Google Reviews Widget - Replace PLACE_ID with your Google Business Profile Place ID -->
-      <div id="google-reviews" style="min-height: 300px;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.8!2d-104.9903!3d39.7392!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3APLACE_ID!2s5280%20Sprinklers!5e0!3m2!1sen!2sus!4v1" width="100%" height="400" style="border:0; border-radius:6px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <!-- Google Reviews Widget -->
+      <!-- To display actual reviews: sign up at featurable.com (free), connect your -->
+      <!-- Google Business Profile, choose a widget layout, and paste the embed code here. -->
+      <!-- Featurable's free tier shows up to 15 reviews with unlimited page views. -->
+      <div id="google-reviews" style="min-height: 200px;">
+        <!-- PASTE FEATURABLE OR OTHER REVIEW WIDGET EMBED CODE HERE -->
       </div>
       <p class="text-center mt-3"><a href="https://www.google.com/search?q=5280+Sprinklers+Denver+reviews" target="_blank" rel="noopener" class="button button-secondary">See All Reviews on Google</a></p>
     </div>
