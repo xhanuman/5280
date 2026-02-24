@@ -119,6 +119,16 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
 
   <div class="row mt-4">
     <div class="col-12 col-md-6 mb-4">
+      <h3>Empowering Young Women in Rural Uganda</h3>
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-girls-empowerment.jpg"
+           alt="Supporting girls' education and empowerment in rural Uganda"
+           style="width: 100%; border-radius: 6px;">
+      <p class="mt-2">
+        Conrad raised funds and personally delivered a public address system to the Pearl Community Empowerment Foundation (PCE) near Kampala, Uganda. Run by a Ugandan woman named Beatrice, PCE focuses on educating and empowering young women and girls in rural communities — providing resources and opportunity rather than handouts.
+      </p>
+      <p><a href="https://steemit.com/steemit/@timelapse/making-a-difference-for-young-girls-and-women-in-rural-uganda">Read the full story</a></p>
+    </div>
+    <div class="col-12 col-md-6 mb-4">
       <h3>Phnom Penh, Cambodia</h3>
       <img src="{{site.baseurl}}/images/services/smokeDress.jpg"
            alt="Relief work at Steung Meanchey landfill, Phnom Penh, Cambodia"
@@ -126,7 +136,6 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
       <p class="mt-2">
         More than 10 years have passed since doing several relief trips to the landfill (now closed, but people still dig there) in Phnom Penh, Cambodia. On several occasions he brought supplies like rice, flip-flops, donated ointment from Bangkok, toothpaste, and toothbrushes to the women, children, and men who live and work in the landfill.
       </p>
-      <p><a href="https://steemit.com/steemit/@timelapse/making-a-difference-for-young-girls-and-women-in-rural-uganda">Supporting young girls in rural Uganda</a></p>
     </div>
   </div>
 
