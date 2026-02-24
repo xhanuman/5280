@@ -72,6 +72,7 @@ bodyClass: page-home
       <h2>Meet Conrad Olivier — Denver's Irrigation Specialist Since 2010</h2>
       <p>Conrad founded 5280 Sprinklers with a straightforward goal: give Denver homeowners honest irrigation service and transparent pricing. No national franchise, no rotating crew — one experienced local technician who has serviced thousands of Denver-area systems and knows the specific challenges each neighborhood presents, from Cherry Creek's aging infrastructure to Aurora's expansive clay soil.</p>
       <p>In addition to 5280sprinklers.com, Conrad operates <a href="https://www.denversprinklerblowout.com">denversprinklerblowout.com</a> during the fall blowout season. He works with a select group of clients who value quality, communication, and punctuality.</p>
+      <p>In the off-season, Conrad travels abroad as a photographer and humanitarian volunteer — from installing water well pumps in rural Uganda to delivering supplies at landfill communities in Cambodia. <a href="{{site.baseurl}}/team/conrad-olivier/">Read more about his work beyond sprinklers</a>.</p>
       <p><a href="{{site.baseurl}}/team/conrad-olivier/" class="button button-secondary">About Conrad</a></p>
     </div>
   </div>

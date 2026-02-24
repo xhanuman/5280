@@ -73,19 +73,44 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
   </div>
 
   <div class="row mt-4">
-    <div class="col-12 col-md-6 mb-4">
-      <a href="https://steemit.com/life/@timelapse/ugandan-water-well-testing-amor-village-tororo-uganda">
-        <img src="{{site.baseurl}}/images/services/storageTower.jpg"
-             alt="Water tower project in Tororo, Uganda"
-             style="width: 100%; border-radius: 6px;">
-      </a>
-      <p class="mt-2">
+    <div class="col-12">
+      <h3>Amor Village, Tororo, Uganda (2018)</h3>
+      <p>
         Visiting Tororo, Uganda in late 2018, Conrad lent a hand with a drinking well that had not yet had a pump installed, along with working to solve a plumbing fitting problem high up on a water tower. He was responsible for the non-OSHA compliant ladder rigging.
       </p>
-      <p><a href="https://steemit.com/life/@timelapse/ugandan-water-well-testing-amor-village-tororo-uganda">Read about the Uganda water well project</a></p>
     </div>
+  </div>
 
+  <div class="row mt-3 mb-4">
+    <div class="col-12 col-md-4 mb-3">
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-hardware-shop.jpg"
+           alt="Visiting the hardware shop in Tororo, Uganda to source fittings"
+           style="width: 100%; border-radius: 6px;">
+      <p class="mt-1"><small>Sourcing fittings at the hardware shop in Tororo</small></p>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
+           alt="Lowering a pump into the water well at Amor Village, Tororo, Uganda"
+           style="width: 100%; border-radius: 6px;">
+      <p class="mt-1"><small>Lowering the pump into the well</small></p>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-ladder-rigging.jpg"
+           alt="Scaffolding and ladder rigging for water tower access in Uganda"
+           style="width: 100%; border-radius: 6px;">
+      <p class="mt-1"><small>The "non-OSHA compliant" ladder rigging</small></p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-12">
+      <p><a href="https://steemit.com/life/@timelapse/ugandan-water-well-testing-amor-village-tororo-uganda">Read the full Uganda water well story</a></p>
+    </div>
+  </div>
+
+  <div class="row mt-4">
     <div class="col-12 col-md-6 mb-4">
+      <h3>Phnom Penh, Cambodia</h3>
       <img src="{{site.baseurl}}/images/services/smokeDress.jpg"
            alt="Relief work at Steung Meanchey landfill, Phnom Penh, Cambodia"
            style="width: 100%; border-radius: 6px;">
