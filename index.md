@@ -26,7 +26,7 @@ bodyClass: page-home
       <div class="col-12 col-md-4 mb-3">
         <div class="value-prop text-center">
           <h4>Local Owner-Operator</h4>
-          <p>Conrad has served Denver homeowners since 2010. He knows the neighborhoods and their irrigation challenges.</p>
+          <p>Conrad has served Denver homeowners since 2010. Over the years, he's developed proven methods to solve nearly every irrigation challenge in the most cost-effective way.</p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
