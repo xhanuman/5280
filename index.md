@@ -15,28 +15,30 @@ bodyClass: page-home
       <p><small>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</small></p>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="1700px" frameborder="0"></iframe>
 
-    <h2 class="text-center pt-4 mb-3">Why Choose 5280 Sprinklers?</h2>
-    <div class="row justify-content-center">
-      <div class="col-12 col-md-4 mb-3">
-        <div class="value-prop text-center">
-          <h4>Honest Pricing</h4>
-          <p>See exactly what you'll pay before you book. No hidden fees, no surprises on service day.</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 mb-3">
-        <div class="value-prop text-center">
-          <h4>Local Owner-Operator</h4>
-          <p>Conrad has served Denver homeowners since 2010. Over the years, he's developed proven methods to solve nearly every irrigation challenge in the most cost-effective way.</p>
-        </div>
-      </div>
-      <div class="col-12 col-md-4 mb-3">
-        <div class="value-prop text-center">
-          <h4>Fast Online Scheduling</h4>
-          <p>Book your appointment in under two minutes. Pick your service, enter your address, and choose your date.</p>
-        </div>
+  </div>
+</div>
+
+<div class="container pt-4 pb-4">
+  <h2 class="text-center mb-3">Why Choose 5280 Sprinklers?</h2>
+  <div class="row justify-content-center">
+    <div class="col-12 col-md-4 mb-3">
+      <div class="value-prop text-center">
+        <h4>Honest Pricing</h4>
+        <p>See exactly what you'll pay before you book. No hidden fees, no surprises on service day.</p>
       </div>
     </div>
-
+    <div class="col-12 col-md-4 mb-3">
+      <div class="value-prop text-center">
+        <h4>Local Owner-Operator</h4>
+        <p>Conrad has served Denver homeowners since 2010. Over the years, he's developed proven methods to solve nearly every irrigation challenge in the most cost-effective way.</p>
+      </div>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <div class="value-prop text-center">
+        <h4>Fast Online Scheduling</h4>
+        <p>Book your appointment in under two minutes. Pick your service, enter your address, and choose your date.</p>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -101,7 +103,6 @@ bodyClass: page-home
         <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/">Seasonal Maintenance Guide</a> — month-by-month checklist</li>
         <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/">Emergency Leak Repair</a> — what to do right now</li>
         <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/">High Water Bill?</a> — how to tell if your sprinklers are the cause</li>
-        <li><a href="{{site.baseurl}}/diy-denver-sprinkler-start-up/">DIY Startup Guide</a> — step-by-step if you want to try it yourself</li>
       </ul>
     </div>
   </div>
