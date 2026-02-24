@@ -78,30 +78,36 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
       <p>
         Visiting Tororo, Uganda in late 2018, Conrad lent a hand with a drinking well that had not yet had a pump installed, along with working to solve a plumbing fitting problem high up on a water tower. He was responsible for the non-OSHA compliant ladder rigging.
       </p>
-      <img src="{{site.baseurl}}/images/services/storageTower.jpg"
-           alt="Water storage tower at Amor Village, Tororo, Uganda"
-           style="width: 100%; max-width: 700px; border-radius: 6px;">
     </div>
   </div>
 
   <div class="row mt-3 mb-4">
-    <div class="col-12 col-md-4 mb-3">
-      <img src="{{site.baseurl}}/images/humanitarian/uganda-water-tower.jpg"
-           alt="Water tower and well system at Amor Village, Tororo, Uganda"
+    <div class="col-12 col-md-6 mb-3">
+      <img src="{{site.baseurl}}/images/services/storageTower.jpg"
+           alt="Water storage tower at Amor Village, Tororo, Uganda"
            style="width: 100%; border-radius: 6px;">
-      <p class="mt-1"><small>The water tower at Amor Village</small></p>
     </div>
-    <div class="col-12 col-md-4 mb-3">
-      <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
-           alt="Lowering a pump into the water well at Amor Village, Tororo, Uganda"
-           style="width: 100%; border-radius: 6px;">
-      <p class="mt-1"><small>Lowering the pump into the well</small></p>
-    </div>
-    <div class="col-12 col-md-4 mb-3">
-      <img src="{{site.baseurl}}/images/humanitarian/uganda-ladder-rigging.jpg"
-           alt="Scaffolding and ladder rigging for water tower access in Uganda"
-           style="width: 100%; border-radius: 6px;">
-      <p class="mt-1"><small>The "non-OSHA compliant" ladder rigging</small></p>
+    <div class="col-12 col-md-6 mb-3">
+      <div class="row">
+        <div class="col-12 mb-3">
+          <img src="{{site.baseurl}}/images/humanitarian/uganda-water-tower.jpg"
+               alt="Water tower and well system at Amor Village, Tororo, Uganda"
+               style="width: 100%; border-radius: 6px;">
+          <p class="mt-1 mb-0"><small>The water tower at Amor Village</small></p>
+        </div>
+        <div class="col-6">
+          <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
+               alt="Lowering a pump into the water well at Amor Village, Tororo, Uganda"
+               style="width: 100%; border-radius: 6px;">
+          <p class="mt-1 mb-0"><small>Lowering the pump</small></p>
+        </div>
+        <div class="col-6">
+          <img src="{{site.baseurl}}/images/humanitarian/uganda-ladder-rigging.jpg"
+               alt="Scaffolding and ladder rigging for water tower access in Uganda"
+               style="width: 100%; border-radius: 6px;">
+          <p class="mt-1 mb-0"><small>The ladder rigging</small></p>
+        </div>
+      </div>
     </div>
   </div>
 
