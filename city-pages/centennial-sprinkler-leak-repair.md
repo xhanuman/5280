@@ -17,16 +17,16 @@ Maintaining an efficient sprinkler system in Centennial requires understanding t
 
 ### The Challenge of Alkaline Clay Soil
 
-Centennial's soil is predominantly **clay-based and highly alkaline** (pH 7.0-7.8+) [1] [2], creating two major irrigation challenges:
+Centennial's soil is predominantly **clay-based and tends toward alkaline** — typical of Front Range soils — creating two major irrigation challenges:
 
 1.  **Poor Drainage:** Clay soil compacts and drains slowly. Over-watering causes runoff and root damage, requiring precise zone timing and low-precipitation heads.
 2.  **Mineral Buildup:** High alkalinity causes faster buildup of scale in heads and nozzles, leading to clogs, uneven spray patterns, and reduced efficiency.
 
 ### Managing Variable Water Pressure
 
-Centennial's water pressure is highly variable by neighborhood and elevation [3].
+Centennial's water pressure is highly variable depending on neighborhood and elevation.
 
-*   **High Pressure:** Pressure often exceeds 75 PSI [4]. This causes water to mist, leading to significant waste and putting undue stress on components, resulting in premature failure and leaks.
+*   **High Pressure:** Pressure in some neighborhoods can exceed 75 PSI. This causes water to mist, leading to significant waste and putting undue stress on components, resulting in premature failure and leaks.
 *   **Low Pressure:** Peak demand can cause low pressure, resulting in poor spray distance and uneven watering.
 
 Our technicians are experts at diagnosing pressure issues and installing or adjusting **Pressure Regulating Valves (PRVs)** to ensure your system operates at the optimal PSI, protecting equipment and conserving water.
@@ -102,7 +102,7 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
         "postalCode": "80112",
         "addressCountry": "US"
       },
-            "url": "https://www.5280sprinklers.com/centennial",
+      "url": "https://5280sprinklers.com/city-pages/centennial-sprinkler-leak-repair/",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and installation services tailored for the unique soil and water conditions in Centennial, CO.",
@@ -123,6 +123,9 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
           "opens": "08:00",
           "closes": "17:00"
         }
+      ],
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
       ]
     },
     {
@@ -176,11 +179,3 @@ We make scheduling easy for simple repairs, full system tune-ups, or smart contr
 }
 </script>
 
----
-
-## References
-
-[1]: The Scoop on Garden Soil - Arapahoe County Extension (https://arapahoe.extension.colostate.edu/2021/03/04/the-scoop-on-garden-soil/)
-[2]: New to Colorado Gardening? What You Need to Know (https://www.designscapescolorado.com/news/new-to-colorado-gardening-what-you-need-to-know)
-[3]: Low Water Pressure Fix in Centennial, CO | Homeowner Tips ... (https://1stchoiceplumbingheatingandairconditioning.com/low-water-pressure-fix-in-centennial-co-homeowner-tips-plumbing-services/)
-[4]: Are you experiencing low water pressure? Or too high? (https://bowmarwsd.colorado.gov/news-article/are-you-experiencing-low-water-pressure-or-too-high)

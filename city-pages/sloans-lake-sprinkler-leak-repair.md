@@ -103,7 +103,7 @@ Your Sloan's Lake property deserves an irrigation system that works as beautiful
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/logo.png",
-      "url": "https://www.5280sprinklers.com/sloans-lake",
+      "url": "https://5280sprinklers.com/city-pages/sloans-lake-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Sloan's Lake Neighborhood",
@@ -121,7 +121,10 @@ Your Sloan's Lake property deserves an irrigation system that works as beautiful
           "closes": "17:00"
         }
       ],
-      "hasMap": "https://www.google.com/maps/place/Sloans+Lake,+Denver,+CO"
+      "hasMap": "https://www.google.com/maps/place/Sloans+Lake,+Denver,+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

@@ -96,7 +96,7 @@ Our online booking system is fast, easy, and available 24/7. Click the link belo
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/logo.png",
-      "url": "https://www.5280sprinklers.com/lowry",
+      "url": "https://5280sprinklers.com/city-pages/lowry-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Lowry Neighborhood",
@@ -120,7 +120,10 @@ Our online booking system is fast, easy, and available 24/7. Click the link belo
           "closes": "17:00"
         }
       ],
-      "hasMap": "https://www.google.com/maps/place/Lowry,+Denver,+CO"
+      "hasMap": "https://www.google.com/maps/place/Lowry,+Denver,+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

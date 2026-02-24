@@ -6,7 +6,7 @@ image: '/images/services/noun_982388.png'
 
 <div class="answer-box" style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 20px; margin-bottom: 30px; border-radius: 4px;">
 <strong>Quick Answer: When Should I Fertilize My Denver Lawn?</strong><br>
-Fall fertilization (September-October) is the most important application for Denver lawns, as nutrients are stored in roots for spring green-up. A complete program includes spring, early summer, late summer, and fall applications. <a href="/">Schedule online for current pricing</a>.
+A complete Denver lawn fertilization program has four applications: spring (March–April) for green-up, early summer (late May–June) to sustain growth, late summer (mid-August) for stress recovery, and fall (September–October) for root storage before dormancy. Fall is the single most important application — nutrients stored in roots fuel spring green-up. Most Denver lawns also benefit from annual core aeration (fall preferred) to combat clay soil compaction. Fall overseeding combined with aeration produces the best results. <a href="/">Schedule online for current pricing</a>.
 </div>
 
 ## Keep Your Denver Lawn Healthy Year-Round

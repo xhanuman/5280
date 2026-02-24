@@ -150,7 +150,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a complete syst
         "postalCode": "80222",
         "addressCountry": "US"
       },
-            "url": "https://www.5280sprinklers.com/hampden",
+            "url": "https://5280sprinklers.com/city-pages/hampden-sprinkler-leak-repair/",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Professional sprinkler repair, leak detection, and irrigation maintenance services for the Hampden Avenue corridor, including Hampden South and Southmoor Park neighborhoods in Denver, CO.",
@@ -186,7 +186,10 @@ Whether you need emergency leak repair, seasonal maintenance, or a complete syst
         "@type": "GeoCoordinates",
         "latitude": "39.6478",
         "longitude": "-104.9253"
-      }
+      },
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

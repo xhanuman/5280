@@ -107,7 +107,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a comprehensive
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/wheat-ridge-edgewater",
+      "url": "https://5280sprinklers.com/city-pages/wheat-ridge-edgewater-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving Wheat Ridge & Edgewater",
@@ -136,7 +136,10 @@ Whether you need emergency leak repair, seasonal maintenance, or a comprehensive
         "latitude": "39.7661",
         "longitude": "-105.0772"
       },
-      "hasMap": "https://www.google.com/maps/place/Wheat+Ridge,+CO"
+      "hasMap": "https://www.google.com/maps/place/Wheat+Ridge,+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

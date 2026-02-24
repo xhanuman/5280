@@ -157,10 +157,13 @@ Whether you need emergency leak repair, seasonal maintenance, or strategic syste
         "postalCode": "80012",
         "addressCountry": "US"
       },
-            "url": "https://www.5280sprinklers.com/del-mar-park",
+            "url": "https://5280sprinklers.com/city-pages/del-mar-park-sprinkler-leak-repair/",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, leak detection, and system modernization services for Del Mar Park, Aurora. Specialists in 1970s-1980s irrigation systems, mature landscapes, and Aurora Water compliance.",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ],
       "areaServed": {
         "@type": "Place",
         "name": "Del Mar Park",

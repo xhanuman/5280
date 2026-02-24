@@ -133,7 +133,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
         "postalCode": "80134",
         "addressCountry": "US"
       },
-            "url": "https://www.5280sprinklers.com/parker",
+            "url": "https://5280sprinklers.com/city-pages/parker-sprinkler-leak-repair/",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and installation services tailored for Parker, CO's expansive clay soil, high altitude climate, and HOA requirements.",
@@ -158,6 +158,9 @@ Whether you need emergency leak repair, seasonal maintenance, or a smart system 
           "opens": "08:00",
           "closes": "17:00"
         }
+      ],
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
       ]
     },
     {

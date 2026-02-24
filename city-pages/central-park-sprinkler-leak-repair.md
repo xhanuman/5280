@@ -103,7 +103,7 @@ Whether you need a quick repair, a full system tune-up, or a smart controller up
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/central-park-sprinkler-repair",
+      "url": "https://5280sprinklers.com/city-pages/central-park-sprinkler-leak-repair/",
             "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
@@ -117,6 +117,9 @@ Whether you need a quick repair, a full system tune-up, or a smart controller up
         "@type": "City",
         "name": "Central Park, Denver"
       },
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ],
       "hasMap": "https://maps.app.goo.gl/examplemaplink",
       "openingHoursSpecification": [
         {

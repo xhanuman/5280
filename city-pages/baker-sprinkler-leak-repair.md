@@ -131,8 +131,9 @@ We offer flexible scheduling, upfront pricing, and a satisfaction guarantee on a
   "priceRange": "$$",
   "image": "https://5280sprinklers.com/images/baker-sprinkler-repair.jpg",
   "sameAs": [
-    "https://facebook.com/5280sprinklers",
-    "https://instagram.com/5280sprinklers"
+    "https://www.facebook.com/5280sprinklers",
+    "https://www.instagram.com/5280sprinklers",
+    "https://www.denversprinklerblowout.com"
   ]
 }
 </script>

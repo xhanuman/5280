@@ -105,7 +105,7 @@ Whether you need emergency leak repair, seasonal maintenance, or a comprehensive
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/glendale-virginia-village",
+      "url": "https://5280sprinklers.com/city-pages/glendale-virginia-village-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving Glendale & Virginia Village",
@@ -134,7 +134,10 @@ Whether you need emergency leak repair, seasonal maintenance, or a comprehensive
         "latitude": "39.7047",
         "longitude": "-104.9361"
       },
-      "hasMap": "https://www.google.com/maps/place/Glendale,+CO"
+      "hasMap": "https://www.google.com/maps/place/Glendale,+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

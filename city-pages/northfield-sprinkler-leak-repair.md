@@ -106,7 +106,7 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers - Northfield",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/northfield",
+      "url": "https://5280sprinklers.com/city-pages/northfield-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "Serving the Northfield Neighborhood",
@@ -131,7 +131,10 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
         }
       ],
       "hasMap": "https://maps.app.goo.gl/NorthfieldDenverMapLink",
-      "description": "Expert sprinkler repair, maintenance, and winterization services tailored for the unique soil and water conditions in Northfield, Denver, CO."
+      "description": "Expert sprinkler repair, maintenance, and winterization services tailored for the unique soil and water conditions in Northfield, Denver, CO.",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

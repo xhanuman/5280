@@ -122,7 +122,7 @@ Your Inspiration home deserves an irrigation system that performs as well as the
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/inspiration-sprinkler-repair",
+      "url": "https://5280sprinklers.com/city-pages/inspiration-sprinkler-leak-repair/",
             "priceRange": "$$",
       "address": {
         "@type": "PostalAddress",
@@ -151,7 +151,10 @@ Your Inspiration home deserves an irrigation system that performs as well as the
           "closes": "17:00"
         }
       ],
-      "description": "Expert sprinkler repair and irrigation services for the Inspiration master-planned community in Aurora, CO. Specializing in builder-grade system upgrades, clay soil solutions, and HOA compliance."
+      "description": "Expert sprinkler repair and irrigation services for the Inspiration master-planned community in Aurora, CO. Specializing in builder-grade system upgrades, clay soil solutions, and HOA compliance.",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",

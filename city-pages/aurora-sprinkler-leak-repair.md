@@ -19,7 +19,7 @@ Aurora's location on the high plains of Colorado subjects irrigation systems to 
 
 ### 1. The Challenge of Swelling Clay Soil
 
-A significant portion of the soil across the Aurora area, particularly in newer developments, is composed of **bentonite clay**, often referred to as "swelling soil" [1]. This highly expansive soil absorbs large amounts of water, causing it to swell and put immense pressure on underground pipes and sprinkler lines.
+A significant portion of the soil across the Aurora area, particularly in newer developments, is composed of **bentonite clay** — a common expansive soil found throughout the Front Range, often called "swelling soil." This highly expansive soil absorbs large amounts of water, causing it to swell and put immense pressure on underground pipes and sprinkler lines.
 
 | Soil Condition | Impact on Sprinkler System | Solution |
 | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ When this soil dries out, it shrinks, which can cause further movement and damag
 
 ### 2. Managing High Water Pressure
 
-Many Aurora neighborhoods receive water from the Aurora Water utility, and while pressure is generally well-regulated, some areas experience **higher-than-average static water pressure** [2]. While high pressure might seem beneficial, it can be detrimental to a sprinkler system:
+Many Aurora neighborhoods receive water from the Aurora Water utility, and while pressure is generally well-regulated, some areas experience **higher-than-average static water pressure** in certain neighborhoods. While high pressure might seem beneficial, it can be detrimental to a sprinkler system:
 
 *   **Misting and Fogging:** High pressure causes water to atomize, leading to significant water loss through evaporation and poor distribution.
 *   **Premature Wear:** It accelerates the wear and tear on sprinkler heads, seals, and internal components, leading to frequent breakdowns.
@@ -40,7 +40,7 @@ Our technicians are experts in diagnosing and installing **pressure-regulating d
 
 ### 3. The Critical Need for Winterization
 
-Aurora's climate is characterized by cold, dry winters with sudden, deep freezes. The need for proper **sprinkler blowouts and winterization** is non-negotiable [3]. Any water left in the pipes, valves, or backflow preventer will freeze, expand, and inevitably crack the components, leading to catastrophic damage when the system is turned on in the spring. We provide timely, professional winterization services to protect your investment from the harsh Colorado winter.
+Aurora's climate is characterized by cold, dry winters with sudden, deep freezes. The need for proper **sprinkler blowouts and winterization** is non-negotiable. Any water left in the pipes, valves, or backflow preventer will freeze, expand, and inevitably crack the components, leading to catastrophic damage when the system is turned on in the spring. We provide timely, professional winterization services to protect your investment from the harsh Colorado winter.
 
 ## Why Choose a Local Sprinkler Service: The 5280 Sprinklers Advantage
 
@@ -140,7 +140,7 @@ Click the link below to schedule your repair, maintenance, or winterization serv
         "postalCode": "80012",
         "addressCountry": "US"
       },
-            "url": "https://www.5280sprinklers.com/aurora",
+      "url": "https://5280sprinklers.com/city-pages/aurora-sprinkler-leak-repair/",
       "priceRange": "$$",
       "image": "https://www.5280sprinklers.com/images/logo.png",
       "description": "Expert sprinkler repair, maintenance, and winterization services for Aurora, CO, specializing in local soil and water pressure challenges.",
@@ -148,7 +148,10 @@ Click the link below to schedule your repair, maintenance, or winterization serv
         "@type": "City",
         "name": "Aurora"
       },
-      "hasMap": "https://www.google.com/maps/search/5280+Sprinklers+Aurora+CO"
+      "hasMap": "https://www.google.com/maps/search/5280+Sprinklers+Aurora+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",
@@ -163,12 +166,8 @@ Click the link below to schedule your repair, maintenance, or winterization serv
       },
       "description": "Comprehensive irrigation services including leak detection, broken head replacement, valve repair, system start-ups, and professional winterization (blowouts) tailored for Aurora's climate and soil conditions.",
       "name": "Aurora Sprinkler Repair Service",
-      "url": "https://www.5280sprinklers.com/aurora/book-now"
+      "url": "https://5280sprinklers.com/city-pages/aurora-sprinkler-leak-repair/"
     }
   ]
 }
 </script>
-
-[1]: https://coloradogeologicalsurvey.org/wp-content/uploads/woocommerce_uploads/SP-14.pdf "SP-14 Home Landscaping and Maintenance on Swelling Soil"
-[2]: https://itsdone.com/blog/signs-of-high-water-pressure-in-aurora-co/ "Signs Of High Water Pressure In Aurora, CO"
-[3]: https://www.auroragov.org/residents/water/services_and_information/homeowner_resources/seasonal_checklist "Aurora Water Seasonal Checklist"

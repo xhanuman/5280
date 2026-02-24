@@ -133,6 +133,9 @@ We're proud to serve Park Hill and help maintain the beautiful landscapes that m
     }
   ],
   "priceRange": "$$",
+  "sameAs": [
+    "https://www.denversprinklerblowout.com"
+  ],
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "Sprinkler Services",

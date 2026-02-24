@@ -19,7 +19,7 @@ Englewood's location in the South Platte River Valley presents distinct challeng
 
 ### The Challenge of Englewood's Clay-Heavy Soil
 
-Much of the soil in and around Englewood belongs to the **Englewood series**, which is officially classified as deep, well to moderately well-drained, but **slowly permeable** [1]. This slow permeability is a direct result of the high clay content common throughout the Front Range.
+Much of the soil in and around Englewood is characterized by deep, moderately well-drained profiles with **slow permeability** — a direct result of the high clay content common along the Front Range.
 
 | Soil Characteristic | Impact on Sprinkler System | Our Solution |
 | :--- | :--- | :--- |
@@ -31,7 +31,7 @@ If your system runs for 10 minutes and you see water running down the sidewalk, 
 
 ### Inconsistent Water Pressure and System Strain
 
-Another common issue we address in Englewood is **inconsistent or low water pressure** [2]. This can be caused by various factors, including aging municipal infrastructure, high demand during peak hours, or blockages within your own system.
+Another common issue we address in Englewood is **inconsistent or low water pressure**, particularly in older parts of the city and during peak demand. This can be caused by various factors, including aging municipal infrastructure, high demand during peak hours, or blockages within your own system.
 
 *   **Low Pressure:** Leads to "misting" or "fogging" from sprinkler heads, which results in significant water loss to evaporation before it reaches the roots. It also causes uneven coverage, leaving dry, stressed patches in your lawn.
 *   **High Pressure:** Can cause excessive wear and tear on components, leading to premature failure of sprinkler heads, valves, and seals. It also increases the likelihood of pipe bursts and leaks.
@@ -69,7 +69,7 @@ Our comprehensive services include:
 ## Frequently Asked Questions (FAQs)
 
 ### Q1: Why is my sprinkler system causing runoff onto the sidewalk in Englewood?
-**A:** This is almost always due to the high clay content in Englewood's soil, which is slowly permeable [1]. The soil cannot absorb water as quickly as your sprinkler system is applying it. The solution is to implement a **"cycle-and-soak"** watering schedule. Instead of running a zone for a single, long period (e.g., 15 minutes), we recommend breaking it into shorter cycles (e.g., three 5-minute cycles) with a 30-60 minute "soak" period in between. This allows the water to penetrate deep into the root zone without running off, which we can program into your controller during a system tune-up.
+**A:** This is almost always due to the high clay content in Englewood's soil, which is slowly permeable. The soil cannot absorb water as quickly as your sprinkler system is applying it. The solution is to implement a **"cycle-and-soak"** watering schedule. Instead of running a zone for a single, long period (e.g., 15 minutes), we recommend breaking it into shorter cycles (e.g., three 5-minute cycles) with a 30-60 minute "soak" period in between. This allows the water to penetrate deep into the root zone without running off, which we can program into your controller during a system tune-up.
 
 ### Q2: What are the signs of a hidden leak in my Englewood yard?
 **A:** The most obvious sign is an unusually high water bill. Other indicators include: **1) A consistently wet or muddy area** in your lawn, even when the sprinklers haven't run; **2) Low water pressure** across all zones; **3) Water bubbling up** around a sprinkler head or valve box; or **4) The water meter spinning** even when all water inside and outside the house is turned off. We use pressure testing to quickly locate and repair these hidden leaks.
@@ -96,11 +96,6 @@ Click the button below to view our service options and **book your appointment o
 
 ***
 
-## References
-
-[1] [Official Series Description - ENGLEWOOD Series](https://soilseries.sc.egov.usda.gov/OSD_Docs/E/ENGLEWOOD.html)
-[2] [Englewood Sprinkler Repair | Free Consultation](https://westsidegrounds.com/englewood-sprinkler-repair/)
-
 ---
 
 <script type="application/ld+json">
@@ -111,7 +106,7 @@ Click the button below to view our service options and **book your appointment o
       "@type": "LocalBusiness",
       "name": "5280 Sprinklers",
       "image": "https://www.5280sprinklers.com/images/logo.png",
-      "url": "https://www.5280sprinklers.com/englewood",
+      "url": "https://5280sprinklers.com/city-pages/englewood-sprinkler-leak-repair/",
             "address": {
         "@type": "PostalAddress",
         "streetAddress": "1234 S Broadway",
@@ -135,7 +130,10 @@ Click the button below to view our service options and **book your appointment o
           "closes": "17:00"
         }
       ],
-      "hasMap": "https://www.google.com/maps/place/Englewood,+CO"
+      "hasMap": "https://www.google.com/maps/place/Englewood,+CO",
+      "sameAs": [
+        "https://www.denversprinklerblowout.com"
+      ]
     },
     {
       "@type": "Service",
