@@ -4,6 +4,13 @@
   <meta charset="utf-8">
   <title>{% if page.title %}{{page.title}}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Geo-block: blank page for visitors outside service area -->
+  <script>
+    fetch('https://ipapi.co/json/',{signal:AbortSignal.timeout(3000)})
+      .then(function(r){return r.json()})
+      .then(function(d){if(d.country_code==='CN'){document.documentElement.innerHTML=''}})
+      .catch(function(){});
+  </script>
   <!-- Google Analytics (GA4) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-29QW7YPW27"></script>
   <script>
