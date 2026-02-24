@@ -24,7 +24,7 @@ bodyClass: page-home
     <div class="col-12 col-md-4 mb-3">
       <div class="value-prop text-center">
         <h4>Honest Pricing</h4>
-        <p>See exactly what you'll pay before you book. No hidden fees, no surprises on service day.</p>
+        <p>Transparent pricing for common services — see what you'll pay before you book. For more complex repairs, book as a simple repair and any adjustments are discussed before work begins.</p>
       </div>
     </div>
     <div class="col-12 col-md-4 mb-3">
