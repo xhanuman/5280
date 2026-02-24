@@ -36,7 +36,7 @@ bodyClass: page-home
     <div class="col-12 col-md-4 mb-3">
       <div class="value-prop text-center">
         <h4>Fast Online Scheduling</h4>
-        <p>Book your appointment in under two minutes. Pick your service, enter your address, and choose your date.</p>
+        <p>Book your appointment in under two minutes. Enter your address, select a technician, pick an available time slot, and answer a few quick questions.</p>
       </div>
     </div>
   </div>

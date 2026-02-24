@@ -40,6 +40,7 @@
     var f = document.getElementById('bookingFrame');
     if (!f) return;
     if (e.data === 'scrollToBooking') {
+      f.style.height = '1700px';
       setTimeout(function() {
         f.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 600);
