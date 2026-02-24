@@ -15,7 +15,8 @@ bodyClass: page-home
       <p><small>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</small></p>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="1700px" frameborder="0"></iframe>
 
-    <div class="row justify-content-center pt-4">
+    <h2 class="text-center pt-4 mb-3">Why Choose 5280 Sprinklers?</h2>
+    <div class="row justify-content-center">
       <div class="col-12 col-md-4 mb-3">
         <div class="value-prop text-center">
           <h4>Honest Pricing</h4>
@@ -25,7 +26,7 @@ bodyClass: page-home
       <div class="col-12 col-md-4 mb-3">
         <div class="value-prop text-center">
           <h4>Local Owner-Operator</h4>
-          <p>Conrad has serviced thousands of Denver-area systems since 2010. He knows your neighborhood's irrigation challenges.</p>
+          <p>Conrad has been at it since 2010. He knows Denver's neighborhoods and their irrigation challenges.</p>
         </div>
       </div>
       <div class="col-12 col-md-4 mb-3">
@@ -44,20 +45,64 @@ bodyClass: page-home
     <div class="col-12">
       <h2 class="title-3 text-dark mb-3">Our Denver Sprinkler Services</h2>
     </div>
-    {% for service in site.services %}
-    <div class="col-12 col-md-4 mb-1">
-      <div class="service service-summary">
-        <div class="service-content">
-          <h2 class="service-title">
-            <a href="{{site.baseurl}}{{ service.url }}">{{ service.title }}</a>
-          </h2>
-          {{ service.content | markdownify | strip_html | truncate: 100 }}
-        </div>
-      </div>
+    <div class="col-12 col-md-4 mb-3">
+      <h3><a href="{{site.baseurl}}/services/denver-sprinkler-repair-service/">Sprinkler Repair</a></h3>
+      <p>From broken heads and leaking valves to wiring issues and controller failures, we diagnose and fix all types of irrigation problems. Most repairs in Denver range from $85 for a head replacement to $200-$400 for valve work. Completed in a single visit.</p>
     </div>
-    {% endfor %}
+    <div class="col-12 col-md-4 mb-3">
+      <h3><a href="{{site.baseurl}}/services/denver-sprinkler-startup-service/">Spring Startup</a></h3>
+      <p>Your system needs a careful wake-up after winter — not just someone flipping a switch. We gradually pressurize the system, inspect every zone, adjust heads, and check for freeze damage before the heat of summer arrives. Typically scheduled mid-April to early May.</p>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <h3><a href="{{site.baseurl}}/services/denver-sprinkler-blowout-service/">Fall Winterization</a></h3>
+      <p>We use commercial-grade compressed air equipment to completely remove water from your irrigation system before Denver's first hard freeze. Schedule between late September and mid-November — October appointments fill up fast. Skipping this risks cracked pipes and flooded basements in spring.</p>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <h3><a href="{{site.baseurl}}/services/leak-detection-service/">Leak Detection</a></h3>
+      <p>Hidden irrigation leaks waste thousands of gallons and can add $200-$500 to a monthly water bill. Our service includes systematic zone pressure testing, valve box inspection, and a written findings report with repair estimates. Flat-rate pricing shown before you book.</p>
+    </div>
+    <div class="col-12 col-md-4 mb-3">
+      <h3><a href="{{site.baseurl}}/services/lawn-care-services/">Lawn Care</a></h3>
+      <p>Great irrigation is only half the battle. We offer fertilization programs (4 seasonal applications), core aeration to combat Denver's clay soil compaction, and fall overseeding. These services work hand-in-hand with proper watering to keep your lawn healthy year-round.</p>
+    </div>
     <div class="col-12 text-center">
       <a class="button button-primary mt-2" href="{{site.baseurl}}/services">View All Services</a>
+    </div>
+  </div>
+</div>
+
+<div class="container pt-5 pb-4">
+  <h2 class="mb-4">Denver Sprinkler Quick Answers</h2>
+  <div class="row">
+    <div class="col-12 col-md-4 mb-4">
+      <h3>How Much Does Sprinkler Repair Cost in Denver?</h3>
+      <p>Most sprinkler repairs range from about <strong>$85 for a head replacement to $200-$400 for valve repairs</strong>, diaphragm replacement, or wire locating. Underground leak detection and mainline repair run higher depending on access and pipe depth. All pricing is transparent and shown in our online scheduler before you book — no surprise charges on service day. Most repairs are completed in a single visit.</p>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <h3>When Should I Start My Sprinkler System?</h3>
+      <p>Wait until nighttime temperatures consistently stay above freezing — typically <strong>mid-April to early May</strong> for Denver and surrounding suburbs. The traditional target is Mother's Day weekend, but always check the 10-day forecast first. Starting too early risks freeze damage; starting too late means your lawn goes without water during a critical growth period.</p>
+    </div>
+    <div class="col-12 col-md-4 mb-4">
+      <h3>How Do I Know If My Sprinkler System Has a Leak?</h3>
+      <p>Watch for these warning signs: <strong>an unexplained spike in your water bill</strong>, soggy areas when sprinklers haven't run, water pooling near valve boxes, heads that keep dripping after the system shuts off, low pressure in certain zones, or unusually green patches of grass. Even a single stuck valve can add $200-$500 to a monthly water bill.</p>
+    </div>
+  </div>
+  <div class="row mt-3">
+    <div class="col-12">
+      <h3>Denver Watering Facts</h3>
+      <p>Denver Water enforces a <strong>three-day-a-week summer watering rule</strong> with no outdoor watering between 10 a.m. and 6 p.m. Leaking systems must be repaired within 10 days of discovery. Denver's average first hard freeze arrives around <strong>October 8</strong>, and the area's predominantly clay soil absorbs water slowly — making cycle-and-soak irrigation schedules essential to avoid runoff. Most established Denver lawns need about 1 inch of water per week during summer, including rainfall.</p>
+    </div>
+  </div>
+  <div class="row mt-4">
+    <div class="col-12">
+      <h3>Denver Sprinkler Resources</h3>
+      <ul>
+        <li><a href="{{site.baseurl}}/denver-sprinkler-faq/">Denver Sprinkler FAQ</a> — 250+ questions answered</li>
+        <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/">Seasonal Maintenance Guide</a> — month-by-month checklist</li>
+        <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/">Emergency Leak Repair</a> — what to do right now</li>
+        <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/">High Water Bill?</a> — how to tell if your sprinklers are the cause</li>
+        <li><a href="{{site.baseurl}}/diy-denver-sprinkler-start-up/">DIY Startup Guide</a> — step-by-step if you want to try it yourself</li>
+      </ul>
     </div>
   </div>
 </div>
