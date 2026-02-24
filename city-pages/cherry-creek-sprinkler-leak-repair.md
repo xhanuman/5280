@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Cherry Creek Sprinkler Repair"
-description: "Professional sprinkler repair and leak detection services in Cherry Creek, Denver. Local experts serving Cherry Creek homeowners with fast, reliable irrigation solutions."
+description: "Professional sprinkler repair and leak detection in Cherry Creek, Denver. Local experts serving Cherry Creek homeowners with reliable service."
 permalink: /city-pages/cherry-creek-sprinkler-leak-repair/
 bodyClass: page-city-cherry-creek
 ---

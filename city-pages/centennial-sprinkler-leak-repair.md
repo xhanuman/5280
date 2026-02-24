@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Centennial Sprinkler Leak Repair"
-description: "Professional sprinkler repair and leak detection services in Centennial, CO. Local experts serving Centennial homeowners with fast, reliable irrigation solutions."
+description: "Professional sprinkler repair and leak detection in Centennial, CO. Local experts serving Centennial homeowners with fast, reliable service."
 permalink: /city-pages/centennial-sprinkler-leak-repair/
 bodyClass: page-city-centennial
 ---

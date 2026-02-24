@@ -19,25 +19,25 @@ Maintaining a healthy lawn in Northfield requires more than just setting a timer
 
 ### The Challenge of Denver's Clay and Bentonite Soil
 
-The soil composition across the Denver metro area, including Northfield, is notoriously challenging for irrigation systems. The ground is often characterized by a high concentration of **clay and bentonite** [1] [2]. Clay soil is made up of fine particles that compact easily and retain water for long periods [3]. This presents several problems for sprinklers:
+The soil composition across the Denver metro area, including Northfield, is notoriously challenging for irrigation systems. The ground is often characterized by a high concentration of **clay and bentonite**. Clay soil is made up of fine particles that compact easily and retain water for long periods. This presents several problems for sprinklers:
 
 *   **Poor Drainage:** Water tends to pool on the surface rather than soaking in, leading to runoff, wasted water, and potential fungal diseases in the lawn.
-*   **Soil Compaction:** The dense nature of clay soil restricts the movement of air and nutrients to the grass roots, making it difficult for the turf to thrive. This necessitates proper system design and regular **aeration** to ensure water reaches the root zone effectively [4].
+*   **Soil Compaction:** The dense nature of clay soil restricts the movement of air and nutrients to the grass roots, making it difficult for the turf to thrive. This necessitates proper system design and regular **aeration** to ensure water reaches the root zone effectively.
 *   **Pipe Stress:** The expansive nature of bentonite clay means the soil swells significantly when wet and shrinks when dry. This constant movement can place considerable stress on underground pipes and fittings, leading to premature leaks and breaks in the system.
 
 ### Navigating Water Pressure Extremes
 
 Northfield, like many parts of Denver, can experience a wide range of water pressure conditions, sometimes even within the same block. We frequently encounter two primary issues:
 
-*   **Low Water Pressure:** This is often caused by internal system problems such as a **leak in the main line**, **clogged sprinkler heads**, or a malfunctioning backflow preventer [5]. Low pressure results in poor coverage, creating dry spots and an unevenly watered lawn.
-*   **High Water Pressure:** Conversely, excessively high pressure can cause sprinkler heads to mist or fog, leading to significant water loss through evaporation and poor distribution. High pressure can also dramatically shorten the lifespan of your system's components. In many cases, a missing or failing **Pressure Reducing Valve (PRV)** is the culprit [6]. Our technicians are experts at diagnosing and correcting these pressure issues to ensure your system operates at its optimal PSI, saving you water and money.
+*   **Low Water Pressure:** This is often caused by internal system problems such as a **leak in the main line**, **clogged sprinkler heads**, or a malfunctioning backflow preventer. Low pressure results in poor coverage, creating dry spots and an unevenly watered lawn.
+*   **High Water Pressure:** Conversely, excessively high pressure can cause sprinkler heads to mist or fog, leading to significant water loss through evaporation and poor distribution. High pressure can also dramatically shorten the lifespan of your system's components. In many cases, a missing or failing **Pressure Reducing Valve (PRV)** is the culprit. Our technicians are experts at diagnosing and correcting these pressure issues to ensure your system operates at its optimal PSI, saving you water and money.
 
 ## 3. Why Choose 5280 Sprinklers: Your Local Advantage
 
 Choosing a local company like 5280 Sprinklers is the most critical decision you can make for your Northfield irrigation needs. Our local focus translates directly into superior service and results:
 
 *   **Hyper-Local Expertise:** We don't just serve Denver; we live and work here. Our team has hands-on experience with the specific soil maps, water pressure zones, and microclimates of Northfield. We know exactly where to look for the common bentonite-related pipe breaks and how to adjust systems for the local clay drainage issues.
-*   **Compliance with Denver Water Rules:** Denver Water has strict rules regarding outdoor watering, including specific days, times, and requirements for repairing leaks promptly [7]. We ensure your system is programmed and maintained to be fully compliant, helping you avoid fines and conserve water.
+*   **Compliance with Denver Water Rules:** Denver Water has strict rules regarding outdoor watering, including specific days, times, and requirements for repairing leaks promptly. We ensure your system is programmed and maintained to be fully compliant, helping you avoid fines and conserve water.
 *   **Rapid Response Time:** A broken sprinkler system can waste thousands of gallons of water in a short time. Because we are local, we can offer faster, more reliable service calls than out-of-area competitors, minimizing damage and water loss.
 
 ## 4. Our Comprehensive Sprinkler Repair Services
@@ -59,16 +59,6 @@ Don't let a leaky or inefficient sprinkler system compromise the health of your 
 **Book your service appointment online now!** It's fast, easy, and the first step toward a healthier, more beautiful, and water-efficient landscape.
 
 ***
-
-### References
-
-[1]: Denver soil, and actually, most of Colorado, is mainly made up of three types: sandy, clay, and bentonite.
-[2]: Navigating Colorado Soils: A Gardener's Guide to Success
-[3]: Clay soils are prevalent in various regions of Colorado and are characterized by their fine particles and ability to retain water.
-[4]: Aeration reduces soil compaction, helps water and fertilizer to move into the root zone, and supplies your soil with air.
-[5]: 4 Common Causes of Low Water Pressure in Your Denver Sprinkler System
-[6]: If you are experiencing high water pressure, you may have a failing PRV (pressure reducing valve) or need one installed if you do not already have one.
-[7]: Rules for Outdoor Water Use (Denver Water)
 
 ## 5. Frequently Asked Questions (FAQs)
 

@@ -1,6 +1,7 @@
 ---
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 title: Denver Sprinkler Repairs and Sprinkler Start Up
+description: "Denver sprinkler repair, startup, and winterization services. Locally owned since 2010. Honest pricing, fast scheduling, and expert service."
 layout: default
 bodyClass: page-home
 ---
@@ -10,8 +11,8 @@ bodyClass: page-home
     <h2>5280 Sprinklers — Serving Denver Since 2010</h2>
     <p>Locally owned and operated. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners.</p>
 
-      <h3>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</h3>
-      <h5>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</h5>
+      <p><strong>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</strong></p>
+      <p><small>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</small></p>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="1700px" frameborder="0"></iframe>
 
     <div class="row justify-content-center pt-4">
