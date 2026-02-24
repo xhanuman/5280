@@ -83,10 +83,10 @@ description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver home
 
   <div class="row mt-3 mb-4">
     <div class="col-12 col-md-4 mb-3">
-      <img src="{{site.baseurl}}/images/humanitarian/uganda-hardware-shop.jpg"
-           alt="Visiting the hardware shop in Tororo, Uganda to source fittings"
+      <img src="{{site.baseurl}}/images/humanitarian/uganda-water-tower.jpg"
+           alt="Water tower and well system at Amor Village, Tororo, Uganda"
            style="width: 100%; border-radius: 6px;">
-      <p class="mt-1"><small>Sourcing fittings at the hardware shop in Tororo</small></p>
+      <p class="mt-1"><small>The water tower at Amor Village</small></p>
     </div>
     <div class="col-12 col-md-4 mb-3">
       <img src="{{site.baseurl}}/images/humanitarian/uganda-pump-install.jpg"
