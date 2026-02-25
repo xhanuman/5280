@@ -70,7 +70,7 @@ While the concept of a DIY sprinkler blowout is tempting, it carries significant
 
 | Feature | DIY Approach | Professional Service (5280 Sprinklers) |
 | :--- | :--- | :--- |
-| **Equipment** | Small, low-volume home compressor (typically 3-8 CFM). | Commercial-grade, high-volume compressor (100-185+ CFM). |
+| **Equipment** | Small, low-volume home compressor (typically 3-8 CFM). | Commercial-grade, high-volume compressor (90 CFM and up). |
 | **Pressure** | Difficult to regulate. High PSI can damage pipes and heads. | Pressure is carefully regulated (40-80 PSI) to protect system components. |
 | **Effectiveness** | Low air volume (CFM) fails to push all water out, leaving system vulnerable. | High air volume effectively purges the entire system, zone by zone. |
 | **Safety Risk** | High risk of eye injury from flying debris. Compressed air can cause serious bodily harm. | Trained, insured, and uses proper safety equipment. |
