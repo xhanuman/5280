@@ -103,6 +103,8 @@ bodyClass: page-home
         <li><a href="{{site.baseurl}}/denver-sprinkler-maintenance-guide/">Seasonal Maintenance Guide</a> — month-by-month checklist</li>
         <li><a href="{{site.baseurl}}/emergency-sprinkler-leak-repair/">Emergency Leak Repair</a> — what to do right now</li>
         <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/">High Water Bill?</a> — how to tell if your sprinklers are the cause</li>
+        <li><a href="{{site.baseurl}}/denver-sprinkler-startup-guide/">Spring Startup Guide 2026</a> — timing, DIY steps, and when to call a pro</li>
+        <li><a href="{{site.baseurl}}/denver-sprinkler-blowout-guide/">Fall Blowout Guide 2026</a> — why winterization is essential in Denver</li>
       </ul>
     </div>
   </div>
