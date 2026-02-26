@@ -6,14 +6,17 @@
        asin="B0DPH3KL69"
        name="YoLink Water Leak Starter Kit — Siren + Notifications"
        label="Siren + Notifications"
-       short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts. Works without Wi-Fi via LoRa long-range."
+       short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts."
     %}
 
   Parameters:
     asin       (required) Amazon ASIN
     name       (required) Product display name
-    label      (optional) Short variant label shown as a tag
+    label      (optional) Short variant label shown as a badge
     short_desc (optional) One-sentence product description
+
+  Thumbnail: If /images/amazon/{asin}.png exists (generated from Command Center),
+  it will be displayed. Otherwise the card renders text-only.
 {% endcomment %}
 
 {% assign _asin = include.asin %}
@@ -22,10 +25,19 @@
 {% assign _desc  = include.short_desc %}
 {% assign _tag   = "humanitaria0a-20" %}
 {% assign _url   = "https://www.amazon.com/dp/" | append: _asin | append: "?tag=" | append: _tag %}
+{% assign _img   = "/images/amazon/" | append: _asin | append: ".png" %}
 
 <div style="background:#f0f7ff; border-left:4px solid #0066cc; padding:16px 20px; margin:16px 0; border-radius:4px;">
-  <div style="display:flex; align-items:flex-start; gap:12px; flex-wrap:wrap;">
-    <div style="flex:1; min-width:200px;">
+  <div style="display:flex; align-items:flex-start; gap:16px; flex-wrap:wrap;">
+
+    {% comment %} Branded thumbnail (generated via Command Center) {% endcomment %}
+    <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="flex-shrink:0;">
+      <img src="{{ _img }}" alt="{{ _name }}"
+           style="width:160px; height:100px; object-fit:contain; border-radius:6px; border:1px solid #dde8f5; background:#f8fffe;"
+           onerror="this.style.display='none'" />
+    </a>
+
+    <div style="flex:1; min-width:180px;">
       <strong style="display:block; margin-bottom:4px;">
         <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="color:#0066cc; text-decoration:none;">{{ _name }}</a>
       </strong>
