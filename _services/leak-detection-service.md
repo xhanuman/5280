@@ -122,6 +122,8 @@ Our leak detection add-on service focuses primarily on valve leaks. Leaks in lat
 
 We strongly recommend installing leak detection devices in your crawlspace or basement and testing them quarterly. These devices can alert you to leaks before they cause significant damage.
 
+Beyond the obvious indoor placement, consider dropping a sensor into your exterior irrigation valve boxes — placing one on top of the valve body gives you an early warning of irrigation leaks before water ever migrates toward your foundation. Valve boxes tend to stay humid, so there's a chance of occasional false positives depending on how saturated your yard gets, and outdoor sensors won't last as long as they would inside. But at this price point it's a no-brainer — an extra sensor in each valve box is cheap insurance.
+
 {% include amazon-product.html
    asin="B0DPH3KL69"
    name="YoLink Water Leak Starter Kit — Siren + Notifications"
