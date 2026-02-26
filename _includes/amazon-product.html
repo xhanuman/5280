@@ -6,61 +6,54 @@
        asin="B0DPH3KL69"
        name="YoLink Water Leak Starter Kit — Siren + Notifications"
        label="Siren + Notifications"
-       badge="Editor's Pick"
        short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts."
     %}
 
   Parameters:
     asin       (required) Amazon ASIN
     name       (required) Product display name
-    label      (optional) Short variant label shown as a pill badge
-    badge      (optional) Editorial badge e.g. "Editor's Pick", "Staff Favorite"
+    label      (optional) Short variant label shown as a badge
     short_desc (optional) One-sentence product description
 
   Thumbnail: If /images/amazon/{asin}.png exists (generated from Command Center),
   it will be displayed. Otherwise the card renders text-only.
 {% endcomment %}
 
-{% assign _asin  = include.asin %}
-{% assign _name  = include.name %}
+{% assign _asin = include.asin %}
+{% assign _name = include.name %}
 {% assign _label = include.label %}
-{% assign _badge = include.badge %}
 {% assign _desc  = include.short_desc %}
 {% assign _tag   = "humanitaria0a-20" %}
 {% assign _url   = "https://www.amazon.com/dp/" | append: _asin | append: "?tag=" | append: _tag %}
 {% assign _img   = "/images/amazon/" | append: _asin | append: ".png" %}
 
-<div style="background:#fff; border-left:4px solid #1c3ed3; padding:16px 20px; margin:20px 0; border-radius:8px; box-shadow:0 2px 12px rgba(0,0,0,0.08);">
+<div style="background:#f0f7ff; border-left:4px solid #0066cc; padding:16px 20px; margin:16px 0; border-radius:4px;">
   <div style="display:flex; align-items:flex-start; gap:16px; flex-wrap:wrap;">
 
-    {% comment %} Custom branded thumbnail (generated via Command Center image designer) {% endcomment %}
+    {% comment %} Branded thumbnail (generated via Command Center) {% endcomment %}
     <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="flex-shrink:0;">
       <img src="{{ _img }}" alt="{{ _name }}"
-           style="width:160px; height:100px; object-fit:contain; border-radius:6px; border:1px solid #e2e8f0; background:#f8fffe;"
+           style="width:160px; height:100px; object-fit:contain; border-radius:6px; border:1px solid #dde8f5; background:#f8fffe;"
            onerror="this.style.display='none'" />
     </a>
 
     <div style="flex:1; min-width:180px;">
-      {% if _badge %}
-        <span style="display:inline-block; font-size:0.7rem; font-weight:700; text-transform:uppercase; letter-spacing:0.05em; color:#1c3ed3; margin-bottom:4px;">{{ _badge }}</span>
-      {% endif %}
-      <strong style="display:block; margin-bottom:4px; line-height:1.3;">
-        <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="color:#1c3ed3; text-decoration:none;">{{ _name }}</a>
+      <strong style="display:block; margin-bottom:4px;">
+        <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="color:#0066cc; text-decoration:none;">{{ _name }}</a>
       </strong>
       {% if _label %}
-        <span style="display:inline-block; font-size:0.75rem; background:#1c3ed3; color:#fff; padding:1px 8px; border-radius:10px; margin-bottom:6px;">{{ _label }}</span>
+        <span style="display:inline-block; font-size:0.75rem; background:#0066cc; color:#fff; padding:1px 8px; border-radius:10px; margin-bottom:6px;">{{ _label }}</span>
       {% endif %}
       {% if _desc %}
-        <p style="margin:4px 0 10px; font-size:0.9rem; color:#444; line-height:1.5;">{{ _desc }}</p>
+        <p style="margin:4px 0 10px; font-size:0.9rem; color:#444;">{{ _desc }}</p>
       {% endif %}
       <a href="{{ _url }}" target="_blank" rel="noopener nofollow"
-         style="display:inline-block; background:#28a745; color:#fff; font-weight:600; font-size:0.85rem; padding:7px 16px; border-radius:5px; text-decoration:none;">
-        Check Price on Amazon →
+         style="display:inline-block; background:#ff9900; color:#000; font-weight:600; font-size:0.85rem; padding:6px 14px; border-radius:4px; text-decoration:none;">
+        View on Amazon →
       </a>
-      <span style="display:inline-block; margin-left:8px; font-size:0.72rem; color:#888;">(paid link)</span>
     </div>
   </div>
-  <p style="margin:10px 0 0; font-size:0.72rem; color:#999; font-style:italic;">
-    As an Amazon Associate, 5280 Sprinklers earns from qualifying purchases.
+  <p style="margin:10px 0 0; font-size:0.75rem; color:#888; font-style:italic;">
+    *As an Amazon Associate, 5280 Sprinklers earns from qualifying purchases.
   </p>
 </div>
