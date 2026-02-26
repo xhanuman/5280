@@ -1,0 +1,47 @@
+{% comment %}
+  Amazon Associates product card.
+
+  Usage:
+    {% include amazon-product.html
+       asin="B0DPH3KL69"
+       name="YoLink Water Leak Starter Kit — Siren + Notifications"
+       label="Siren + Notifications"
+       short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts. Works without Wi-Fi via LoRa long-range."
+    %}
+
+  Parameters:
+    asin       (required) Amazon ASIN
+    name       (required) Product display name
+    label      (optional) Short variant label shown as a tag
+    short_desc (optional) One-sentence product description
+{% endcomment %}
+
+{% assign _asin = include.asin %}
+{% assign _name = include.name %}
+{% assign _label = include.label %}
+{% assign _desc  = include.short_desc %}
+{% assign _tag   = "humanitaria0a-20" %}
+{% assign _url   = "https://www.amazon.com/dp/" | append: _asin | append: "?tag=" | append: _tag %}
+
+<div style="background:#f0f7ff; border-left:4px solid #0066cc; padding:16px 20px; margin:16px 0; border-radius:4px;">
+  <div style="display:flex; align-items:flex-start; gap:12px; flex-wrap:wrap;">
+    <div style="flex:1; min-width:200px;">
+      <strong style="display:block; margin-bottom:4px;">
+        <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="color:#0066cc; text-decoration:none;">{{ _name }}</a>
+      </strong>
+      {% if _label %}
+        <span style="display:inline-block; font-size:0.75rem; background:#0066cc; color:#fff; padding:1px 8px; border-radius:10px; margin-bottom:6px;">{{ _label }}</span>
+      {% endif %}
+      {% if _desc %}
+        <p style="margin:4px 0 10px; font-size:0.9rem; color:#444;">{{ _desc }}</p>
+      {% endif %}
+      <a href="{{ _url }}" target="_blank" rel="noopener nofollow"
+         style="display:inline-block; background:#ff9900; color:#000; font-weight:600; font-size:0.85rem; padding:6px 14px; border-radius:4px; text-decoration:none;">
+        View on Amazon →
+      </a>
+    </div>
+  </div>
+  <p style="margin:10px 0 0; font-size:0.75rem; color:#888; font-style:italic;">
+    *As an Amazon Associate, 5280 Sprinklers earns from qualifying purchases.
+  </p>
+</div>

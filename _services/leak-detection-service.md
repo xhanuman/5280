@@ -6,7 +6,7 @@ image: '/images/services/noun_591323.png'
 
 <div class="answer-box" style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 20px; margin-bottom: 30px; border-radius: 4px;">
 <strong>Quick Answer: What Does Leak Detection Cost in Denver?</strong><br>
-Our leak detection service focuses on valve leaks — the most common source of irrigation waste in Denver-area systems. Pricing is flat-rate regardless of neighborhood or zip code and is shown in the online scheduler before you book. Early detection typically saves hundreds of dollars in wasted water: even a single stuck valve can add $200–$500 to a monthly water bill. The service includes systematic zone pressure testing, valve box inspection, and a written findings report with repair estimates. Lateral line leaks (underground pipe) require additional specialized equipment and are outside the scope of the standard service. <a href="/">Schedule online for current pricing</a>.
+Our leak detection add-on service focuses primarily on identifying valve leaks in your irrigation system. Pricing is provided during scheduling based on your system's complexity and is the same regardless of neighborhood or zip code. Early detection can save you hundreds of dollars in water bills and prevent costly property damage. <a href="/">Schedule online for current pricing</a>.
 </div>
 
 ## Why Leak Detection Matters for Your Denver Irrigation System
@@ -121,6 +121,20 @@ Our leak detection add-on service focuses primarily on valve leaks. Leaks in lat
 ### Our Recommendation
 
 We strongly recommend installing leak detection devices in your crawlspace or basement and testing them quarterly. These devices can alert you to leaks before they cause significant damage.
+
+{% include amazon-product.html
+   asin="B0DPH3KL69"
+   name="YoLink Water Leak Starter Kit — Siren + Notifications"
+   label="Siren + Notifications"
+   short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts. LoRa long-range — works even without Wi-Fi."
+%}
+
+{% include amazon-product.html
+   asin="B0DNYPT5YG"
+   name="YoLink Water Leak Starter Kit — Silent (App/SMS Only)"
+   label="Silent — App/SMS Only"
+   short_desc="Hub + 6 sensors with quiet monitoring. Alerts via app, SMS, and email. Same LoRa long-range coverage, no audible alarm."
+%}
 
 ---
 
