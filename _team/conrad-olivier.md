@@ -2,7 +2,7 @@
 title: 'Conrad Olivier — Denver Irrigation Specialist'
 image: '/images/team/conrad-olivier-unsplash.jpg'
 jobtitle: 'Owner-Operator'
-email: '5280sprinkler@gmail.com'
+email: 'contact@5280sprinklers.com'
 layout: default
 bodyClass: page-team-single
 description: 'Meet Conrad Olivier, owner of 5280 Sprinklers. Serving Denver homeowners with honest, reliable sprinkler repair and maintenance since 2010.'
