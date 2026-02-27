@@ -124,33 +124,6 @@ We strongly recommend installing leak detection devices in your crawlspace or ba
 
 Beyond the obvious indoor placement, consider dropping a sensor into your exterior irrigation valve boxes — placing one on top of the valve body gives you an early warning of irrigation leaks before water ever migrates toward your foundation. Valve boxes tend to stay humid, so there's a chance of occasional false positives depending on how saturated your yard gets, and outdoor sensors won't last as long as they would inside. But at this price point it's a no-brainer — an extra sensor in each valve box is cheap insurance.
 
-{% include amazon-product.html
-   asin="B0BK179CW9"
-   name="Wireless Valve Controller & Bulldog Valve Robot Automatic Water Leak Detection & Shut-Off Kit HUB Included"
-   label="Automatic Water Shutoff"
-   short_desc="We recommend this kit for its reliable leak detection and automatic shut-off, preventing significant water damage."
-   headline="Smart Water Shut-Off Protects Your Home"
-   badge="No plumber needed"
-   why_we_recommend="We recommend Yolink leak sensors and this device which is a DIY setup, protecting your property from water damage."
-   bullet1="Automated shut-off prevents costly water damage."
-   bullet2="Simple DIY installation, no plumber needed."
-   bullet3="Remote control and smart home integration."
-   image_pos="left"
-%}
-
-{% include amazon-product.html
-   asin="B0BRXMSBTX"
-   name="YoLink Smart Water Valve Controller 2, with Bulldog Water Valve Manipulator, Easy No-Plumber DIY Installation, Remote Control, Compatible with Alexa/Google Assistant, IFTTT - YoLink Hub Required"
-   label="Automatic Water Shutoff"
-   short_desc="We recommend this for reliable leak prevention and easy DIY setup, protecting your property from water damage."
-   headline="Smart Water Shut-Off Protects Your Home"
-   badge="No plumber needed"
-   why_we_recommend="We recommend Yolink leak sensors and this device which is a DIY setup, protecting your property from water damage."
-   bullet1="Automated shut-off prevents costly water damage."
-   bullet2="Simple DIY installation, no plumber needed."
-   bullet3="Remote control and smart home integration."
-   image_pos="left"
-%}
 
 {% include amazon-product.html
    asin="B0DPH3KL69"
