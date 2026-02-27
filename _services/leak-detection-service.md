@@ -152,6 +152,20 @@ Beyond the obvious indoor placement, consider dropping a sensor into your exteri
    image_pos="left"
 %}
 
+{% include amazon-product.html
+   asin="B0DPH3KL69"
+   name="YoLink Water Leak Starter Kit: Hub + 6 Leak Sensor 4 (105 dB Siren), LoRa Long-Range, App/SMS/Email Alerts, D2D Offline, 2 AAA Up to 5-Year Battery, Compatible with Alexa/IFTTT/Home Assistant"
+   label="Siren + Notifications"
+   short_desc="We recommend this kit for reliable, long-range leak monitoring that provides instant alerts and peace of mind for your property."
+   headline="Prevent Costly Water Damage with Early Detection"
+   badge="No wires!"
+   why_we_recommend="We recommend this kit for reliable, long-range leak monitoring that provides instant alerts and peace of mind for your property.  You only need one Hub so keep that in mind when ordering components!"
+   bullet1="Detect leaks across multiple key areas."
+   bullet2="Receive instant alerts via app, text, or email."
+   bullet3="Long-range wireless sensors with 5-year battery."
+   image_pos="left"
+%}
+
 ---
 
 ## Preventing Future Leaks
