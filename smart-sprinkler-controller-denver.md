@@ -134,7 +134,7 @@ The controller itself runs $150–$300 depending on brand and zone count. Profes
 
 ## Ready to Schedule Installation?
 
-You can book a smart controller installation directly through our online scheduler. If you've already purchased a controller or plan to — great. We actually encourage homeowners to buy the device themselves and have it on-site before we arrive. There are a couple of good reasons for this: any warranty issues are much easier for you to handle directly with the retailer or manufacturer, and you pay no markup on the hardware since you're buying it at retail price. We charge for the installation and configuration work, not the equipment.
+You can book a smart controller installation directly through our online scheduler. If you've already purchased a controller or plan to — great. We actually encourage homeowners to buy the device themselves and have it on-site before we arrive. There are a couple of good reasons for this: any warranty issues are much easier for you to handle directly with the retailer or manufacturer, and you pay no markup on the hardware since you're buying it at retail price. Same goes for Denver Water rebates — since you purchased the device, you can submit the rebate application directly and keep the full amount. We charge for the installation and configuration work, not the equipment.
 
 If you're not sure which model to get, the recommendations above are a solid starting point for most Denver homes. When you're ready, [schedule online](/onlinescheduling/).
 
