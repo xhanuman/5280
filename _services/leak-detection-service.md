@@ -138,6 +138,20 @@ Beyond the obvious indoor placement, consider dropping a sensor into your exteri
    image_pos="left"
 %}
 
+{% include amazon-product.html
+   asin="B0BRXMSBTX"
+   name="YoLink Smart Water Valve Controller 2, with Bulldog Water Valve Manipulator, Easy No-Plumber DIY Installation, Remote Control, Compatible with Alexa/Google Assistant, IFTTT - YoLink Hub Required"
+   label="Automatic Water Shutoff"
+   short_desc="We recommend this for reliable leak prevention and easy DIY setup, protecting your property from water damage."
+   headline="Smart Water Shut-Off Protects Your Home"
+   badge="No plumber needed"
+   why_we_recommend="We recommend Yolink leak sensors and this device which is a DIY setup, protecting your property from water damage."
+   bullet1="Automated shut-off prevents costly water damage."
+   bullet2="Simple DIY installation, no plumber needed."
+   bullet3="Remote control and smart home integration."
+   image_pos="left"
+%}
+
 ---
 
 ## Preventing Future Leaks
