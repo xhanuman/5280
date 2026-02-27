@@ -76,7 +76,14 @@ Rachio has built its reputation on an intuitive app and deep smart home integrat
    asin="B07CZ864Y9"
    name="Rachio 3 Smart Sprinkler Controller"
    label="8-Zone | WiFi | WaterSense Certified"
-   short_desc="Weather Intelligence Plus adjusts watering automatically based on local conditions — cuts outdoor water use by up to 50%."
+   short_desc="Weather Intelligence Plus adjusts watering automatically — cuts outdoor water use by up to 50%."
+   headline="Control Your Sprinklers Remotely & Cut Water Bills by 50%"
+   badge="Most Popular"
+   why_we_recommend="We recommend the Rachio 3 as the top choice for Denver homeowners — Weather Intelligence Plus learns your landscape and adjusts automatically, while deep smart home integration makes day-to-day management effortless."
+   bullet1="EPA WaterSense certified — may qualify for Denver Water rebates."
+   bullet2="Works with Alexa, Google Assistant, and Apple HomeKit."
+   bullet3="Cuts outdoor water use by up to 50% using real-time local weather data."
+   image_pos="left"
 %}
 
 ### Hunter Pro-HC (Hydrawise): The Professional's Choice
@@ -91,7 +98,14 @@ For larger or more complex properties, or for homeowners who want the most detai
    asin="B075Q2SSKX"
    name="Hunter Pro-HC Hydrawise Smart Controller"
    label="6-Zone | Professional Grade | Hydrawise"
-   short_desc="Pro-grade smart controller with predictive watering and detailed zone diagnostics — the pro installer's choice for complex systems."
+   short_desc="Predictive watering and detailed zone diagnostics — the pro installer's choice for complex systems."
+   headline="Professional-Grade Smart Irrigation for Complex Systems"
+   badge="Pro Grade"
+   why_we_recommend="We recommend the Hunter Pro-HC for larger properties and complex irrigation systems that need professional-grade diagnostics, predictive watering, and advanced zone control beyond what a typical consumer controller provides."
+   bullet1="Predictive Watering Technology adjusts schedules before conditions change."
+   bullet2="Detailed zone diagnostics help identify broken heads and inefficiencies."
+   bullet3="Supports wired flow monitoring integration for real-time leak detection."
+   image_pos="left"
 %}
 
 ## How to Upgrade to a WiFi Sprinkler Controller
