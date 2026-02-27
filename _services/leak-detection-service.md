@@ -138,6 +138,13 @@ Beyond the obvious indoor placement, consider dropping a sensor into your exteri
    short_desc="Hub + 6 sensors with quiet monitoring. Alerts via app, SMS, and email. Same LoRa long-range coverage, no audible alarm."
 %}
 
+{% include amazon-product.html
+   asin="B0BK179CW9"
+   name="Wireless Valve Controller & Bulldog Valve Robot Automatic Water Leak Detection & Shut-Off Kit HUB Included"
+   label="Wireless Leak Protection"
+   short_desc="We recommend this kit for its reliable leak detection and automatic shut-off capabilities, actively protecting your property from significant water damage."
+%}
+
 ---
 
 ## Preventing Future Leaks
