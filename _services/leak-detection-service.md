@@ -127,14 +127,14 @@ Beyond the obvious indoor placement, consider dropping a sensor into your exteri
 {% include amazon-product.html
    asin="B0BK179CW9"
    name="Wireless Valve Controller & Bulldog Valve Robot Automatic Water Leak Detection & Shut-Off Kit HUB Included"
-   label="Auto Shut-Off Kit"
+   label="Automatic Water Shutoff"
    short_desc="We recommend this kit for its reliable leak detection and automatic shut-off, preventing significant water damage."
-   headline="Protect Your Property From Costly Water Leaks"
-   badge="Professional Grade"
-   why_we_recommend="We recommend this kit for its reliable leak detection and automatic shut-off, preventing significant water damage."
-   bullet1="Instantly shuts off water upon leak detection."
-   bullet2="Prevents extensive water damage and costly repairs."
-   bullet3="Simple setup, works with existing main water line."
+   headline="Smart Water Shut-Off Protects Your Home"
+   badge="No plumber needed"
+   why_we_recommend="We recommend Yolink leak sensors and this device which is a DIY setup, protecting your property from water damage."
+   bullet1="Automated shut-off prevents costly water damage."
+   bullet2="Simple DIY installation, no plumber needed."
+   bullet3="Remote control and smart home integration."
    image_pos="left"
 %}
 
