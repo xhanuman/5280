@@ -153,6 +153,20 @@ Beyond the obvious indoor placement, consider dropping a sensor into your exteri
    image_pos="left"
 %}
 
+{% include amazon-product.html
+   asin="B0BK179CW9"
+   name="Wireless Valve Controller & Bulldog Valve Robot Automatic Water Leak Detection & Shut-Off Kit HUB Included"
+   label="Automatic Shut-Off & Toggle On/Off"
+   short_desc="We recommend this kit for reliable, proactive leak protection that prevents costly water damage and provides peace of mind."
+   headline="Stop Leaks Automatically, Protect Your Home"
+   badge="No Plumber needed"
+   why_we_recommend="We recommend Yolink components to proactively protect your house from leaks going unattended.  You must use at least one sensor in conjunction with this device"
+   bullet1="Stops leaks, prevents major damage."
+   bullet2="Wireless setup, easy installation."
+   bullet3="No brainer.  Want an easy way to turn on and off your crawlspace water valve?"
+   image_pos="left"
+%}
+
 ---
 
 ## Preventing Future Leaks
