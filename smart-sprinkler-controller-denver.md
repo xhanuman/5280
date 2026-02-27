@@ -72,7 +72,12 @@ Rachio has built its reputation on an intuitive app and deep smart home integrat
 
 **Our recommended Rachio controller for Denver homes:**
 
-
+{% include amazon-product.html
+   asin="B07CZ864Y9"
+   name="Rachio 3 Smart Sprinkler Controller"
+   label="8-Zone | WiFi | WaterSense Certified"
+   short_desc="Weather Intelligence Plus adjusts watering automatically based on local conditions — cuts outdoor water use by up to 50%."
+%}
 
 ### Hunter Pro-HC (Hydrawise): The Professional's Choice
 
@@ -82,8 +87,12 @@ For larger or more complex properties, or for homeowners who want the most detai
 
 **Our recommended Hunter Hydrawise controller:**
 
-
-
+{% include amazon-product.html
+   asin="B075Q2SSKX"
+   name="Hunter Pro-HC Hydrawise Smart Controller"
+   label="6-Zone | Professional Grade | Hydrawise"
+   short_desc="Pro-grade smart controller with predictive watering and detailed zone diagnostics — the pro installer's choice for complex systems."
+%}
 
 ## How to Upgrade to a WiFi Sprinkler Controller
 
