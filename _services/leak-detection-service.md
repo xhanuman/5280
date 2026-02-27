@@ -125,24 +125,17 @@ We strongly recommend installing leak detection devices in your crawlspace or ba
 Beyond the obvious indoor placement, consider dropping a sensor into your exterior irrigation valve boxes — placing one on top of the valve body gives you an early warning of irrigation leaks before water ever migrates toward your foundation. Valve boxes tend to stay humid, so there's a chance of occasional false positives depending on how saturated your yard gets, and outdoor sensors won't last as long as they would inside. But at this price point it's a no-brainer — an extra sensor in each valve box is cheap insurance.
 
 {% include amazon-product.html
-   asin="B0DPH3KL69"
-   name="YoLink Water Leak Starter Kit — Siren + Notifications"
-   label="Siren + Notifications"
-   short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts. LoRa long-range — works even without Wi-Fi."
-%}
-
-{% include amazon-product.html
-   asin="B0DNYPT5YG"
-   name="YoLink Water Leak Starter Kit — Silent (App/SMS Only)"
-   label="Silent — App/SMS Only"
-   short_desc="Hub + 6 sensors with quiet monitoring. Alerts via app, SMS, and email. Same LoRa long-range coverage, no audible alarm."
-%}
-
-{% include amazon-product.html
    asin="B0BK179CW9"
    name="Wireless Valve Controller & Bulldog Valve Robot Automatic Water Leak Detection & Shut-Off Kit HUB Included"
-   label="Wireless Leak Protection"
-   short_desc="We recommend this kit for its reliable leak detection and automatic shut-off capabilities, actively protecting your property from significant water damage."
+   label="Auto Shut-Off Kit"
+   short_desc="We recommend this kit for its reliable leak detection and automatic shut-off, preventing significant water damage."
+   headline="Protect Your Property From Costly Water Leaks"
+   badge="Professional Grade"
+   why_we_recommend="We recommend this kit for its reliable leak detection and automatic shut-off, preventing significant water damage."
+   bullet1="Instantly shuts off water upon leak detection."
+   bullet2="Prevents extensive water damage and costly repairs."
+   bullet3="Simple setup, works with existing main water line."
+   image_pos="left"
 %}
 
 ---
