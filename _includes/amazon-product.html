@@ -1,22 +1,42 @@
 {% comment %}
   Amazon Associates product card.
 
-  Usage:
+  Usage (simple):
     {% include amazon-product.html
        asin="B0DPH3KL69"
-       name="YoLink Water Leak Starter Kit — Siren + Notifications"
+       name="YoLink Water Leak Starter Kit"
        label="Siren + Notifications"
-       short_desc="Hub + 6 sensors with 105dB on-site siren and app/SMS/email alerts."
+       short_desc="Hub + 6 sensors with 105dB siren and app/SMS/email alerts."
+    %}
+
+  Usage (copy card — rich layout with AI-generated copy):
+    {% include amazon-product.html
+       asin="B0BK179CW9"
+       name="Wireless Valve Controller"
+       label="Wireless Leak Protection"
+       short_desc="Reliable leak detection and automatic shut-off."
+       badge="No plumber needed"
+       headline="Protect Your Property From Costly Water Leaks"
+       why_we_recommend="We recommend this for reliable leak detection and automatic shut-off."
+       bullet1="Stops leaks instantly to prevent major damage."
+       bullet2="Wireless system for easy installation."
+       bullet3="Monitors water 24/7, even when you're away."
+       image_pos="left"
     %}
 
   Parameters:
-    asin       (required) Amazon ASIN
-    name       (required) Product display name
-    label      (optional) Short variant label shown as a badge
-    short_desc (optional) One-sentence product description
+    asin             (required) Amazon ASIN
+    name             (required) Product display name
+    label            (optional) Short variant label shown as a badge
+    short_desc       (optional) One-sentence product description
+    badge            (optional) Copy card badge text (e.g. "Professional Grade")
+    headline         (optional) Copy card headline — triggers rich layout
+    why_we_recommend (optional) Editorial recommendation quote
+    bullet1-3        (optional) Feature bullet points
+    image_pos        (optional) "left" (default), "right", or "none"
 
-  Thumbnail: If /images/amazon/{asin}.png exists (generated from Command Center),
-  it will be displayed. Otherwise the card renders text-only.
+  Thumbnail: /images/amazon/{asin}.png (generated from Command Center).
+  When headline is present, renders the richer copy card layout.
 {% endcomment %}
 
 {% assign _asin = include.asin %}
@@ -26,14 +46,75 @@
 {% assign _tag   = "humanitaria0a-20" %}
 {% assign _url   = "https://www.amazon.com/dp/" | append: _asin | append: "?tag=" | append: _tag %}
 {% assign _img   = "/images/amazon/" | append: _asin | append: ".png" %}
+{% assign _badge = include.badge %}
+{% assign _headline = include.headline %}
+{% assign _why   = include.why_we_recommend %}
+{% assign _b1    = include.bullet1 %}
+{% assign _b2    = include.bullet2 %}
+{% assign _b3    = include.bullet3 %}
+{% assign _imgpos = include.image_pos | default: "left" %}
 
+{% if _headline %}
+{% comment %} ─── COPY CARD LAYOUT (rich) ─── {% endcomment %}
+<div style="background:#f0f7ff; border-left:4px solid #0066cc; padding:0; margin:16px 0; border-radius:6px; overflow:hidden;">
+  <div style="height:3px; background:linear-gradient(90deg, #16a34a, #059669);"></div>
+  <div style="padding:20px 24px 16px;">
+    <div style="overflow:hidden;">
+      {% if _imgpos != "none" %}
+      <a href="{{ _url }}" target="_blank" rel="noopener nofollow"
+         style="display:block; float:{{ _imgpos }}; width:200px; {% if _imgpos == 'right' %}margin:0 0 16px 20px;{% else %}margin:0 20px 16px 0;{% endif %} flex-shrink:0;">
+        <img src="{{ _img }}" alt="{{ _name }}"
+             style="width:100%; height:auto; border-radius:6px; border:1px solid #dde8f5; background:#fff;"
+             onerror="this.parentElement.style.display='none'" />
+      </a>
+      {% endif %}
+
+      {% if _badge %}
+      <span style="display:inline-block; font-size:0.75rem; background:#16a34a; color:#fff; font-weight:600; padding:2px 10px; border-radius:10px; margin-bottom:8px;">{{ _badge }}</span>
+      {% endif %}
+
+      <strong style="display:block; font-size:1.15rem; line-height:1.35; margin-bottom:8px; color:#1a1a1a;">
+        <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="color:#1a1a1a; text-decoration:none;">{{ _headline }}</a>
+      </strong>
+
+      {% if _why %}
+      <p style="margin:0 0 12px; font-size:0.9rem; color:#555; font-style:italic; line-height:1.5;">
+        "{{ _why }}"
+      </p>
+      {% endif %}
+
+      {% if _b1 %}
+      <div style="margin:0 0 12px; font-size:0.88rem; color:#333; line-height:1.6;">
+        {% if _b1 %}<div style="margin-bottom:4px;"><span style="color:#16a34a; font-weight:700; margin-right:6px;">+</span>{{ _b1 }}</div>{% endif %}
+        {% if _b2 %}<div style="margin-bottom:4px;"><span style="color:#16a34a; font-weight:700; margin-right:6px;">+</span>{{ _b2 }}</div>{% endif %}
+        {% if _b3 %}<div style="margin-bottom:4px;"><span style="color:#16a34a; font-weight:700; margin-right:6px;">+</span>{{ _b3 }}</div>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+
+    <div style="display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:8px; margin-top:12px; padding-top:12px; border-top:1px solid #dde8f5;">
+      {% if _label %}
+      <span style="font-size:0.75rem; background:#e0edff; color:#0066cc; padding:2px 10px; border-radius:10px; font-weight:500;">{{ _label }}</span>
+      {% endif %}
+      <a href="{{ _url }}" target="_blank" rel="noopener nofollow"
+         style="display:inline-block; font-size:0.85rem; font-weight:600; color:#16a34a; text-decoration:none;">
+        Check Price on Amazon →
+      </a>
+    </div>
+  </div>
+  <p style="margin:0; padding:4px 24px 12px; font-size:0.7rem; color:#999; font-style:italic;">
+    *As an Amazon Associate, 5280 Sprinklers earns from qualifying purchases.
+  </p>
+</div>
+
+{% else %}
+{% comment %} ─── SIMPLE LAYOUT (original) ─── {% endcomment %}
 <div style="background:#f0f7ff; border-left:4px solid #0066cc; padding:16px 20px; margin:16px 0; border-radius:4px;">
   <div style="display:flex; align-items:flex-start; gap:16px; flex-wrap:wrap;">
 
-    {% comment %} Branded thumbnail (generated via Command Center) {% endcomment %}
     <a href="{{ _url }}" target="_blank" rel="noopener nofollow" style="flex-shrink:0;">
       <img src="{{ _img }}" alt="{{ _name }}"
-           style="width:160px; height:100px; object-fit:contain; border-radius:6px; border:1px solid #dde8f5; background:#f8fffe;"
+           style="width:220px; height:auto; object-fit:contain; border-radius:6px; border:1px solid #dde8f5; background:#f8fffe;"
            onerror="this.style.display='none'" />
     </a>
 
@@ -57,3 +138,4 @@
     *As an Amazon Associate, 5280 Sprinklers earns from qualifying purchases.
   </p>
 </div>
+{% endif %}
