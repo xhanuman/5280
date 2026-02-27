@@ -105,6 +105,7 @@ bodyClass: page-home
         <li><a href="{{site.baseurl}}/high-water-bill-sprinkler-leak/">High Water Bill?</a> — how to tell if your sprinklers are the cause</li>
         <li><a href="{{site.baseurl}}/denver-sprinkler-startup-guide/">Spring Startup Guide 2026</a> — timing, DIY steps, and when to call a pro</li>
         <li><a href="{{site.baseurl}}/denver-sprinkler-blowout-guide/">Fall Blowout Guide 2026</a> — why winterization is essential in Denver</li>
+        <li><a href="{{site.baseurl}}/smart-sprinkler-controller-denver/">Smart Sprinkler Controllers</a> — Rachio &amp; Hunter Hydrawise guide for Denver homes</li>
       </ul>
     </div>
   </div>
