@@ -1,0 +1,127 @@
+---
+layout: default
+title: Sprinkler Schedule Generator - 5280 Sprinklers
+description: Create a printable irrigation schedule for your sprinkler system. Fill out your zones, download, and tape it to your garage wall!
+---
+
+<div class="strip">
+  <div class="container pt-4 pb-10">
+    <div class="row justify-content-center">
+      <div class="col-12">
+
+        <div class="content text-center mb-4">
+          <h1>Sprinkler Schedule Generator</h1>
+          <h3>Fill out your zones, then download and tape this to your garage wall!</h3>
+        </div>
+
+        <div style="background: #f8f9fa; padding: 30px; border-radius: 8px; margin-bottom: 30px;">
+          <div class="row mb-3">
+            <div class="col-md-6 mb-2">
+              <label style="font-weight: 600; font-size: 14px;">Property Name/Address</label>
+              <input type="text" id="propName" placeholder="e.g. Smith Residence" style="width:100%; border:1px solid #ccc; padding:8px; border-radius:4px;">
+            </div>
+            <div class="col-md-6 mb-2">
+              <label style="font-weight: 600; font-size: 14px;">Number of Zones</label>
+              <input type="number" id="zoneCount" value="6" min="1" max="20" style="width:100%; border:1px solid #ccc; padding:8px; border-radius:4px;">
+            </div>
+          </div>
+
+          <div id="inputRows" style="margin-bottom: 20px;"></div>
+
+          <button onclick="generateImage()" class="button" style="width:100%; height:50px; line-height:50px; font-size:16px; cursor:pointer; border:none;">
+            DOWNLOAD PRINTABLE SCHEDULE (.PNG)
+          </button>
+        </div>
+
+        <!-- Printable capture area -->
+        <div id="captureArea" style="background:#fff; padding:40px; border:4px solid #1c3ed3; max-width:800px; margin:0 auto;">
+          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #1c3ed3; padding-bottom:15px; margin-bottom:15px;">
+            <div>
+              <h2 style="font-family:'Lora',serif; font-size:24px; font-weight:900; color:#1c3ed3; text-transform:uppercase; margin:0;">Irrigation Schedule</h2>
+              <p id="displayPropName" style="font-size:18px; font-weight:700; color:#414156; margin:5px 0 0 0;"></p>
+            </div>
+            <div style="text-align:right;">
+              <p style="font-size:20px; font-weight:700; color:#1c3ed3; margin:0;">5280 SPRINKLERS</p>
+              <p style="font-size:13px; color:#666; margin:0;">5280sprinklers.com</p>
+            </div>
+          </div>
+
+          <table style="width:100%; border-collapse:collapse; font-size:14px;">
+            <thead>
+              <tr style="background:#1c3ed3; color:#fff;">
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:left;">Zone</th>
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:left;">Description / Location</th>
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog A</th>
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog B</th>
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog C</th>
+                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog D</th>
+              </tr>
+            </thead>
+            <tbody id="previewBody"></tbody>
+          </table>
+          <p style="margin-top:15px; font-size:12px; color:#999; font-style:italic; text-align:center;">
+            Handy Tip: Turn off your system during heavy rain to save water and money!
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script>
+const zoneInput = document.getElementById('zoneCount');
+const inputRows = document.getElementById('inputRows');
+const previewBody = document.getElementById('previewBody');
+const propInput = document.getElementById('propName');
+const displayProp = document.getElementById('displayPropName');
+
+function updateUI() {
+    const count = zoneInput.value;
+    inputRows.innerHTML = '';
+    previewBody.innerHTML = '';
+    displayProp.innerText = propInput.value || "My Home";
+
+    for (let i = 1; i <= count; i++) {
+        const row = document.createElement('div');
+        row.className = "row mb-2 align-items-center";
+        row.innerHTML =
+            '<div class="col-1"><span style="font-weight:700;color:#1c3ed3;">Z' + i + '</span></div>' +
+            '<div class="col-3"><input type="text" placeholder="Location" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'desc\',this.value)"></div>' +
+            '<div class="col-2"><input type="text" placeholder="A" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'a\',this.value)"></div>' +
+            '<div class="col-2"><input type="text" placeholder="B" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'b\',this.value)"></div>' +
+            '<div class="col-2"><input type="text" placeholder="C" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'c\',this.value)"></div>' +
+            '<div class="col-2"><input type="text" placeholder="D" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'d\',this.value)"></div>';
+        inputRows.appendChild(row);
+
+        const tr = document.createElement('tr');
+        tr.innerHTML =
+            '<td style="border:1px solid #ddd;padding:8px;font-weight:700;background:#f8f9fa;text-align:center;">' + i + '</td>' +
+            '<td style="border:1px solid #ddd;padding:8px;font-weight:500;" id="p-desc-' + i + '">---</td>' +
+            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-a-' + i + '">-</td>' +
+            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-b-' + i + '">-</td>' +
+            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-c-' + i + '">-</td>' +
+            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-d-' + i + '">-</td>';
+        previewBody.appendChild(tr);
+    }
+}
+
+function sync(zone, type, val) {
+    document.getElementById('p-' + type + '-' + zone).innerText = val || "-";
+}
+
+function generateImage() {
+    var element = document.getElementById('captureArea');
+    html2canvas(element).then(function(canvas) {
+        var link = document.createElement('a');
+        link.download = '5280-sprinkler-schedule.png';
+        link.href = canvas.toDataURL();
+        link.click();
+    });
+}
+
+zoneInput.addEventListener('input', updateUI);
+propInput.addEventListener('input', updateUI);
+updateUI();
+</script>
