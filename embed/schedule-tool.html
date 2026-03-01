@@ -1,21 +1,36 @@
----
-layout: default
-title: Sprinkler Schedule Generator - 5280 Sprinklers
-description: Create a printable irrigation schedule card for your sprinkler controller. Fill out your zones, download, and tape it to your garage wall!
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sprinkler Schedule Generator - Powered by 5280 Sprinklers</title>
+<!--
+  Sprinkler Schedule Generator - Embeddable Widget
+  Created by 5280 Sprinklers | 5280sprinklers.com
 
+  TERMS OF USE:
+  You may embed this tool on your website for FREE, provided that:
+  1. All 5280 Sprinklers branding remains visible and unmodified
+  2. The "Powered by 5280 Sprinklers" attribution link is not removed or hidden
+  3. The downloaded PNG card retains the 5280 Sprinklers branding
+  Removing or hiding attribution violates the terms of use.
+-->
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
-
 <style>
-/* Mobile zone row layout */
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #f1f5f9; }
 @media (max-width: 767px) {
     .zone-row { flex-wrap: wrap !important; gap: 4px !important; padding: 8px !important; }
     .zone-row .zone-label { width: 100% !important; text-align: left !important; font-size: 13px !important; padding-bottom: 2px; border-bottom: 1px solid #e5e7eb; margin-bottom: 2px; }
     .zone-row .zone-field { flex: 1 1 45% !important; min-width: 0; }
     .zone-row .zone-field-sm { flex: 0 0 70px !important; }
 }
+.powered-bar a { color: #2563eb; text-decoration: none; font-weight: 700; }
+.powered-bar a:hover { text-decoration: underline; }
 </style>
+</head>
+<body>
 
 <div class="max-w-6xl mx-auto p-2 md:p-4 bg-slate-100 min-h-screen font-sans">
 
@@ -132,7 +147,6 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                  <option value="22">22</option><option value="23">23</option><option value="24">24</option>
              </select>
         </div>
-        <!-- Column labels for desktop -->
         <div class="hidden md:flex gap-1.5 px-2 py-1 text-[10px] font-bold text-gray-400 uppercase tracking-wide">
             <div class="w-10 shrink-0 text-center">Zone</div>
             <div class="flex-[3]">Head Type</div>
@@ -148,17 +162,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         </button>
     </div>
 
-    <div class="bg-white p-3 md:p-4 rounded-xl shadow-lg mb-6 no-print">
-        <h2 class="text-lg font-bold mb-2 border-b pb-1 text-blue-800">Add This Tool to Your Website</h2>
-        <p class="text-sm text-gray-600 mb-3">Irrigation pros and landscapers: embed this schedule generator on your own site for free. Just paste the code below. The only requirement is that 5280 Sprinklers branding stays visible on the tool and on every downloaded card.</p>
-        <div class="relative">
-            <textarea id="embedCode" readonly rows="3" class="w-full border rounded p-2 text-xs font-mono bg-gray-50 text-gray-700" onclick="this.select()">&lt;iframe src="https://5280sprinklers.com/embed/schedule-tool.html" width="100%" height="1400" frameborder="0" style="border:none; max-width:1200px;"&gt;&lt;/iframe&gt;</textarea>
-            <button onclick="document.getElementById('embedCode').select(); document.execCommand('copy'); this.innerText='Copied!'; setTimeout(function(){document.querySelector('#embedCode+button').innerText='Copy Code';},2000);" class="mt-2 px-4 py-1.5 bg-blue-600 text-white text-sm font-bold rounded hover:bg-blue-800 transition">Copy Code</button>
-        </div>
-    </div>
-
-    <!-- Scaled preview wrapper -->
-    <div id="previewWrapper" class="overflow-hidden mb-8">
+    <div id="previewWrapper" class="overflow-hidden mb-4">
         <div id="captureArea" style="width:960px; box-sizing:border-box; padding:32px; border:10px solid #1e3a5f; background:#fff; overflow:hidden; transform-origin:top left;">
             <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:20px; margin-bottom:20px;">
                 <div style="flex:1; margin-right:24px;">
@@ -215,10 +219,16 @@ description: Create a printable irrigation schedule card for your sprinkler cont
             </div>
         </div>
     </div>
+
+    <!-- Attribution bar — must remain visible per terms of use -->
+    <div class="powered-bar text-center py-3 px-4 bg-white rounded-lg shadow-sm mb-4" style="border-top: 3px solid #2563eb;">
+        <p style="margin:0; font-size:13px; color:#555;">
+            Powered by <a href="https://5280sprinklers.com/schedule-tool/" target="_blank" rel="noopener">5280 Sprinklers</a> — Denver Irrigation Services Since 2010
+        </p>
+    </div>
 </div>
 
 <script>
-// Scale the preview card to fit the viewport
 function scalePreview() {
     var wrapper = document.getElementById('previewWrapper');
     var card = document.getElementById('captureArea');
@@ -237,7 +247,6 @@ function scalePreview() {
 }
 window.addEventListener('resize', scalePreview);
 
-// Head types with recommended Denver run times (minutes)
 var headTypes = [
     { group: '', items: [{ name: 'Not Sure', min: 12 }] },
     { group: 'Rainbird Sprays', items: [
@@ -291,16 +300,12 @@ function buildHeadSelect(zoneNum) {
     var html = '<select class="border p-1 text-xs w-full" onchange="onHeadChange(' + zoneNum + ', this.value)">';
     html += '<option value="">Head Type</option>';
     for (var g = 0; g < headTypes.length; g++) {
-        if (headTypes[g].group) {
-            html += '<optgroup label="' + headTypes[g].group + '">';
-        }
+        if (headTypes[g].group) html += '<optgroup label="' + headTypes[g].group + '">';
         for (var h = 0; h < headTypes[g].items.length; h++) {
             var item = headTypes[g].items[h];
             html += '<option value="' + item.name + '">' + item.name + '</option>';
         }
-        if (headTypes[g].group) {
-            html += '</optgroup>';
-        }
+        if (headTypes[g].group) html += '</optgroup>';
     }
     html += '</select>';
     return html;
@@ -309,9 +314,7 @@ function buildHeadSelect(zoneNum) {
 function buildTimeSelect(zoneNum) {
     var html = '<select id="input-time-' + zoneNum + '" class="border p-1 text-xs w-full" onchange="syncZone(' + zoneNum + ', \'time\', this.value)">';
     html += '<option value="">Min</option>';
-    for (var m = 1; m <= 45; m++) {
-        html += '<option value="' + m + '">' + m + ' min</option>';
-    }
+    for (var m = 1; m <= 45; m++) html += '<option value="' + m + '">' + m + ' min</option>';
     html += '</select>';
     return html;
 }
@@ -321,9 +324,7 @@ function buildLocationSelect(zoneNum) {
     html += '<option value="">Location</option>';
     for (var g = 0; g < locations.length; g++) {
         html += '<optgroup label="' + locations[g].group + '">';
-        for (var l = 0; l < locations[g].items.length; l++) {
-            html += '<option value="' + locations[g].items[l] + '">' + locations[g].items[l] + '</option>';
-        }
+        for (var l = 0; l < locations[g].items.length; l++) html += '<option value="' + locations[g].items[l] + '">' + locations[g].items[l] + '</option>';
         html += '</optgroup>';
     }
     html += '</select>';
@@ -335,10 +336,7 @@ function onHeadChange(zoneNum, headName) {
     var rec = headMinutes[headName];
     if (rec) {
         var timeSel = document.getElementById('input-time-' + zoneNum);
-        if (timeSel) {
-            timeSel.value = rec;
-            syncZone(zoneNum, 'time', rec);
-        }
+        if (timeSel) { timeSel.value = rec; syncZone(zoneNum, 'time', rec); }
     }
 }
 
@@ -347,7 +345,6 @@ function syncGlobal() {
     document.getElementById('out-propAddr').innerText = document.getElementById('propAddr').value;
     document.getElementById('out-controller').innerText = document.getElementById('controller').value;
     document.getElementById('out-backflow').innerText = document.getElementById('backflow').value;
-
     ['a','b','c','d'].forEach(function(p) {
         var days = document.getElementById('in-' + p + '-days').value;
         var start = document.getElementById('in-' + p + '-start').value;
@@ -371,12 +368,7 @@ function calcTotalTime() {
     }
     var hours = Math.floor(total / 60);
     var mins = total % 60;
-    var display = '';
-    if (hours > 0) {
-        display = hours + ' hr ' + mins + ' min';
-    } else {
-        display = total + ' min';
-    }
+    var display = hours > 0 ? hours + ' hr ' + mins + ' min' : total + ' min';
     document.getElementById('out-totalTime').innerText = display;
 }
 
@@ -384,10 +376,8 @@ function updateRows() {
     var count = parseInt(document.getElementById('zoneCount').value) || 6;
     var inputContainer = document.getElementById('inputRows');
     var tableBody = document.getElementById('previewBody');
-
     inputContainer.innerHTML = '';
     tableBody.innerHTML = '';
-
     for (var i = 1; i <= count; i++) {
         var div = document.createElement('div');
         div.className = "zone-row flex gap-1.5 items-center bg-white px-2 py-1 rounded border border-gray-100 shadow-sm";
@@ -434,7 +424,6 @@ function syncZone(i, field, val) {
 
 function generateImage() {
     var element = document.getElementById('captureArea');
-    // Temporarily remove scale for clean capture
     var origTransform = element.style.transform;
     element.style.transform = 'none';
     html2canvas(element, { scale: 2, useCORS: true, scrollX: 0, scrollY: -window.scrollY }).then(function(canvas) {
@@ -448,3 +437,6 @@ function generateImage() {
 
 updateRows();
 </script>
+
+</body>
+</html>
