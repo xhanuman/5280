@@ -7,9 +7,19 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-<div class="max-w-6xl mx-auto p-4 bg-slate-100 min-h-screen font-sans">
+<style>
+/* Mobile zone row layout */
+@media (max-width: 767px) {
+    .zone-row { flex-wrap: wrap !important; gap: 4px !important; padding: 8px !important; }
+    .zone-row .zone-label { width: 100% !important; text-align: left !important; font-size: 13px !important; padding-bottom: 2px; border-bottom: 1px solid #e5e7eb; margin-bottom: 2px; }
+    .zone-row .zone-field { flex: 1 1 45% !important; min-width: 0; }
+    .zone-row .zone-field-sm { flex: 0 0 70px !important; }
+}
+</style>
 
-    <div class="bg-white p-4 rounded-xl shadow-lg mb-6 no-print">
+<div class="max-w-6xl mx-auto p-2 md:p-4 bg-slate-100 min-h-screen font-sans">
+
+    <div class="bg-white p-3 md:p-4 rounded-xl shadow-lg mb-6 no-print">
         <h2 class="text-lg font-bold mb-2 border-b pb-1 text-blue-800">1. General Information</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
             <input type="text" id="propName" placeholder="Client Name (e.g., Nichols Residence)" class="border p-1.5 text-sm rounded shadow-sm" oninput="syncGlobal()">
@@ -18,7 +28,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
             <div>
                 <label class="block text-xs font-bold text-gray-600 mb-1">Controller Model</label>
-                <select id="controller" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
+                <select id="controller" class="border p-1.5 text-sm rounded shadow-sm w-full" onchange="syncGlobal()">
                     <option value="">-- Select Controller --</option>
                     <optgroup label="Rainbird">
                         <option value="Rainbird ESP-TM2">Rainbird ESP-TM2</option>
@@ -48,7 +58,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
             </div>
             <div>
                 <label class="block text-xs font-bold text-gray-600 mb-1">Backflow Preventer</label>
-                <select id="backflow" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
+                <select id="backflow" class="border p-1.5 text-sm rounded shadow-sm w-full" onchange="syncGlobal()">
                     <option value="">-- Select Backflow --</option>
                     <optgroup label="Watts">
                         <option value='Watts 009 - 3/4"'>Watts 009 - 3/4"</option>
@@ -122,6 +132,14 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                  <option value="22">22</option><option value="23">23</option><option value="24">24</option>
              </select>
         </div>
+        <!-- Column labels for desktop -->
+        <div class="hidden md:flex gap-1.5 px-2 py-1 text-[10px] font-bold text-gray-400 uppercase tracking-wide">
+            <div class="w-10 shrink-0 text-center">Zone</div>
+            <div class="flex-[3]">Head Type</div>
+            <div class="flex-[1.2]">Time</div>
+            <div class="flex-[3]">Location</div>
+            <div class="w-14 shrink-0 text-center">Prgm</div>
+        </div>
         <div id="inputRows" class="space-y-1"></div>
 
         <button onclick="generateImage()" class="mt-6 w-full bg-blue-600 hover:bg-blue-800 text-white font-black py-3 rounded-xl shadow-xl transform transition hover:scale-[1.01]">
@@ -129,66 +147,87 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         </button>
     </div>
 
-    <div id="captureArea" style="width:960px; box-sizing:border-box; padding:32px; border:10px solid #1e3a5f; background:#fff; margin:0 auto; overflow:hidden;">
-        <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:20px; margin-bottom:20px;">
-            <div style="flex:1; margin-right:24px;">
-                <h1 style="font-size:22px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.3px; line-height:1; margin:0; white-space:nowrap;">Sprinkler Controller Program Information</h1>
-                <table style="margin-top:12px; border-collapse:separate; border-spacing:0; width:100%;">
-                    <tr>
-                        <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
-                        <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; font-style:italic;"></span></td>
-                        <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Address:</td>
-                        <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
-                    </tr>
-                    <tr>
-                        <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Controller:</td>
-                        <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
-                        <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Backflow:</td>
-                        <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
-                    </tr>
-                </table>
+    <!-- Scaled preview wrapper -->
+    <div id="previewWrapper" class="overflow-hidden mb-8">
+        <div id="captureArea" style="width:960px; box-sizing:border-box; padding:32px; border:10px solid #1e3a5f; background:#fff; overflow:hidden; transform-origin:top left;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:20px; margin-bottom:20px;">
+                <div style="flex:1; margin-right:24px;">
+                    <h1 style="font-size:22px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.3px; line-height:1; margin:0; white-space:nowrap;">Sprinkler Controller Program Information</h1>
+                    <table style="margin-top:12px; border-collapse:separate; border-spacing:0; width:100%;">
+                        <tr>
+                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; font-style:italic;"></span></td>
+                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Address:</td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Controller:</td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Backflow:</td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                        </tr>
+                    </table>
+                </div>
+                <div style="text-align:right; flex-shrink:0;">
+                    <div style="font-size:24px; font-weight:900; color:#2563eb;">5280 SPRINKLERS</div>
+                    <p style="font-size:11px; font-weight:700; letter-spacing:2px; color:#888; text-transform:uppercase; font-style:italic; margin:2px 0 0 0;">Quality Irrigation Services</p>
+                </div>
             </div>
-            <div style="text-align:right; flex-shrink:0;">
-                <div style="font-size:24px; font-weight:900; color:#2563eb;">5280 SPRINKLERS</div>
-                <p style="font-size:11px; font-weight:700; letter-spacing:2px; color:#888; text-transform:uppercase; font-style:italic; margin:2px 0 0 0;">Quality Irrigation Services</p>
+
+            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin-bottom:16px;">
+                <div style="border:1px solid #ddd; padding:6px; background:#eff6ff;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program A: Turf</p><p id="out-a" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
+                <div style="border:1px solid #ddd; padding:6px; background:#f0fdf4;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program B: Plants</p><p id="out-b" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
+                <div style="border:1px solid #ddd; padding:6px; background:#fff7ed;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program C: Annuals/Veg</p><p id="out-c" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
+                <div style="border:1px solid #ddd; padding:6px; background:#f9fafb;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program D: Other</p><p id="out-d" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
             </div>
-        </div>
 
-        <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin-bottom:16px;">
-            <div style="border:1px solid #ddd; padding:6px; background:#eff6ff;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program A: Turf</p><p id="out-a" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-            <div style="border:1px solid #ddd; padding:6px; background:#f0fdf4;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program B: Plants</p><p id="out-b" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-            <div style="border:1px solid #ddd; padding:6px; background:#fff7ed;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program C: Annuals/Veg</p><p id="out-c" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-            <div style="border:1px solid #ddd; padding:6px; background:#f9fafb;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program D: Other</p><p id="out-d" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-        </div>
+            <table style="width:100%; border-collapse:collapse; border:2px solid #000;">
+                <thead>
+                    <tr style="background:#e5e7eb;">
+                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:50px; text-align:center;">Zone</th>
+                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:160px; text-align:left;">Head Type</th>
+                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:60px; text-align:center;">Min</th>
+                        <th style="border:2px solid #000; padding:6px; font-size:12px; text-align:left;">Location Description</th>
+                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:44px; text-align:center;">Prgm</th>
+                    </tr>
+                </thead>
+                <tbody id="previewBody"></tbody>
+            </table>
 
-        <table style="width:100%; border-collapse:collapse; border:2px solid #000;">
-            <thead>
-                <tr style="background:#e5e7eb;">
-                    <th style="border:2px solid #000; padding:6px; font-size:12px; width:50px; text-align:center;">Zone</th>
-                    <th style="border:2px solid #000; padding:6px; font-size:12px; width:160px; text-align:left;">Head Type</th>
-                    <th style="border:2px solid #000; padding:6px; font-size:12px; width:60px; text-align:center;">Min</th>
-                    <th style="border:2px solid #000; padding:6px; font-size:12px; text-align:left;">Location Description</th>
-                    <th style="border:2px solid #000; padding:6px; font-size:12px; width:44px; text-align:center;">Prgm</th>
-                </tr>
-            </thead>
-            <tbody id="previewBody"></tbody>
-        </table>
+            <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; background:#1e3a5f; color:#fff; padding:8px 14px; border-radius:4px;">
+                <p style="font-size:13px; font-weight:700; margin:0;">Total Estimated Run Time: <span id="out-totalTime" style="font-size:16px;">0 min</span></p>
+                <p style="font-size:10px; font-style:italic; opacity:0.8; margin:0;">Sum of all zone run times per cycle</p>
+            </div>
 
-        <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; background:#1e3a5f; color:#fff; padding:8px 14px; border-radius:4px;">
-            <p style="font-size:13px; font-weight:700; margin:0;">Total Estimated Run Time: <span id="out-totalTime" style="font-size:16px;">0 min</span></p>
-            <p style="font-size:10px; font-style:italic; opacity:0.8; margin:0;">Sum of all zone run times per cycle</p>
-        </div>
-
-        <div style="margin-top:12px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:10px;">
-            <p style="font-size:10px; color:#888; font-style:italic; max-width:380px; margin:0;">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
-            <p style="font-size:12px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">5280sprinklers.com</p>
+            <div style="margin-top:12px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:10px;">
+                <p style="font-size:10px; color:#888; font-style:italic; max-width:380px; margin:0;">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
+                <p style="font-size:12px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">5280sprinklers.com</p>
+            </div>
         </div>
     </div>
 </div>
 
 <script>
+// Scale the preview card to fit the viewport
+function scalePreview() {
+    var wrapper = document.getElementById('previewWrapper');
+    var card = document.getElementById('captureArea');
+    var wrapperWidth = wrapper.offsetWidth;
+    var cardWidth = 960;
+    if (wrapperWidth < cardWidth) {
+        var scale = wrapperWidth / cardWidth;
+        card.style.transform = 'scale(' + scale + ')';
+        card.style.margin = '0';
+        wrapper.style.height = (card.offsetHeight * scale) + 'px';
+    } else {
+        card.style.transform = 'none';
+        card.style.margin = '0 auto';
+        wrapper.style.height = 'auto';
+    }
+}
+window.addEventListener('resize', scalePreview);
+
 // Head types with recommended Denver run times (minutes)
-// Denver: 5,280ft elevation, semi-arid, clay soil - needs longer soak times
 var headTypes = [
     { group: '', items: [{ name: 'Not Sure', min: 12 }] },
     { group: 'Rainbird Sprays', items: [
@@ -221,7 +260,6 @@ var headTypes = [
     ]}
 ];
 
-// Lookup table: head name -> recommended minutes
 var headMinutes = {};
 for (var g = 0; g < headTypes.length; g++) {
     for (var h = 0; h < headTypes[g].items.length; h++) {
@@ -241,7 +279,7 @@ var locations = [
 
 function buildHeadSelect(zoneNum) {
     var html = '<select class="border p-1 text-xs w-full" onchange="onHeadChange(' + zoneNum + ', this.value)">';
-    html += '<option value="">-- Select Head --</option>';
+    html += '<option value="">Head Type</option>';
     for (var g = 0; g < headTypes.length; g++) {
         if (headTypes[g].group) {
             html += '<optgroup label="' + headTypes[g].group + '">';
@@ -270,7 +308,7 @@ function buildTimeSelect(zoneNum) {
 
 function buildLocationSelect(zoneNum) {
     var html = '<select class="border p-1 text-xs w-full" onchange="syncZone(' + zoneNum + ', \'loc\', this.value)">';
-    html += '<option value="">-- Location --</option>';
+    html += '<option value="">Location</option>';
     for (var g = 0; g < locations.length; g++) {
         html += '<optgroup label="' + locations[g].group + '">';
         for (var l = 0; l < locations[g].items.length; l++) {
@@ -284,7 +322,6 @@ function buildLocationSelect(zoneNum) {
 
 function onHeadChange(zoneNum, headName) {
     syncZone(zoneNum, 'head', headName);
-    // Auto-set recommended run time for Denver
     var rec = headMinutes[headName];
     if (rec) {
         var timeSel = document.getElementById('input-time-' + zoneNum);
@@ -339,13 +376,13 @@ function updateRows() {
 
     for (var i = 1; i <= count; i++) {
         var div = document.createElement('div');
-        div.className = "flex gap-1.5 items-center bg-white px-2 py-1 rounded border border-gray-100 shadow-sm";
+        div.className = "zone-row flex gap-1.5 items-center bg-white px-2 py-1 rounded border border-gray-100 shadow-sm";
         div.innerHTML =
-            '<div class="font-bold text-blue-600 text-xs w-10 shrink-0 text-center">Z' + i + '</div>' +
-            '<div class="flex-[3]">' + buildHeadSelect(i) + '</div>' +
-            '<div class="flex-[1.2]">' + buildTimeSelect(i) + '</div>' +
-            '<div class="flex-[3]">' + buildLocationSelect(i) + '</div>' +
-            '<div class="w-14 shrink-0"><select class="border p-1 text-xs font-bold w-full text-center" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
+            '<div class="zone-label font-bold text-blue-600 text-xs w-10 shrink-0 text-center">Z' + i + '</div>' +
+            '<div class="zone-field flex-[3]">' + buildHeadSelect(i) + '</div>' +
+            '<div class="zone-field-sm flex-[1.2]">' + buildTimeSelect(i) + '</div>' +
+            '<div class="zone-field flex-[3]">' + buildLocationSelect(i) + '</div>' +
+            '<div class="zone-field-sm w-14 shrink-0"><select class="border p-1 text-xs font-bold w-full text-center" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
                 '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
             '</select></div>';
         inputContainer.appendChild(div);
@@ -360,6 +397,7 @@ function updateRows() {
         tableBody.appendChild(tr);
     }
     calcTotalTime();
+    scalePreview();
 }
 
 function syncZone(i, field, val) {
@@ -369,7 +407,11 @@ function syncZone(i, field, val) {
 
 function generateImage() {
     var element = document.getElementById('captureArea');
+    // Temporarily remove scale for clean capture
+    var origTransform = element.style.transform;
+    element.style.transform = 'none';
     html2canvas(element, { scale: 2, useCORS: true, scrollX: 0, scrollY: -window.scrollY }).then(function(canvas) {
+        element.style.transform = origTransform;
         var link = document.createElement('a');
         link.download = 'Irrigation-Schedule-' + (document.getElementById('propName').value || '5280') + '.png';
         link.href = canvas.toDataURL("image/png");
