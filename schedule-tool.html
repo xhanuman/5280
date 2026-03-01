@@ -44,7 +44,16 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">3. Zone Details</h2>
         <div class="mb-4">
              <label class="text-sm font-bold">Number of Zones:</label>
-             <input type="number" id="zoneCount" value="6" min="1" max="18" class="border p-1 ml-2 w-16" oninput="updateRows()">
+             <select id="zoneCount" class="border p-1 ml-2 rounded shadow-sm" onchange="updateRows()">
+                 <option value="1">1</option><option value="2">2</option><option value="3">3</option>
+                 <option value="4">4</option><option value="5">5</option><option value="6" selected>6</option>
+                 <option value="7">7</option><option value="8">8</option><option value="9">9</option>
+                 <option value="10">10</option><option value="11">11</option><option value="12">12</option>
+                 <option value="13">13</option><option value="14">14</option><option value="15">15</option>
+                 <option value="16">16</option><option value="17">17</option><option value="18">18</option>
+                 <option value="19">19</option><option value="20">20</option><option value="21">21</option>
+                 <option value="22">22</option><option value="23">23</option><option value="24">24</option>
+             </select>
         </div>
         <div id="inputRows" class="space-y-2"></div>
 
@@ -55,15 +64,22 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
     <div id="captureArea" class="bg-white p-10 border-[12px] border-blue-900 w-[1000px] mx-auto shadow-2xl">
         <div class="flex justify-between items-start border-b-4 border-blue-900 pb-6 mb-6">
-            <div>
-                <h1 class="text-4xl font-black text-blue-900 tracking-tight uppercase">Sprinkler Controller Program Information</h1>
-                <div class="mt-4 grid grid-cols-2 gap-x-8 gap-y-1">
-                    <p class="text-lg"><span class="font-bold">Client:</span> <span id="out-propName" class="border-b border-gray-400 px-2 underline italic"></span></p>
-                    <p class="text-lg"><span class="font-bold">Address:</span> <span id="out-propAddr" class="border-b border-gray-400 px-2 underline"></span></p>
-                    <p class="text-lg"><span class="font-bold">Controller:</span> <span id="out-controller" class="border-b border-gray-400 px-2"></span></p>
-                </div>
+            <div class="flex-1 mr-8">
+                <h1 class="text-4xl font-black text-blue-900 tracking-tight uppercase leading-tight">Sprinkler Controller Program Information</h1>
+                <table class="mt-4" style="border-collapse:separate; border-spacing:0;">
+                    <tr>
+                        <td class="text-lg font-bold pr-2 py-1 whitespace-nowrap align-bottom">Client:</td>
+                        <td class="text-lg py-1 align-bottom" style="min-width:200px;"><span id="out-propName" class="italic inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
+                        <td class="text-lg font-bold pr-2 py-1 pl-6 whitespace-nowrap align-bottom">Address:</td>
+                        <td class="text-lg py-1 align-bottom" style="min-width:200px;"><span id="out-propAddr" class="inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
+                    </tr>
+                    <tr>
+                        <td class="text-lg font-bold pr-2 py-1 whitespace-nowrap align-bottom">Controller:</td>
+                        <td class="text-lg py-1 align-bottom" colspan="3"><span id="out-controller" class="inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
+                    </tr>
+                </table>
             </div>
-            <div class="text-right">
+            <div class="text-right flex-shrink-0">
                 <div class="text-3xl font-black text-blue-600">5280 SPRINKLERS</div>
                 <p class="text-sm font-bold tracking-widest text-gray-500 uppercase italic">Quality Irrigation Services</p>
             </div>
@@ -81,7 +97,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                 <tr class="bg-gray-200">
                     <th class="border-2 border-black p-2 text-sm w-16 text-center">Zone #</th>
                     <th class="border-2 border-black p-2 text-sm w-32">Head Type</th>
-                    <th class="border-2 border-black p-2 text-sm w-32">Run Time</th>
+                    <th class="border-2 border-black p-2 text-sm w-24">Run Time</th>
                     <th class="border-2 border-black p-2 text-sm">Location Description</th>
                     <th class="border-2 border-black p-2 text-sm w-16 text-center">Prgm</th>
                 </tr>
@@ -89,7 +105,12 @@ description: Create a printable irrigation schedule card for your sprinkler cont
             <tbody id="previewBody"></tbody>
         </table>
 
-        <div class="mt-6 flex justify-between items-end border-t-2 pt-4">
+        <div class="mt-4 flex justify-between items-center bg-blue-900 text-white px-4 py-2 rounded">
+            <p class="text-sm font-bold">Total Estimated Run Time: <span id="out-totalTime" class="text-lg">0 min</span></p>
+            <p class="text-xs italic opacity-80">Sum of all zone run times per cycle</p>
+        </div>
+
+        <div class="mt-4 flex justify-between items-end border-t-2 pt-4">
             <p class="text-xs text-gray-500 italic max-w-md">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
             <p class="text-sm font-bold text-blue-900 uppercase">www.5280sprinklers.com</p>
         </div>
@@ -97,6 +118,28 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 </div>
 
 <script>
+var headTypes = [
+    { group: 'Rainbird Sprays', items: ['RB 1800 Pop-up', 'RB R-VAN Rotary Nozzle', 'RB U-Series Nozzle'] },
+    { group: 'Rainbird Rotors', items: ['RB 3500 Rotor', 'RB 5000 Plus Rotor', 'RB 42SA+ Rotor', 'RB Falcon 6504 Rotor'] },
+    { group: 'Hunter Sprays', items: ['Hunter Pro-Spray', 'Hunter PS Ultra', 'Hunter MP Rotator'] },
+    { group: 'Hunter Rotors', items: ['Hunter PGP Ultra Rotor', 'Hunter PGJ Rotor', 'Hunter I-20 Rotor', 'Hunter I-25 Rotor'] },
+    { group: 'Other', items: ['Drip Line', 'Drip Emitter', 'Bubbler', 'Other'] }
+];
+
+function buildHeadSelect(zoneNum) {
+    var html = '<select class="border p-1 text-xs w-full" onchange="syncZone(' + zoneNum + ', \'head\', this.value)">';
+    html += '<option value="">-- Select Head --</option>';
+    for (var g = 0; g < headTypes.length; g++) {
+        html += '<optgroup label="' + headTypes[g].group + '">';
+        for (var h = 0; h < headTypes[g].items.length; h++) {
+            html += '<option value="' + headTypes[g].items[h] + '">' + headTypes[g].items[h] + '</option>';
+        }
+        html += '</optgroup>';
+    }
+    html += '</select>';
+    return html;
+}
+
 function syncGlobal() {
     document.getElementById('out-propName').innerText = document.getElementById('propName').value;
     document.getElementById('out-propAddr').innerText = document.getElementById('propAddr').value;
@@ -109,8 +152,29 @@ function syncGlobal() {
     });
 }
 
+function calcTotalTime() {
+    var count = parseInt(document.getElementById('zoneCount').value) || 0;
+    var total = 0;
+    for (var i = 1; i <= count; i++) {
+        var el = document.getElementById('p-time-' + i);
+        if (el) {
+            var val = parseInt(el.innerText);
+            if (!isNaN(val)) total += val;
+        }
+    }
+    var hours = Math.floor(total / 60);
+    var mins = total % 60;
+    var display = '';
+    if (hours > 0) {
+        display = hours + ' hr ' + mins + ' min';
+    } else {
+        display = total + ' min';
+    }
+    document.getElementById('out-totalTime').innerText = display;
+}
+
 function updateRows() {
-    var count = document.getElementById('zoneCount').value;
+    var count = parseInt(document.getElementById('zoneCount').value) || 6;
     var inputContainer = document.getElementById('inputRows');
     var tableBody = document.getElementById('previewBody');
 
@@ -121,9 +185,9 @@ function updateRows() {
         var div = document.createElement('div');
         div.className = "grid grid-cols-5 gap-2 bg-white p-2 rounded border border-gray-100 shadow-sm";
         div.innerHTML =
-            '<div class="font-bold text-blue-600 self-center">Zone ' + i + '</div>' +
-            '<input type="text" placeholder="Head (Pop-up/Drip)" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'head\', this.value)">' +
-            '<input type="text" placeholder="Run Time (Mins)" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'time\', this.value)">' +
+            '<div class="font-bold text-blue-600 self-center text-sm">Zone ' + i + '</div>' +
+            buildHeadSelect(i) +
+            '<input type="text" placeholder="Minutes" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'time\', this.value)">' +
             '<input type="text" placeholder="Location" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'loc\', this.value)">' +
             '<select class="border p-1 text-xs font-bold" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
                 '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
@@ -139,10 +203,12 @@ function updateRows() {
             '<td id="p-prgm-' + i + '" class="border-2 border-black p-2 text-center font-black bg-gray-50">A</td>';
         tableBody.appendChild(tr);
     }
+    calcTotalTime();
 }
 
 function syncZone(i, field, val) {
     document.getElementById('p-' + field + '-' + i).innerText = val;
+    if (field === 'time') calcTotalTime();
 }
 
 function generateImage() {
