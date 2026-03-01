@@ -11,10 +11,68 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
     <div class="bg-white p-6 rounded-xl shadow-lg mb-8 no-print">
         <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">1. General Information</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
             <input type="text" id="propName" placeholder="Client Name (e.g., Nichols Residence)" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
             <input type="text" id="propAddr" placeholder="Property Address" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
-            <input type="text" id="controller" placeholder="Controller Type (e.g., Rainbird ESP)" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+            <div>
+                <label class="block text-xs font-bold text-gray-600 mb-1">Controller Model</label>
+                <select id="controller" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
+                    <option value="">-- Select Controller --</option>
+                    <optgroup label="Rainbird">
+                        <option value="Rainbird ESP-TM2">Rainbird ESP-TM2</option>
+                        <option value="Rainbird ESP-Me3">Rainbird ESP-Me3</option>
+                        <option value="Rainbird ESP-RZXe">Rainbird ESP-RZXe</option>
+                        <option value="Rainbird ST8 (WiFi)">Rainbird ST8 (WiFi)</option>
+                        <option value="Rainbird ESP-4M">Rainbird ESP-4M</option>
+                    </optgroup>
+                    <optgroup label="Hunter">
+                        <option value="Hunter Pro-C">Hunter Pro-C</option>
+                        <option value="Hunter X-Core">Hunter X-Core</option>
+                        <option value="Hunter Pro-HC (WiFi)">Hunter Pro-HC (WiFi)</option>
+                        <option value="Hunter Hydrawise HC">Hunter Hydrawise HC</option>
+                        <option value="Hunter ACC2">Hunter ACC2</option>
+                    </optgroup>
+                    <optgroup label="Smart Controllers">
+                        <option value="Rachio 3">Rachio 3</option>
+                        <option value="Rachio 3e">Rachio 3e</option>
+                        <option value="B-hyve (Orbit)">B-hyve (Orbit)</option>
+                        <option value="Wyze Sprinkler">Wyze Sprinkler</option>
+                    </optgroup>
+                    <optgroup label="Other">
+                        <option value="Other">Other</option>
+                        <option value="Not Sure">Not Sure</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div>
+                <label class="block text-xs font-bold text-gray-600 mb-1">Backflow Preventer</label>
+                <select id="backflow" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
+                    <option value="">-- Select Backflow --</option>
+                    <optgroup label="Watts">
+                        <option value="Watts 009">Watts 009</option>
+                        <option value="Watts 007">Watts 007</option>
+                        <option value="Watts LF009">Watts LF009 (Lead-Free)</option>
+                    </optgroup>
+                    <optgroup label="Febco">
+                        <option value="Febco 765">Febco 765</option>
+                        <option value="Febco 825Y">Febco 825Y</option>
+                        <option value="Febco 850">Febco 850</option>
+                    </optgroup>
+                    <optgroup label="Wilkins / Zurn">
+                        <option value="Wilkins 720A">Wilkins 720A</option>
+                        <option value="Wilkins 975XL">Wilkins 975XL</option>
+                        <option value="Zurn 375">Zurn Wilkins 375</option>
+                    </optgroup>
+                    <optgroup label="Other">
+                        <option value="PVB (Pressure Vacuum Breaker)">PVB (Pressure Vacuum Breaker)</option>
+                        <option value="AVB (Atmospheric Vacuum Breaker)">AVB (Atmospheric Vacuum Breaker)</option>
+                        <option value="Other">Other</option>
+                        <option value="Not Sure">Not Sure</option>
+                    </optgroup>
+                </select>
+            </div>
         </div>
 
         <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">2. Program Schedules</h2>
@@ -75,7 +133,9 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                     </tr>
                     <tr>
                         <td class="text-lg font-bold pr-2 py-1 whitespace-nowrap align-bottom">Controller:</td>
-                        <td class="text-lg py-1 align-bottom" colspan="3"><span id="out-controller" class="inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
+                        <td class="text-lg py-1 align-bottom" style="min-width:200px;"><span id="out-controller" class="inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
+                        <td class="text-lg font-bold pr-2 py-1 pl-6 whitespace-nowrap align-bottom">Backflow:</td>
+                        <td class="text-lg py-1 align-bottom" style="min-width:200px;"><span id="out-backflow" class="inline-block w-full border-b border-gray-400 pb-0 min-h-[1.4em]"></span></td>
                     </tr>
                 </table>
             </div>
@@ -144,6 +204,7 @@ function syncGlobal() {
     document.getElementById('out-propName').innerText = document.getElementById('propName').value;
     document.getElementById('out-propAddr').innerText = document.getElementById('propAddr').value;
     document.getElementById('out-controller').innerText = document.getElementById('controller').value;
+    document.getElementById('out-backflow').innerText = document.getElementById('backflow').value;
 
     ['a','b','c','d'].forEach(function(p) {
         var days = document.getElementById('in-' + p + '-days').value;
