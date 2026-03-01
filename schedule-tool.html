@@ -9,13 +9,13 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
 <div class="max-w-6xl mx-auto p-4 bg-slate-100 min-h-screen font-sans">
 
-    <div class="bg-white p-6 rounded-xl shadow-lg mb-8 no-print">
-        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">1. General Information</h2>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-            <input type="text" id="propName" placeholder="Client Name (e.g., Nichols Residence)" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
-            <input type="text" id="propAddr" placeholder="Property Address" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
+    <div class="bg-white p-4 rounded-xl shadow-lg mb-6 no-print">
+        <h2 class="text-lg font-bold mb-2 border-b pb-1 text-blue-800">1. General Information</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+            <input type="text" id="propName" placeholder="Client Name (e.g., Nichols Residence)" class="border p-1.5 text-sm rounded shadow-sm" oninput="syncGlobal()">
+            <input type="text" id="propAddr" placeholder="Property Address" class="border p-1.5 text-sm rounded shadow-sm" oninput="syncGlobal()">
         </div>
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-5">
             <div>
                 <label class="block text-xs font-bold text-gray-600 mb-1">Controller Model</label>
                 <select id="controller" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
@@ -51,19 +51,28 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                 <select id="backflow" class="border p-2 rounded shadow-sm w-full" onchange="syncGlobal()">
                     <option value="">-- Select Backflow --</option>
                     <optgroup label="Watts">
-                        <option value="Watts 009">Watts 009</option>
-                        <option value="Watts 007">Watts 007</option>
-                        <option value="Watts LF009">Watts LF009 (Lead-Free)</option>
+                        <option value='Watts 009 - 3/4"'>Watts 009 - 3/4"</option>
+                        <option value='Watts 009 - 1"'>Watts 009 - 1"</option>
+                        <option value='Watts 007 - 3/4"'>Watts 007 - 3/4"</option>
+                        <option value='Watts 007 - 1"'>Watts 007 - 1"</option>
+                        <option value='Watts LF009 - 3/4"'>Watts LF009 (Lead-Free) - 3/4"</option>
+                        <option value='Watts LF009 - 1"'>Watts LF009 (Lead-Free) - 1"</option>
                     </optgroup>
                     <optgroup label="Febco">
-                        <option value="Febco 765">Febco 765</option>
-                        <option value="Febco 825Y">Febco 825Y</option>
-                        <option value="Febco 850">Febco 850</option>
+                        <option value='Febco 765 - 3/4"'>Febco 765 - 3/4"</option>
+                        <option value='Febco 765 - 1"'>Febco 765 - 1"</option>
+                        <option value='Febco 825Y - 3/4"'>Febco 825Y - 3/4"</option>
+                        <option value='Febco 825Y - 1"'>Febco 825Y - 1"</option>
+                        <option value='Febco 850 - 3/4"'>Febco 850 - 3/4"</option>
+                        <option value='Febco 850 - 1"'>Febco 850 - 1"</option>
                     </optgroup>
                     <optgroup label="Wilkins / Zurn">
-                        <option value="Wilkins 720A">Wilkins 720A</option>
-                        <option value="Wilkins 975XL">Wilkins 975XL</option>
-                        <option value="Zurn 375">Zurn Wilkins 375</option>
+                        <option value='Wilkins 720A - 3/4"'>Wilkins 720A - 3/4"</option>
+                        <option value='Wilkins 720A - 1"'>Wilkins 720A - 1"</option>
+                        <option value='Wilkins 975XL - 3/4"'>Wilkins 975XL - 3/4"</option>
+                        <option value='Wilkins 975XL - 1"'>Wilkins 975XL - 1"</option>
+                        <option value='Zurn 375 - 3/4"'>Zurn Wilkins 375 - 3/4"</option>
+                        <option value='Zurn 375 - 1"'>Zurn Wilkins 375 - 1"</option>
                     </optgroup>
                     <optgroup label="Other">
                         <option value="PVB (Pressure Vacuum Breaker)">PVB (Pressure Vacuum Breaker)</option>
@@ -75,32 +84,32 @@ description: Create a printable irrigation schedule card for your sprinkler cont
             </div>
         </div>
 
-        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">2. Program Schedules</h2>
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-            <div class="bg-blue-50 p-3 rounded border border-blue-200">
-                <p class="font-bold text-blue-900 mb-1 italic">Prog A: Turf</p>
+        <h2 class="text-lg font-bold mb-2 border-b pb-1 text-blue-800">2. Program Schedules</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-2 mb-5">
+            <div class="bg-blue-50 p-2 rounded border border-blue-200">
+                <p class="font-bold text-blue-900 text-xs mb-1 italic">Prog A: Turf</p>
                 <input type="text" id="in-a-days" placeholder="Days (M,W,F)" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
                 <input type="text" id="in-a-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
-            <div class="bg-green-50 p-3 rounded border border-green-200">
-                <p class="font-bold text-green-900 mb-1 italic">Prog B: Plants</p>
+            <div class="bg-green-50 p-2 rounded border border-green-200">
+                <p class="font-bold text-green-900 text-xs mb-1 italic">Prog B: Plants</p>
                 <input type="text" id="in-b-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
                 <input type="text" id="in-b-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
-            <div class="bg-orange-50 p-3 rounded border border-orange-200">
-                <p class="font-bold text-orange-900 mb-1 italic">Prog C: Veggies</p>
+            <div class="bg-orange-50 p-2 rounded border border-orange-200">
+                <p class="font-bold text-orange-900 text-xs mb-1 italic">Prog C: Veggies</p>
                 <input type="text" id="in-c-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
                 <input type="text" id="in-c-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
-            <div class="bg-gray-50 p-3 rounded border border-gray-200">
-                <p class="font-bold text-gray-900 mb-1 italic">Prog D: Misc</p>
+            <div class="bg-gray-50 p-2 rounded border border-gray-200">
+                <p class="font-bold text-gray-900 text-xs mb-1 italic">Prog D: Misc</p>
                 <input type="text" id="in-d-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
                 <input type="text" id="in-d-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
         </div>
 
-        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">3. Zone Details</h2>
-        <div class="mb-4">
+        <h2 class="text-lg font-bold mb-2 border-b pb-1 text-blue-800">3. Zone Details</h2>
+        <div class="mb-2">
              <label class="text-sm font-bold">Number of Zones:</label>
              <select id="zoneCount" class="border p-1 ml-2 rounded shadow-sm" onchange="updateRows()">
                  <option value="1">1</option><option value="2">2</option><option value="3">3</option>
@@ -113,9 +122,9 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                  <option value="22">22</option><option value="23">23</option><option value="24">24</option>
              </select>
         </div>
-        <div id="inputRows" class="space-y-2"></div>
+        <div id="inputRows" class="space-y-1"></div>
 
-        <button onclick="generateImage()" class="mt-10 w-full bg-blue-600 hover:bg-blue-800 text-white font-black py-4 rounded-xl shadow-xl transform transition hover:scale-[1.01]">
+        <button onclick="generateImage()" class="mt-6 w-full bg-blue-600 hover:bg-blue-800 text-white font-black py-3 rounded-xl shadow-xl transform transition hover:scale-[1.01]">
             CREATE MY PRINTABLE GARAGE CARD
         </button>
     </div>
@@ -221,8 +230,10 @@ for (var g = 0; g < headTypes.length; g++) {
 }
 
 var locations = [
-    { group: 'Turf / Lawn', items: ['Front Yard', 'Back Yard', 'Side Yard - North', 'Side Yard - South', 'Side Yard - East', 'Side Yard - West'] },
-    { group: 'Denver Specific', items: ['Hell Strip (Parkway)', 'Xeriscape Area', 'Rock Garden'] },
+    { group: 'Front Yard', items: ['Front Yard', 'Front Yard - Left', 'Front Yard - Right', 'Front Yard - Center', 'Front Yard - Section 2', 'Front Yard - Section 3', 'Front Yard - Section 4'] },
+    { group: 'Back Yard', items: ['Back Yard', 'Back Yard - Left', 'Back Yard - Right', 'Back Yard - Center', 'Back Yard - Section 2', 'Back Yard - Section 3', 'Back Yard - Section 4'] },
+    { group: 'Side Yard', items: ['Side Yard - North', 'Side Yard - South', 'Side Yard - East', 'Side Yard - West'] },
+    { group: 'Denver Specific', items: ['Hell Strip (Parkway)', 'Hell Strip - Left', 'Hell Strip - Right', 'Xeriscape Area', 'Rock Garden'] },
     { group: 'Beds & Planting', items: ['Front Flower Bed', 'Back Flower Bed', 'Side Flower Bed', 'Dripline - Front Bed', 'Dripline - Back Bed', 'Dripline - Side Bed', 'Raised Bed / Planter'] },
     { group: 'Garden & Growing', items: ['Vegetable Garden', 'Herb Garden', 'Greenhouse', 'Patio Pots / Containers'] },
     { group: 'Other Areas', items: ['Tree Ring / Trees', 'Slope / Hillside', 'Dog Run', 'Play Area', 'Other'] }
@@ -328,15 +339,15 @@ function updateRows() {
 
     for (var i = 1; i <= count; i++) {
         var div = document.createElement('div');
-        div.className = "grid grid-cols-5 gap-2 bg-white p-2 rounded border border-gray-100 shadow-sm";
+        div.className = "flex gap-1.5 items-center bg-white px-2 py-1 rounded border border-gray-100 shadow-sm";
         div.innerHTML =
-            '<div class="font-bold text-blue-600 self-center text-sm">Zone ' + i + '</div>' +
-            buildHeadSelect(i) +
-            buildTimeSelect(i) +
-            buildLocationSelect(i) +
-            '<select class="border p-1 text-xs font-bold" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
+            '<div class="font-bold text-blue-600 text-xs w-10 shrink-0 text-center">Z' + i + '</div>' +
+            '<div class="flex-[3]">' + buildHeadSelect(i) + '</div>' +
+            '<div class="flex-[1.2]">' + buildTimeSelect(i) + '</div>' +
+            '<div class="flex-[3]">' + buildLocationSelect(i) + '</div>' +
+            '<div class="w-11 shrink-0"><select class="border p-1 text-xs font-bold w-full" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
                 '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
-            '</select>';
+            '</select></div>';
         inputContainer.appendChild(div);
 
         var tr = document.createElement('tr');
