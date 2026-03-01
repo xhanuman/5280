@@ -1,127 +1,159 @@
 ---
 layout: default
 title: Sprinkler Schedule Generator - 5280 Sprinklers
-description: Create a printable irrigation schedule for your sprinkler system. Fill out your zones, download, and tape it to your garage wall!
+description: Create a printable irrigation schedule card for your sprinkler controller. Fill out your zones, download, and tape it to your garage wall!
 ---
 
-<div class="strip">
-  <div class="container pt-4 pb-10">
-    <div class="row justify-content-center">
-      <div class="col-12">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 
-        <div class="content text-center mb-4">
-          <h1>Sprinkler Schedule Generator</h1>
-          <h3>Fill out your zones, then download and tape this to your garage wall!</h3>
+<div class="max-w-6xl mx-auto p-4 bg-slate-100 min-h-screen font-sans">
+
+    <div class="bg-white p-6 rounded-xl shadow-lg mb-8 no-print">
+        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">1. General Information</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+            <input type="text" id="propName" placeholder="Client Name (e.g., Nichols Residence)" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
+            <input type="text" id="propAddr" placeholder="Property Address" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
+            <input type="text" id="controller" placeholder="Controller Type (e.g., Rainbird ESP)" class="border p-2 rounded shadow-sm" oninput="syncGlobal()">
         </div>
 
-        <div style="background: #f8f9fa; padding: 30px; border-radius: 8px; margin-bottom: 30px;">
-          <div class="row mb-3">
-            <div class="col-md-6 mb-2">
-              <label style="font-weight: 600; font-size: 14px;">Property Name/Address</label>
-              <input type="text" id="propName" placeholder="e.g. Smith Residence" style="width:100%; border:1px solid #ccc; padding:8px; border-radius:4px;">
+        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">2. Program Schedules</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-blue-50 p-3 rounded border border-blue-200">
+                <p class="font-bold text-blue-900 mb-1 italic">Prog A: Turf</p>
+                <input type="text" id="in-a-days" placeholder="Days (M,W,F)" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
+                <input type="text" id="in-a-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
-            <div class="col-md-6 mb-2">
-              <label style="font-weight: 600; font-size: 14px;">Number of Zones</label>
-              <input type="number" id="zoneCount" value="6" min="1" max="20" style="width:100%; border:1px solid #ccc; padding:8px; border-radius:4px;">
+            <div class="bg-green-50 p-3 rounded border border-green-200">
+                <p class="font-bold text-green-900 mb-1 italic">Prog B: Plants</p>
+                <input type="text" id="in-b-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
+                <input type="text" id="in-b-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
             </div>
-          </div>
-
-          <div id="inputRows" style="margin-bottom: 20px;"></div>
-
-          <button onclick="generateImage()" class="button" style="width:100%; height:50px; line-height:50px; font-size:16px; cursor:pointer; border:none;">
-            DOWNLOAD PRINTABLE SCHEDULE (.PNG)
-          </button>
+            <div class="bg-orange-50 p-3 rounded border border-orange-200">
+                <p class="font-bold text-orange-900 mb-1 italic">Prog C: Veggies</p>
+                <input type="text" id="in-c-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
+                <input type="text" id="in-c-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
+            </div>
+            <div class="bg-gray-50 p-3 rounded border border-gray-200">
+                <p class="font-bold text-gray-900 mb-1 italic">Prog D: Misc</p>
+                <input type="text" id="in-d-days" placeholder="Days" class="w-full text-xs p-1 mb-1 border" oninput="syncGlobal()">
+                <input type="text" id="in-d-start" placeholder="Start/Stop Times" class="w-full text-xs p-1 border" oninput="syncGlobal()">
+            </div>
         </div>
 
-        <!-- Printable capture area -->
-        <div id="captureArea" style="background:#fff; padding:40px; border:4px solid #1c3ed3; max-width:800px; margin:0 auto;">
-          <div style="display:flex; justify-content:space-between; align-items:center; border-bottom:2px solid #1c3ed3; padding-bottom:15px; margin-bottom:15px;">
+        <h2 class="text-2xl font-bold mb-4 border-b pb-2 text-blue-800">3. Zone Details</h2>
+        <div class="mb-4">
+             <label class="text-sm font-bold">Number of Zones:</label>
+             <input type="number" id="zoneCount" value="6" min="1" max="18" class="border p-1 ml-2 w-16" oninput="updateRows()">
+        </div>
+        <div id="inputRows" class="space-y-2"></div>
+
+        <button onclick="generateImage()" class="mt-10 w-full bg-blue-600 hover:bg-blue-800 text-white font-black py-4 rounded-xl shadow-xl transform transition hover:scale-[1.01]">
+            CREATE MY PRINTABLE GARAGE CARD
+        </button>
+    </div>
+
+    <div id="captureArea" class="bg-white p-10 border-[12px] border-blue-900 w-[1000px] mx-auto shadow-2xl">
+        <div class="flex justify-between items-start border-b-4 border-blue-900 pb-6 mb-6">
             <div>
-              <h2 style="font-family:'Lora',serif; font-size:24px; font-weight:900; color:#1c3ed3; text-transform:uppercase; margin:0;">Irrigation Schedule</h2>
-              <p id="displayPropName" style="font-size:18px; font-weight:700; color:#414156; margin:5px 0 0 0;"></p>
+                <h1 class="text-4xl font-black text-blue-900 tracking-tight uppercase">Sprinkler Controller Program Information</h1>
+                <div class="mt-4 grid grid-cols-2 gap-x-8 gap-y-1">
+                    <p class="text-lg"><span class="font-bold">Client:</span> <span id="out-propName" class="border-b border-gray-400 px-2 underline italic"></span></p>
+                    <p class="text-lg"><span class="font-bold">Address:</span> <span id="out-propAddr" class="border-b border-gray-400 px-2 underline"></span></p>
+                    <p class="text-lg"><span class="font-bold">Controller:</span> <span id="out-controller" class="border-b border-gray-400 px-2"></span></p>
+                </div>
             </div>
-            <div style="text-align:right;">
-              <p style="font-size:20px; font-weight:700; color:#1c3ed3; margin:0;">5280 SPRINKLERS</p>
-              <p style="font-size:13px; color:#666; margin:0;">5280sprinklers.com</p>
+            <div class="text-right">
+                <div class="text-3xl font-black text-blue-600">5280 SPRINKLERS</div>
+                <p class="text-sm font-bold tracking-widest text-gray-500 uppercase italic">Quality Irrigation Services</p>
             </div>
-          </div>
+        </div>
 
-          <table style="width:100%; border-collapse:collapse; font-size:14px;">
+        <div class="grid grid-cols-4 gap-2 mb-6">
+            <div class="border p-2 bg-blue-50"><p class="font-bold text-xs underline">Program A: Turf</p><p id="out-a" class="text-[10px] leading-tight mt-1 min-h-[30px]"></p></div>
+            <div class="border p-2 bg-green-50"><p class="font-bold text-xs underline">Program B: Plants</p><p id="out-b" class="text-[10px] leading-tight mt-1 min-h-[30px]"></p></div>
+            <div class="border p-2 bg-orange-50"><p class="font-bold text-xs underline">Program C: Annuals/Veg</p><p id="out-c" class="text-[10px] leading-tight mt-1 min-h-[30px]"></p></div>
+            <div class="border p-2 bg-gray-50"><p class="font-bold text-xs underline">Program D: Other</p><p id="out-d" class="text-[10px] leading-tight mt-1 min-h-[30px]"></p></div>
+        </div>
+
+        <table class="w-full border-collapse border-2 border-black">
             <thead>
-              <tr style="background:#1c3ed3; color:#fff;">
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:left;">Zone</th>
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:left;">Description / Location</th>
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog A</th>
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog B</th>
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog C</th>
-                <th style="border:1px solid #1c3ed3; padding:8px; text-align:center;">Prog D</th>
-              </tr>
+                <tr class="bg-gray-200">
+                    <th class="border-2 border-black p-2 text-sm w-16 text-center">Zone #</th>
+                    <th class="border-2 border-black p-2 text-sm w-32">Head Type</th>
+                    <th class="border-2 border-black p-2 text-sm w-32">Run Time</th>
+                    <th class="border-2 border-black p-2 text-sm">Location Description</th>
+                    <th class="border-2 border-black p-2 text-sm w-16 text-center">Prgm</th>
+                </tr>
             </thead>
             <tbody id="previewBody"></tbody>
-          </table>
-          <p style="margin-top:15px; font-size:12px; color:#999; font-style:italic; text-align:center;">
-            Handy Tip: Turn off your system during heavy rain to save water and money!
-          </p>
-        </div>
+        </table>
 
-      </div>
+        <div class="mt-6 flex justify-between items-end border-t-2 pt-4">
+            <p class="text-xs text-gray-500 italic max-w-md">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
+            <p class="text-sm font-bold text-blue-900 uppercase">www.5280sprinklers.com</p>
+        </div>
     </div>
-  </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script>
-const zoneInput = document.getElementById('zoneCount');
-const inputRows = document.getElementById('inputRows');
-const previewBody = document.getElementById('previewBody');
-const propInput = document.getElementById('propName');
-const displayProp = document.getElementById('displayPropName');
+function syncGlobal() {
+    document.getElementById('out-propName').innerText = document.getElementById('propName').value;
+    document.getElementById('out-propAddr').innerText = document.getElementById('propAddr').value;
+    document.getElementById('out-controller').innerText = document.getElementById('controller').value;
 
-function updateUI() {
-    const count = zoneInput.value;
-    inputRows.innerHTML = '';
-    previewBody.innerHTML = '';
-    displayProp.innerText = propInput.value || "My Home";
+    ['a','b','c','d'].forEach(function(p) {
+        var days = document.getElementById('in-' + p + '-days').value;
+        var start = document.getElementById('in-' + p + '-start').value;
+        document.getElementById('out-' + p).innerHTML = 'Days: ' + days + '<br>Starts: ' + start;
+    });
+}
 
-    for (let i = 1; i <= count; i++) {
-        const row = document.createElement('div');
-        row.className = "row mb-2 align-items-center";
-        row.innerHTML =
-            '<div class="col-1"><span style="font-weight:700;color:#1c3ed3;">Z' + i + '</span></div>' +
-            '<div class="col-3"><input type="text" placeholder="Location" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'desc\',this.value)"></div>' +
-            '<div class="col-2"><input type="text" placeholder="A" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'a\',this.value)"></div>' +
-            '<div class="col-2"><input type="text" placeholder="B" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'b\',this.value)"></div>' +
-            '<div class="col-2"><input type="text" placeholder="C" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'c\',this.value)"></div>' +
-            '<div class="col-2"><input type="text" placeholder="D" style="width:100%;border:1px solid #ccc;padding:4px 8px;font-size:13px;border-radius:4px;" oninput="sync(' + i + ',\'d\',this.value)"></div>';
-        inputRows.appendChild(row);
+function updateRows() {
+    var count = document.getElementById('zoneCount').value;
+    var inputContainer = document.getElementById('inputRows');
+    var tableBody = document.getElementById('previewBody');
 
-        const tr = document.createElement('tr');
+    inputContainer.innerHTML = '';
+    tableBody.innerHTML = '';
+
+    for (var i = 1; i <= count; i++) {
+        var div = document.createElement('div');
+        div.className = "grid grid-cols-5 gap-2 bg-white p-2 rounded border border-gray-100 shadow-sm";
+        div.innerHTML =
+            '<div class="font-bold text-blue-600 self-center">Zone ' + i + '</div>' +
+            '<input type="text" placeholder="Head (Pop-up/Drip)" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'head\', this.value)">' +
+            '<input type="text" placeholder="Run Time (Mins)" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'time\', this.value)">' +
+            '<input type="text" placeholder="Location" class="border p-1 text-xs" oninput="syncZone(' + i + ', \'loc\', this.value)">' +
+            '<select class="border p-1 text-xs font-bold" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
+                '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
+            '</select>';
+        inputContainer.appendChild(div);
+
+        var tr = document.createElement('tr');
         tr.innerHTML =
-            '<td style="border:1px solid #ddd;padding:8px;font-weight:700;background:#f8f9fa;text-align:center;">' + i + '</td>' +
-            '<td style="border:1px solid #ddd;padding:8px;font-weight:500;" id="p-desc-' + i + '">---</td>' +
-            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-a-' + i + '">-</td>' +
-            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-b-' + i + '">-</td>' +
-            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-c-' + i + '">-</td>' +
-            '<td style="border:1px solid #ddd;padding:8px;text-align:center;" id="p-d-' + i + '">-</td>';
-        previewBody.appendChild(tr);
+            '<td class="border-2 border-black p-2 text-center font-bold text-lg">' + i + '</td>' +
+            '<td id="p-head-' + i + '" class="border-2 border-black p-2 text-sm italic"></td>' +
+            '<td id="p-time-' + i + '" class="border-2 border-black p-2 text-sm font-bold text-center"></td>' +
+            '<td id="p-loc-' + i + '" class="border-2 border-black p-2 font-medium"></td>' +
+            '<td id="p-prgm-' + i + '" class="border-2 border-black p-2 text-center font-black bg-gray-50">A</td>';
+        tableBody.appendChild(tr);
     }
 }
 
-function sync(zone, type, val) {
-    document.getElementById('p-' + type + '-' + zone).innerText = val || "-";
+function syncZone(i, field, val) {
+    document.getElementById('p-' + field + '-' + i).innerText = val;
 }
 
 function generateImage() {
     var element = document.getElementById('captureArea');
-    html2canvas(element).then(function(canvas) {
+    html2canvas(element, { scale: 2 }).then(function(canvas) {
         var link = document.createElement('a');
-        link.download = '5280-sprinkler-schedule.png';
-        link.href = canvas.toDataURL();
+        link.download = 'Irrigation-Schedule-' + (document.getElementById('propName').value || '5280') + '.png';
+        link.href = canvas.toDataURL("image/png");
         link.click();
     });
 }
 
-zoneInput.addEventListener('input', updateUI);
-propInput.addEventListener('input', updateUI);
-updateUI();
+updateRows();
 </script>
