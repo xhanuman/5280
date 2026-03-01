@@ -139,6 +139,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
             <div class="flex-[1.2]">Time</div>
             <div class="flex-[3]">Location</div>
             <div class="w-14 shrink-0 text-center">Prgm</div>
+            <div class="w-14 shrink-0 text-center">Soak</div>
         </div>
         <div id="inputRows" class="space-y-1"></div>
 
@@ -156,15 +157,15 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                     <table style="margin-top:12px; border-collapse:separate; border-spacing:0; width:100%;">
                         <tr>
                             <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; font-style:italic;"></span></td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px; font-style:italic;"></span></td>
                             <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Address:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
                         </tr>
                         <tr>
                             <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Controller:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
                             <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Backflow:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em;"></span></td>
+                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
                         </tr>
                     </table>
                 </div>
@@ -196,7 +197,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
             <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; background:#1e3a5f; color:#fff; padding:8px 14px; border-radius:4px;">
                 <p style="font-size:13px; font-weight:700; margin:0;">Total Estimated Run Time: <span id="out-totalTime" style="font-size:16px;">0 min</span></p>
-                <p style="font-size:10px; font-style:italic; opacity:0.8; margin:0;">Sum of all zone run times per cycle</p>
+                <p style="font-size:10px; font-style:italic; opacity:0.8; margin:0;">Soak zones run twice — total reflects both passes</p>
             </div>
 
             <div style="margin-top:12px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:10px;">
@@ -352,7 +353,11 @@ function calcTotalTime() {
         var el = document.getElementById('p-time-' + i);
         if (el) {
             var val = parseInt(el.innerText);
-            if (!isNaN(val)) total += val;
+            if (!isNaN(val)) {
+                var prgmEl = document.getElementById('p-prgm-' + i);
+                var runs = (prgmEl && prgmEl.dataset.soak) ? 2 : 1;
+                total += val * runs;
+            }
         }
     }
     var hours = Math.floor(total / 60);
@@ -384,6 +389,9 @@ function updateRows() {
             '<div class="zone-field flex-[3]">' + buildLocationSelect(i) + '</div>' +
             '<div class="zone-field-sm w-14 shrink-0"><select class="border p-1 text-xs font-bold w-full text-center" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
                 '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
+            '</select></div>' +
+            '<div class="zone-field-sm w-14 shrink-0"><select class="border p-1 text-xs w-full text-center text-gray-500" onchange="syncZone(' + i + ', \'soak\', this.value)">' +
+                '<option value="">--</option><option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
             '</select></div>';
         inputContainer.appendChild(div);
 
@@ -393,7 +401,7 @@ function updateRows() {
             '<td id="p-head-' + i + '" style="border:2px solid #000; padding:5px; font-size:12px; font-style:italic;"></td>' +
             '<td id="p-time-' + i + '" style="border:2px solid #000; padding:5px; font-size:12px; font-weight:700; text-align:center;"></td>' +
             '<td id="p-loc-' + i + '" style="border:2px solid #000; padding:5px; font-size:12px; font-weight:500;"></td>' +
-            '<td id="p-prgm-' + i + '" style="border:2px solid #000; padding:5px; font-size:12px; font-weight:900; text-align:center; background:#f9fafb;">A</td>';
+            '<td id="p-prgm-' + i + '" data-prgm="A" data-soak="" style="border:2px solid #000; padding:5px; font-size:12px; font-weight:900; text-align:center; background:#f9fafb;">A</td>';
         tableBody.appendChild(tr);
     }
     calcTotalTime();
@@ -401,8 +409,18 @@ function updateRows() {
 }
 
 function syncZone(i, field, val) {
-    document.getElementById('p-' + field + '-' + i).innerText = val;
-    if (field === 'time') calcTotalTime();
+    if (field === 'prgm' || field === 'soak') {
+        var cell = document.getElementById('p-prgm-' + i);
+        if (field === 'prgm') cell.dataset.prgm = val;
+        if (field === 'soak') cell.dataset.soak = val;
+        var main = cell.dataset.prgm || 'A';
+        var soak = cell.dataset.soak || '';
+        cell.innerText = soak ? main + '+' + soak : main;
+        calcTotalTime();
+    } else {
+        document.getElementById('p-' + field + '-' + i).innerText = val;
+        if (field === 'time') calcTotalTime();
+    }
 }
 
 function generateImage() {
