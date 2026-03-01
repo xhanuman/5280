@@ -106,6 +106,7 @@ bodyClass: page-home
         <li><a href="{{site.baseurl}}/denver-sprinkler-startup-guide/">Spring Startup Guide 2026</a> — timing, DIY steps, and when to call a pro</li>
         <li><a href="{{site.baseurl}}/denver-sprinkler-blowout-guide/">Fall Blowout Guide 2026</a> — why winterization is essential in Denver</li>
         <li><a href="{{site.baseurl}}/smart-sprinkler-controller-denver/">Smart Sprinkler Controllers</a> — Rachio &amp; Hunter Hydrawise guide for Denver homes</li>
+        <li><a href="{{site.baseurl}}/schedule-tool/">Sprinkler Schedule Generator</a> — build a printable irrigation card for your garage wall</li>
       </ul>
     </div>
   </div>
