@@ -132,7 +132,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
     <div id="captureArea" style="width:960px; box-sizing:border-box; padding:32px; border:10px solid #1e3a5f; background:#fff; margin:0 auto; overflow:hidden;">
         <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:20px; margin-bottom:20px;">
             <div style="flex:1; margin-right:24px;">
-                <h1 style="font-size:26px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.5px; line-height:1.2; margin:0;">Sprinkler Controller Program Information</h1>
+                <h1 style="font-size:22px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.3px; line-height:1; margin:0; white-space:nowrap;">Sprinkler Controller Program Information</h1>
                 <table style="margin-top:12px; border-collapse:separate; border-spacing:0; width:100%;">
                     <tr>
                         <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
@@ -181,7 +181,7 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
         <div style="margin-top:12px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:10px;">
             <p style="font-size:10px; color:#888; font-style:italic; max-width:380px; margin:0;">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
-            <p style="font-size:12px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">www.5280sprinklers.com</p>
+            <p style="font-size:12px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">5280sprinklers.com</p>
         </div>
     </div>
 </div>
@@ -345,7 +345,7 @@ function updateRows() {
             '<div class="flex-[3]">' + buildHeadSelect(i) + '</div>' +
             '<div class="flex-[1.2]">' + buildTimeSelect(i) + '</div>' +
             '<div class="flex-[3]">' + buildLocationSelect(i) + '</div>' +
-            '<div class="w-11 shrink-0"><select class="border p-1 text-xs font-bold w-full" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
+            '<div class="w-14 shrink-0"><select class="border p-1 text-xs font-bold w-full text-center" onchange="syncZone(' + i + ', \'prgm\', this.value)">' +
                 '<option value="A">A</option><option value="B">B</option><option value="C">C</option><option value="D">D</option>' +
             '</select></div>';
         inputContainer.appendChild(div);
