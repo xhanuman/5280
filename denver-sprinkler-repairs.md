@@ -1,9 +1,10 @@
 ---
 id: 195
 title: Denver Sprinkler Repairs
+description: "Professional sprinkler repair in Denver. We fix leaking pipes, buried heads, and broken lines. Schedule your repair with 5280 Sprinklers."
 date: 2012-07-16T14:44:43+00:00
 author: Admin
-layout: default
+layout: page
 guid: http://www.denversprinklerblowout.com/?page_id=195
 ---
 <a href="{{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking.jpg" rel="wp-prettyPhoto[195]"><img class="alignright size-medium wp-image-201" title="sprinkler_pipe_leaking" src="{{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking-225x300.jpg" alt="Leaking sprinkler pipe in Denver" width="225" height="300" srcset="{{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking-225x300.jpg 225w, {{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking.jpg 600w" sizes="(max-width: 225px) 100vw, 225px" /></a> Sprinkler Repairs in Denver

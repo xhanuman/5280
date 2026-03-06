@@ -106,7 +106,7 @@ Burst pipe, stuck valve, or any other urgent sprinkler issue? We prioritize emer
     "@type": "ReserveAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.5280sprinklers.com/onlinescheduling",
+      "urlTemplate": "https://www.5280sprinklers.com/",
       "inLanguage": "en-US",
       "actionPlatform": [
         "http://schema.org/DesktopWebPlatform",

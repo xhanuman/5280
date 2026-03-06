@@ -107,7 +107,7 @@ You don't have to keep paying for water that's soaking into the ground. Let us f
     "@type": "ReserveAction",
     "target": {
       "@type": "EntryPoint",
-      "urlTemplate": "https://www.5280sprinklers.com/onlinescheduling",
+      "urlTemplate": "https://www.5280sprinklers.com/",
       "inLanguage": "en-US",
       "actionPlatform": [
         "http://schema.org/DesktopWebPlatform",

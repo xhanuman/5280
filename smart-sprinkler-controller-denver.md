@@ -5,7 +5,7 @@ description: "Upgrade your Denver irrigation system with a smart sprinkler contr
 permalink: /smart-sprinkler-controller-denver/
 ---
 
-# Smart Sprinkler Controller Guide for Denver Homes
+## Smart Sprinkler Controller Guide for Denver Homes
 
 A smart sprinkler controller is one of the most impactful upgrades a Denver homeowner can make. By automating irrigation based on real-time local weather data, these devices can cut outdoor water use by up to 50% — saving thousands of gallons and hundreds of dollars per season.
 
