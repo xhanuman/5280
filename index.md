@@ -11,7 +11,7 @@ bodyClass: page-home
     <h2>5280 Sprinklers — Serving Denver Since 2010</h2>
     <p>Locally owned and operated. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners.</p>
 
-      <p><strong>We're gearing up for the 2026 season -- scheduling opens mid-to-late March for Denver and surrounding areas.</strong></p>
+      <p><strong>We're gearing up for the 2026 season -- scheduling opens March 11th for Denver and surrounding areas. First appointments begin April 16th, with earlier availability opening up closer to April 1st.</strong></p>
       <p><small>If you've entered your address correctly and don't see a scheduling link, your address is likely outside of our service area.</small></p>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="300px" frameborder="0" style="transition:height 0.3s ease;"></iframe>
 
