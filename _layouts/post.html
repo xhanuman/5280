@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="strip strip-white strip-diagonal">
+  <div class="container pt-4 pt-md-4">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-10">
+        <article class="post post-single">
+          <div class="post-meta mb-2">
+            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time>
+            {% if page.categories.size > 0 %}
+              <span class="mx-2">|</span>
+              {% for cat in page.categories %}
+                <span class="badge badge-light">{{ cat }}</span>
+              {% endfor %}
+            {% endif %}
+          </div>
+          <h1 class="title">{{ page.title }}</h1>
+          <div class="content">{{ content }}</div>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>

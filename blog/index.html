@@ -1,0 +1,48 @@
+---
+layout: default
+title: "Blog - Sprinkler Tips & Irrigation Advice | 5280 Sprinklers"
+description: "Expert sprinkler and irrigation tips for Denver homeowners. Seasonal maintenance guides, water-saving advice, and lawn care insights from 5280 Sprinklers."
+permalink: /blog/
+bodyClass: page-blog
+---
+
+<div class="strip strip-white strip-diagonal">
+  <div class="container pt-4 pt-md-4">
+    <div class="row justify-content-start">
+      <div class="col-12 col-md-10">
+        <h1 class="title">Blog</h1>
+        <p class="lead mb-4">Sprinkler tips, seasonal guides, and irrigation advice for Denver homeowners.</p>
+
+        {% if site.posts.size == 0 %}
+          <p>No posts yet — check back soon!</p>
+        {% endif %}
+
+        {% for post in site.posts %}
+          <div class="card mb-3">
+            <div class="card-body">
+              <h2 class="h5 card-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h2>
+              <p class="card-text text-muted small">
+                {{ post.date | date: "%B %d, %Y" }}
+                {% if post.categories.size > 0 %}
+                  &middot;
+                  {% for cat in post.categories %}
+                    <span class="badge badge-light">{{ cat }}</span>
+                  {% endfor %}
+                {% endif %}
+              </p>
+              {% if post.description %}
+                <p class="card-text">{{ post.description }}</p>
+              {% else %}
+                <p class="card-text">{{ post.excerpt | strip_html | truncate: 200 }}</p>
+              {% endif %}
+              <a href="{{ post.url | relative_url }}" class="btn btn-sm btn-outline-primary">Read more</a>
+            </div>
+          </div>
+        {% endfor %}
+
+      </div>
+    </div>
+  </div>
+</div>
