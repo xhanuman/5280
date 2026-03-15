@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_faqs": 255,
-    "last_updated": "2026-02-08",
+    "last_updated": "2026-03-06",
     "version": "2.0.0",
     "note": "Complete FAQ database with 255 entries across all categories."
   },
@@ -2337,7 +2337,7 @@
     {
       "id": 154,
       "question": "How much does a spring startup service cost?",
-      "answer": "Spring startup pricing depends on the size of your system, the number of zones, and whether any repairs are needed after winter. We keep our pricing competitive for the Denver market and are transparent about costs before we start any work. Head to https://5280sprinklers.com/ to see current pricing and book your spring activation before the schedule fills up, because April and May book fast.",
+      "answer": "Spring startup pricing depends on the size of your system, the number of zones, and whether any repairs are needed after winter.  The first 8 zones are $100 for spring startup - we've kept our prices stable for the last 3 years in a row. We keep our pricing competitive for the Denver market and are transparent about costs before we start any work. Head to https://5280sprinklers.com/ to see current pricing and book your spring activation before the schedule fills up, because April and May book fast.",
       "category": "costs_economics",
       "tags": [
         "spring startup",
