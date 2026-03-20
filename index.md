@@ -15,7 +15,7 @@ bodyClass: page-home
       <p><strong>The 2026 season is here -- scheduling is now open for Denver and surrounding areas.</strong></p>
 <iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="300px" frameborder="0" style="transition:height 0.3s ease;"></iframe>
       <style>.svc-disclaimer { text-align: center; } @media (min-width: 768px) { .svc-disclaimer { white-space: nowrap; } }</style>
-      <p class="svc-disclaimer"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
+      <p class="svc-disclaimer text-center"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
 
   </div>
 </div>
