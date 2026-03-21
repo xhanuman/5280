@@ -1,0 +1,23 @@
+{% comment %}
+  5280 Sprinklers Analytics Tracker
+  Add this include to _layouts/default.html just before </body>:
+    {% include analytics.html %}
+
+  Or add it to _includes/head.html for early loading.
+
+  IMPORTANT: Set the API key in _config.yml or _data/settings.yml:
+    analytics_api_key: "your-key-here"
+    analytics_base_url: "https://log.5280sprinklers.com"
+{% endcomment %}
+
+{% if jekyll.environment == "production" or site.analytics_enabled %}
+<script async
+  src="{{ site.analytics_base_url | default: 'https://log.5280sprinklers.com' }}/static/sprinkler-log.js"
+  data-api="{{ site.analytics_base_url | default: 'https://log.5280sprinklers.com' }}/api/v1"
+  data-key="{{ site.analytics_api_key }}"
+  data-heatmap="true"
+  data-vitals="true"
+  data-errors="true"
+  data-forms="true">
+</script>
+{% endif %}

@@ -29,6 +29,9 @@ sass:
   style: compact # possible values: nested expanded compact compressed
 
 google_analytics_id: G-29QW7YPW27
+analytics_enabled: true
+analytics_base_url: "https://log.5280sprinklers.com"
+analytics_api_key: "80ioDl56PKE6Hxmp2bqTbllQoiSbcwjlhW4i91bbZt4"
 
 url: 'https://5280sprinklers.com'
 plugins:
