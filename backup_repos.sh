@@ -7,8 +7,6 @@ mkdir -p "$BACKUP_DIR"
 
 REPOS=(
   "xhanuman/5280"
-  "xhanuman/5280tree"
-  "xhanuman/5280treecare"
   "xhanuman/denverapartmentguide"
   "xhanuman/denverbackflowtest"
   "xhanuman/denversprinkerblowout"
