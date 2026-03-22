@@ -21,6 +21,10 @@ Serif is a beautiful small business theme for Jekyll. It contains content types 
 - Robust example content included
 - Royalty free illustrations included
 
+## Repo Backups
+
+Run `bash backup_repos.sh` to create local bare-mirror backups of all GitHub repos. Backups are stored in the `backups/` folder (gitignored — never pushed to GitHub).
+
 ## Deployment
 
 To run the theme locally, navigate to the theme directory and run `bundle install` to install the dependencies, then run `jekyll serve` or `bundle exec jekyll serve` to start the Jekyll server.
