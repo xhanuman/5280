@@ -212,62 +212,67 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         </div>
     </div>
 
-    <!-- Scaled preview wrapper -->
+    <!-- Scaled preview wrapper — sized for US Letter landscape (11" x 8.5" at 96dpi) -->
     <div id="previewWrapper" class="overflow-hidden mb-8">
-        <div id="captureArea" style="width:960px; box-sizing:border-box; padding:32px; border:10px solid #1e3a5f; background:#fff; overflow:hidden; transform-origin:top left;">
-            <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:20px; margin-bottom:20px;">
+        <div id="captureArea" style="width:1056px; min-height:816px; box-sizing:border-box; padding:40px; border:12px solid #1e3a5f; background:#fff; overflow:hidden; transform-origin:top left; display:flex; flex-direction:column;">
+            <div style="display:flex; justify-content:space-between; align-items:flex-start; border-bottom:4px solid #1e3a5f; padding-bottom:24px; margin-bottom:24px;">
                 <div style="flex:1; margin-right:24px;">
-                    <h1 style="font-size:22px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.3px; line-height:1; margin:0; white-space:nowrap;">Sprinkler Controller Program Information</h1>
-                    <table style="margin-top:12px; border-collapse:separate; border-spacing:0; width:100%;">
+                    <h1 style="font-size:26px; font-weight:900; color:#1e3a5f; text-transform:uppercase; letter-spacing:-0.3px; line-height:1; margin:0; white-space:nowrap;">Sprinkler Controller Program Information</h1>
+                    <table style="margin-top:14px; border-collapse:separate; border-spacing:0; width:100%;">
                         <tr>
-                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px; font-style:italic;"></span></td>
-                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Address:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
+                            <td style="font-size:16px; font-weight:700; padding:4px 8px 4px 0; white-space:nowrap; vertical-align:bottom;">Client:</td>
+                            <td style="font-size:16px; padding:4px 0; vertical-align:bottom; width:38%;"><span id="out-propName" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.4em; padding-bottom:4px; font-style:italic;"></span></td>
+                            <td style="font-size:16px; font-weight:700; padding:4px 8px 4px 16px; white-space:nowrap; vertical-align:bottom;">Address:</td>
+                            <td style="font-size:16px; padding:4px 0; vertical-align:bottom; width:38%;"><span id="out-propAddr" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.4em; padding-bottom:4px;"></span></td>
                         </tr>
                         <tr>
-                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 0; white-space:nowrap; vertical-align:bottom;">Controller:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
-                            <td style="font-size:14px; font-weight:700; padding:3px 6px 3px 16px; white-space:nowrap; vertical-align:bottom;">Backflow:</td>
-                            <td style="font-size:14px; padding:3px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.3em; padding-bottom:4px;"></span></td>
+                            <td style="font-size:16px; font-weight:700; padding:4px 8px 4px 0; white-space:nowrap; vertical-align:bottom;">Controller:</td>
+                            <td style="font-size:16px; padding:4px 0; vertical-align:bottom;"><span id="out-controller" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.4em; padding-bottom:4px;"></span></td>
+                            <td style="font-size:16px; font-weight:700; padding:4px 8px 4px 16px; white-space:nowrap; vertical-align:bottom;">Backflow:</td>
+                            <td style="font-size:16px; padding:4px 0; vertical-align:bottom;"><span id="out-backflow" style="display:inline-block; width:100%; border-bottom:1px solid #999; min-height:1.4em; padding-bottom:4px;"></span></td>
                         </tr>
                     </table>
                 </div>
                 <div style="text-align:right; flex-shrink:0;">
-                    <div style="font-size:24px; font-weight:900; color:#2563eb;">5280 SPRINKLERS</div>
-                    <p style="font-size:11px; font-weight:700; letter-spacing:2px; color:#888; text-transform:uppercase; font-style:italic; margin:2px 0 0 0;">Quality Irrigation Services</p>
+                    <div style="font-size:28px; font-weight:900; color:#2563eb;">5280 SPRINKLERS</div>
+                    <p style="font-size:12px; font-weight:700; letter-spacing:2px; color:#888; text-transform:uppercase; font-style:italic; margin:2px 0 0 0;">Quality Irrigation Services</p>
                 </div>
             </div>
 
-            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:6px; margin-bottom:16px;">
-                <div style="border:1px solid #ddd; padding:6px; background:#eff6ff;"><p style="font-weight:900;font-size:10px;margin:0 0 3px 0;color:#1e40af;text-transform:uppercase;letter-spacing:0.05em;">Program A</p><p id="out-a" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-                <div style="border:1px solid #ddd; padding:6px; background:#f0fdf4;"><p style="font-weight:900;font-size:10px;margin:0 0 3px 0;color:#166534;text-transform:uppercase;letter-spacing:0.05em;">Program B</p><p id="out-b" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-                <div style="border:1px solid #ddd; padding:6px; background:#fff7ed;"><p style="font-weight:900;font-size:10px;margin:0 0 3px 0;color:#9a3412;text-transform:uppercase;letter-spacing:0.05em;">Program C</p><p id="out-c" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
-                <div style="border:1px solid #ddd; padding:6px; background:#f9fafb;"><p style="font-weight:700; font-size:11px; text-decoration:underline; margin:0;">Program D: Other</p><p id="out-d" style="font-size:10px; line-height:1.3; margin:4px 0 0 0; min-height:26px;"></p></div>
+            <!-- Watering days row (populated by JS when Denver region + address set) -->
+            <div id="out-watering-days" style="display:none; margin-bottom:16px; padding:10px 14px; background:#eff6ff; border:2px solid #2563eb; border-radius:6px;">
+                <p id="out-watering-days-text" style="font-size:14px; font-weight:700; color:#1e3a5f; margin:0;"></p>
             </div>
 
-            <table style="width:100%; border-collapse:collapse; border:2px solid #000;">
+            <div style="display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin-bottom:20px;">
+                <div style="border:1px solid #ddd; padding:8px; background:#eff6ff;"><p style="font-weight:900;font-size:12px;margin:0 0 4px 0;color:#1e40af;text-transform:uppercase;letter-spacing:0.05em;">Program A</p><p id="out-a" style="font-size:12px; line-height:1.4; margin:4px 0 0 0; min-height:30px;"></p></div>
+                <div style="border:1px solid #ddd; padding:8px; background:#f0fdf4;"><p style="font-weight:900;font-size:12px;margin:0 0 4px 0;color:#166534;text-transform:uppercase;letter-spacing:0.05em;">Program B</p><p id="out-b" style="font-size:12px; line-height:1.4; margin:4px 0 0 0; min-height:30px;"></p></div>
+                <div style="border:1px solid #ddd; padding:8px; background:#fff7ed;"><p style="font-weight:900;font-size:12px;margin:0 0 4px 0;color:#9a3412;text-transform:uppercase;letter-spacing:0.05em;">Program C</p><p id="out-c" style="font-size:12px; line-height:1.4; margin:4px 0 0 0; min-height:30px;"></p></div>
+                <div style="border:1px solid #ddd; padding:8px; background:#f9fafb;"><p style="font-weight:700; font-size:13px; text-decoration:underline; margin:0;">Program D: Other</p><p id="out-d" style="font-size:12px; line-height:1.4; margin:4px 0 0 0; min-height:30px;"></p></div>
+            </div>
+
+            <table style="width:100%; border-collapse:collapse; border:2px solid #000; flex:1;">
                 <thead>
                     <tr style="background:#e5e7eb;">
-                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:50px; text-align:center;">Zone</th>
-                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:160px; text-align:left;">Head Type</th>
-                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:60px; text-align:center;">Min</th>
-                        <th style="border:2px solid #000; padding:6px; font-size:11px; width:110px; text-align:center;">Cycle &amp; Soak</th>
-                        <th style="border:2px solid #000; padding:6px; font-size:12px; text-align:left;">Location Description</th>
-                        <th style="border:2px solid #000; padding:6px; font-size:12px; width:44px; text-align:center;">Prgm</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:14px; width:55px; text-align:center;">Zone</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:14px; width:180px; text-align:left;">Head Type</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:14px; width:65px; text-align:center;">Min</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:13px; width:120px; text-align:center;">Cycle &amp; Soak</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:14px; text-align:left;">Location Description</th>
+                        <th style="border:2px solid #000; padding:8px; font-size:14px; width:50px; text-align:center;">Prgm</th>
                     </tr>
                 </thead>
                 <tbody id="previewBody"></tbody>
             </table>
 
-            <div style="margin-top:10px; display:flex; justify-content:space-between; align-items:center; background:#1e3a5f; color:#fff; padding:8px 14px; border-radius:4px;">
-                <p style="font-size:13px; font-weight:700; margin:0;">Total Estimated Run Time: <span id="out-totalTime" style="font-size:16px;">0 min</span></p>
-                <p style="font-size:10px; font-style:italic; opacity:0.8; margin:0;">*Cycle notation: runs &times; cycle-time + soak between. Total reflects all passes.</p>
+            <div style="margin-top:14px; display:flex; justify-content:space-between; align-items:center; background:#1e3a5f; color:#fff; padding:10px 16px; border-radius:4px;">
+                <p style="font-size:15px; font-weight:700; margin:0;">Total Estimated Run Time: <span id="out-totalTime" style="font-size:18px;">0 min</span></p>
+                <p style="font-size:11px; font-style:italic; opacity:0.8; margin:0;">*Cycle notation: runs &times; cycle-time + soak between. Total reflects all passes.</p>
             </div>
 
-            <div style="margin-top:12px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:10px;">
-                <p style="font-size:10px; color:#888; font-style:italic; max-width:380px; margin:0;">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
-                <p style="font-size:12px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">5280sprinklers.com</p>
+            <div style="margin-top:14px; display:flex; justify-content:space-between; align-items:flex-end; border-top:2px solid #ddd; padding-top:12px;">
+                <p style="font-size:11px; color:#888; font-style:italic; max-width:420px; margin:0;">Note: If you notice leaks or pressure drops, contact 5280 Sprinklers for a mid-season tune-up.</p>
+                <p style="font-size:14px; font-weight:700; color:#1e3a5f; text-transform:uppercase; margin:0;">5280sprinklers.com</p>
             </div>
         </div>
     </div>
@@ -382,11 +387,33 @@ description: Create a printable irrigation schedule card for your sprinkler cont
         }
     };
 
-    // Override generateImage to validate address for Denver
+    // Override scalePreview to use new 1056px card width
+    function patchScalePreview() {
+        window.scalePreview = function() {
+            var wrapper = document.getElementById('previewWrapper');
+            var card = document.getElementById('captureArea');
+            if (!wrapper || !card) return;
+            var wrapperWidth = wrapper.offsetWidth;
+            var cardWidth = 1056;
+            if (wrapperWidth < cardWidth) {
+                var scale = wrapperWidth / cardWidth;
+                card.style.transform = 'scale(' + scale + ')';
+                card.style.margin = '0';
+                wrapper.style.height = (card.offsetHeight * scale) + 'px';
+            } else {
+                card.style.transform = 'none';
+                card.style.margin = '0 auto';
+                wrapper.style.height = 'auto';
+            }
+        };
+    }
+
+    // Override generateImage: validate Denver address + render at print quality
     var _origGenerateImage = null;
     function patchGenerateImage() {
-        if (typeof window.generateImage === 'function' && !_origGenerateImage) {
-            _origGenerateImage = window.generateImage;
+        // Always override to get the print-scaled version
+        if (typeof window.generateImage === 'function') {
+            if (!_origGenerateImage) _origGenerateImage = window.generateImage;
             window.generateImage = function() {
                 var regionSel = document.getElementById('serviceRegion');
                 var region = regionSel ? regionSel.value : 'denver';
@@ -409,9 +436,96 @@ description: Create a printable irrigation schedule card for your sprinkler cont
                         return;
                     }
                 }
-                _origGenerateImage.call(this);
+
+                // Update the watering days row on the printed card
+                updatePrintedWateringDays();
+
+                // Render at scale:2 for sharp prints (1056*2=2112px = ~192dpi on 11" paper)
+                var element = document.getElementById('captureArea');
+                var origTransform = element.style.transform;
+                element.style.transform = 'none';
+                html2canvas(element, { scale: 2, useCORS: true, scrollX: 0, scrollY: -window.scrollY }).then(function(canvas) {
+                    element.style.transform = origTransform;
+                    scalePreview();
+                    var name = 'Irrigation-Schedule-' + (document.getElementById('propName').value || '5280') + '.png';
+                    canvas.toBlob(function(blob) {
+                        var shared = false;
+                        try {
+                            if (navigator.canShare) {
+                                var file = new File([blob], name, { type: 'image/png' });
+                                if (navigator.canShare({ files: [file] })) {
+                                    shared = true;
+                                    navigator.share({ files: [file], title: 'Irrigation Schedule' }).catch(function() {});
+                                }
+                            }
+                        } catch(e) {}
+                        if (!shared) {
+                            var url = URL.createObjectURL(blob);
+                            var a = document.createElement('a');
+                            a.href = url;
+                            a.download = name;
+                            document.body.appendChild(a);
+                            a.click();
+                            document.body.removeChild(a);
+                            setTimeout(function() { URL.revokeObjectURL(url); }, 5000);
+                        }
+                    }, 'image/png');
+                });
             };
         }
+    }
+
+    // Show watering days on the printed card
+    function updatePrintedWateringDays() {
+        var el = document.getElementById('out-watering-days');
+        var txt = document.getElementById('out-watering-days-text');
+        if (!el || !txt) return;
+
+        var regionSel = document.getElementById('serviceRegion');
+        var region = regionSel ? regionSel.value : 'denver';
+        var rules = regionRules[region];
+
+        if (!rules || !rules.useAddressParity) {
+            el.style.display = 'none';
+            return;
+        }
+
+        var addr = document.getElementById('propAddr').value;
+        var streetNum = parseStreetNumber(addr);
+        if (streetNum === null) {
+            el.style.display = 'none';
+            return;
+        }
+
+        var even = isEven(streetNum);
+        var schedule = even ? rules.even : rules.odd;
+        txt.innerText = 'Denver Water: ' + (even ? 'Even' : 'Odd') + ' address (#' + streetNum + ') -- Water ONLY on ' + schedule.days.join(' & ') + ' (2 days/week max)';
+        el.style.display = 'block';
+    }
+
+    // Bump zone table row font sizes to match the larger card
+    function patchUpdateRows() {
+        var _origUpdateRows = window.updateRows;
+        if (!_origUpdateRows) return;
+        window.updateRows = function(count) {
+            _origUpdateRows(count);
+            // After rows are built, bump font sizes in the preview table
+            var rows = document.querySelectorAll('#previewBody tr');
+            for (var i = 0; i < rows.length; i++) {
+                var cells = rows[i].querySelectorAll('td');
+                for (var j = 0; j < cells.length; j++) {
+                    var cell = cells[j];
+                    cell.style.padding = '8px';
+                    if (j === 0) { cell.style.fontSize = '16px'; }       // Zone number
+                    else if (j === 1) { cell.style.fontSize = '14px'; }  // Head type
+                    else if (j === 2) { cell.style.fontSize = '14px'; }  // Minutes
+                    else if (j === 3) { cell.style.fontSize = '12px'; }  // Cycle & Soak
+                    else if (j === 4) { cell.style.fontSize = '14px'; }  // Location
+                    else if (j === 5) { cell.style.fontSize = '14px'; }  // Program
+                }
+            }
+            scalePreview();
+        };
     }
 
     // Override updateDenverWaterHint to use the new Denver rules
@@ -462,8 +576,16 @@ description: Create a printable irrigation schedule card for your sprinkler cont
 
     // Patch after main script loads
     function applyPatches() {
+        patchScalePreview();
         patchGenerateImage();
         patchWaterHint();
+        patchUpdateRows();
+        // Re-render rows with new sizes + trigger preview scale
+        if (typeof updateRows === 'function') {
+            var zc = document.getElementById('zoneCount');
+            updateRows(zc ? +zc.value : 6);
+        }
+        scalePreview();
         // Initialize display
         window.onRegionChange();
     }
