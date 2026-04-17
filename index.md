@@ -50,7 +50,7 @@ bodyClass: page-home
       <h2 class="title-3 text-dark mb-3">Our Denver Sprinkler Services</h2>
     </div>
     <div class="col-12 col-md-4 mb-3">
-      <h3><a href="{{site.baseurl}}/services/denver-sprinkler-repair-service/">Sprinkler Repair</a></h3>
+      <h3><a href="{{site.baseurl}}/sprinkler-repair-denver/">Denver Sprinkler Repair</a></h3>
       <p>From broken heads and leaking valves to wiring issues and controller failures, we diagnose and fix all types of irrigation problems. Most repairs in Denver range from $85 for a head replacement to $200-$400 for valve work. Completed in a single visit.</p>
     </div>
     <div class="col-12 col-md-4 mb-3">

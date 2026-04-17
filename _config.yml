@@ -38,3 +38,4 @@ plugins:
   - jekyll-environment-variables
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from

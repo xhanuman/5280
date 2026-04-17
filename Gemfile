@@ -5,6 +5,7 @@ gem 'jekyll-environment-variables'
 gem 'jekyll-seo-tag'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed', "~> 0.17"
+gem 'jekyll-redirect-from'
 gem 'webrick'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

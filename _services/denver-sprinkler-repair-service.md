@@ -1,7 +1,10 @@
 ---
-title: 'Denver Sprinkler Repairs'
-description: 'Professional sprinkler repair services in Denver. Expert diagnosis and repair of irrigation valves, heads, wiring, and controllers. Fast, reliable service.'
+title: 'Denver Sprinkler Repair'
+description: 'Denver sprinkler repair done right — valves, heads, wiring, controllers, underground leaks. Transparent upfront pricing, most repairs done in one visit. Serving Denver, Aurora, and Centennial.'
 image: '/services/noun_591323.png'
+permalink: /sprinkler-repair-denver/
+redirect_from:
+  - /services/denver-sprinkler-repair-service/
 ---
 
 <div class="answer-box" style="background: #f8f9fa; border-left: 4px solid #28a745; padding: 20px; margin-bottom: 30px; border-radius: 4px;">
@@ -11,7 +14,7 @@ Most sprinkler repairs in Denver range from around $85 for a straightforward hea
 
 ## Professional Sprinkler Repair in Denver
 
-Something's not right with your sprinkler system and you want it fixed without getting overcharged. We get it. Whether your system is leaking underground or heads aren't popping up, we diagnose and repair all types of irrigation system problems across the Denver metro area.
+Something's not right with your sprinkler system and you want it fixed without getting overcharged. We get it. Whether your system is leaking underground or heads aren't popping up, we diagnose and repair all types of irrigation system problems across Denver, Aurora, and Centennial.
 
 Many reasons can lead to your sprinkler system leaking underground. Sometimes a failing sprinkler valve can allow water to weep out and you'll see water still coming out of your sprinkler heads even after it has been turned off. Stopping your sprinkler system from leaking underground requires some investigation and an overall assessment often including the water pressure that your system is exposed to and the health of your underground sprinkler valves.
 
@@ -40,7 +43,7 @@ In addition to locating the lost sprinkler valve box, we can trace the wires und
 
 ### Sprinkler Heads Not Popping Up
 
-<img class="alignleft size-medium wp-image-207" title="buried_sprinkler_head" src="{{site.baseurl}}/wp-content/uploads/2012/07/buried_sprinkler_head-225x300.jpg" alt="Buried sprinkler head" width="225" height="300" />
+<img class="alignleft size-medium wp-image-207" title="Denver sprinkler repair - buried sprinkler head excavation" src="{{site.baseurl}}/wp-content/uploads/2012/07/buried_sprinkler_head-225x300.jpg" alt="Denver sprinkler repair — buried rotor head excavated from grass and soil buildup" width="225" height="300" />
 
 Why aren't my sprinkler heads popping up you ask? Usually, it's not because of a lack of the sprinkler valve not providing sufficient pressure. The main reason why sprinkler heads do not pop up is that they have not been well maintained. They are usually 1/2 to 1" underground and the constant action of the head rising up through grass and soil ends up pulling debris back down into the head itself. This also scratches the sprinkler head shaft and allows for more sand and debris to enter via the tiny scratches which eventually fill up and bind the head altogether. The initial stages of this problem present as heads that do not retract into the ground after the cycle has finished... later on these same heads will no longer come up without additional force because of the amount of grit binding them. These sprinkler heads should be replaced and raised to be at the height of the adjacent soil line.
 
@@ -48,7 +51,7 @@ Another sprinkler repair involves the overgrown grass and soil buildup which slo
 
 ### Underground Leak Detection and Repair
 
-<img class="alignleft size-medium wp-image-201" title="sprinkler_pipe_leaking" src="{{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking-225x300.jpg" alt="Leaking sprinkler pipe" width="225" height="300" />
+<img class="alignleft size-medium wp-image-201" title="Denver sprinkler repair - underground irrigation pipe leak" src="{{site.baseurl}}/wp-content/uploads/2012/07/sprinkler_pipe_leaking-225x300.jpg" alt="Denver sprinkler repair — underground irrigation pipe leak exposed for mainline repair" width="225" height="300" />
 
 Is your sprinkler system leaking underground? Underground leaks can waste thousands of gallons of water and cause property damage. We locate and repair mainline leaks, lateral line leaks, and valve leaks.
 

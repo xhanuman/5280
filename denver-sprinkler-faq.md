@@ -85,7 +85,7 @@ This indicates a valve that isn't closing completely. Causes include:
 - Damaged valve seat
 - Faulty solenoid
 
-A professional can usually repair this by cleaning or replacing the diaphragm. [Learn more about our repair services](/services/denver-sprinkler-repair-service/).
+A professional can usually repair this by cleaning or replacing the diaphragm. [Learn more about Denver sprinkler repair](/sprinkler-repair-denver/).
 
 ### My sprinkler system worked fine last year but has low pressure this spring. Why?
 
