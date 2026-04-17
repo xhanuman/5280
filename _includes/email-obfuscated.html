@@ -1,0 +1,22 @@
+<!--
+  Email obfuscation: CSS reversal + JS mailto builder.
+  Bots see backwards text and no mailto link.
+  Humans see the correct email with a clickable link.
+-->
+<span class="obf-email" id="obf-email-{{ include.id | default: 'default' }}">
+  <a href="#" class="obf-email-link" aria-label="Send email">
+    <span style="unicode-bidi: bidi-override; direction: rtl;">moc.srelknirps0825&#64;tcatnoc</span>
+  </a>
+</span>
+<script>
+(function(){
+  var u = 'contact', d = '5280sprinklers.com';
+  var el = document.getElementById('obf-email-{{ include.id | default: "default" }}');
+  if (!el) return;
+  var a = el.querySelector('.obf-email-link');
+  if (!a) return;
+  a.href = 'mai' + 'lto:' + u + '@' + d;
+  a.querySelector('span').removeAttribute('style');
+  a.querySelector('span').textContent = u + '@' + d;
+})();
+</script>
