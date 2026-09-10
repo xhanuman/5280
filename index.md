@@ -13,7 +13,12 @@ bodyClass: page-home
     <p>Locally owned and operated. Upfront pricing, experienced technicians, and honest service -- that's how we've earned the trust of Denver homeowners.</p>
 
       <p><strong>The 2026 season is here -- scheduling is now open for Denver and surrounding areas.</strong></p>
-<iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="300px" frameborder="0" style="transition:height 0.3s ease;"></iframe>
+<iframe id="bookingFrame" src="https://denversprinklerblowout.com/ext_denverblowout.html" width="100%" height="480px" frameborder="0" style="transition:height 0.3s ease; background: transparent; border: 0;"></iframe>
+<style>
+  /* first-step booking embed: no gray panel behind the iframe */
+  .intro #bookingFrame { background: transparent; }
+  .intro .booking-embed { background: transparent; box-shadow: none; padding: 0; margin: 0; }
+</style>
       <style>.svc-disclaimer { text-align: center; } @media (min-width: 768px) { .svc-disclaimer { white-space: nowrap; } }</style>
       <p class="svc-disclaimer text-center"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
 
