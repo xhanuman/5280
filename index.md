@@ -19,8 +19,23 @@ bodyClass: page-home
   .intro #bookingFrame { background: transparent; }
   .intro .booking-embed { background: transparent; box-shadow: none; padding: 0; margin: 0; }
 </style>
-      <style>.svc-disclaimer { text-align: center; } @media (min-width: 768px) { .svc-disclaimer { white-space: nowrap; } }</style>
-      <p class="svc-disclaimer text-center"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
+      <style>
+        .svc-disclaimer {
+          display: block !important;
+          width: 100%;
+          max-width: 36rem;
+          margin: 10px auto 0;
+          text-align: center !important;
+          white-space: normal;
+        }
+        .svc-disclaimer small {
+          display: block;
+          width: 100%;
+          text-align: center;
+          white-space: normal;
+        }
+      </style>
+      <p class="svc-disclaimer text-center" style="display:block;width:100%;max-width:36rem;margin:10px auto 0;text-align:center;"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
 
   </div>
 </div>
