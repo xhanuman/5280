@@ -46,7 +46,7 @@
       }, 600);
     }
     if (e.data && e.data.type === 'resize' && e.data.height) {
-      f.style.height = e.data.height + 'px';
+      f.style.height = (Math.max(e.data.height, 480) + 24) + 'px';
     }
   });
   </script>
