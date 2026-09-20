@@ -40,13 +40,19 @@
     var f = document.getElementById('bookingFrame');
     if (!f) return;
     if (e.data === 'scrollToBooking') {
-      f.style.height = '1700px';
+      f.style.height = '2200px';
       setTimeout(function() {
         f.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }, 600);
     }
+    if (e.data === 'acuityBooking') {
+      // Calendar / appointment cards after "Book at this address"
+      f.style.height = '2200px';
+    }
     if (e.data && e.data.type === 'resize' && e.data.height) {
-      f.style.height = (Math.max(e.data.height, 480) + 24) + 'px';
+      var h = Math.max(e.data.height, 560) + 32;
+      if (h > 2400) h = 2400;
+      f.style.height = h + 'px';
     }
   });
   </script>
