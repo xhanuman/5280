@@ -35,6 +35,7 @@ bodyClass: page-home
           white-space: normal;
         }
       </style>
+      <p class="april-contact text-center" style="display:block;width:100%;max-width:36rem;margin:2em auto 0;text-align:center;font-size:0.9em;">Can't find an open appointment? Contact April at <a href="tel:+17202240215">(720) 224-0215</a>.</p>
       <p class="svc-disclaimer text-center" style="display:block;width:100%;max-width:36rem;margin:10px auto 0;text-align:center;"><small>(If you've entered your address correctly and don't see a scheduling link, your address is outside our service area.)</small></p>
 
   </div>
